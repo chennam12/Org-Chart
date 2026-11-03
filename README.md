@@ -59,4 +59,4 @@ Evaluation reports direct-edge precision, recall, and coverage across the full d
 
 ## Deployment
 
-The GitHub Actions workflow deploys `public/` to GitHub Pages on pushes to `main`. Enable **Settings → Pages → Build and deployment → GitHub Actions** in the repository to publish. The repository/project name is **org-chart-inference**.
+The site is hosted on Vercel. `vercel.json` serves `public/` as a static site with no build step. Import the repository in [Vercel](https://vercel.com/new), and each push to `main` redeploys automatically.
