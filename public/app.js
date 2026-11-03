@@ -52,7 +52,6 @@ const normalize = (value) =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
-const slugify = (value) => normalize(value).replace(/\s+/g, "-");
 
 const departmentAliases = {
   engineering: "Engineering",
@@ -704,7 +703,7 @@ function selectCompanyFromHash() {
   const match = location.hash.match(/^#\/org\/([^/?#]+)/);
   if (!match) return null;
   return (
-    companies.find((company) => slugify(company.name) === match[1]) || null
+    companies.find((company) => company.id === match[1]) || null
   );
 }
 
@@ -742,7 +741,7 @@ function showCompanyDirectory() {
 async function selectCompany(companyId, { scroll = false } = {}) {
   const company = companies.find((item) => item.id === companyId);
   if (!company) return;
-  const hash = `#/org/${slugify(company.name)}`;
+  const hash = `#/org/${company.id}`;
   if (location.hash !== hash) history.pushState(null, "", hash);
   if (currentCompany?.id !== companyId) await loadCompany(companyId);
   if (scroll)

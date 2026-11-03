@@ -1,7 +1,7 @@
 [
   {
     "id": "co-0001",
-    "name": "Lattice Labs 001",
+    "name": "Lattice Labs",
     "industry": "Professional Services",
     "headcount": 124,
     "employees": [
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "co-0002",
-    "name": "Lattice Systems 002",
+    "name": "Lattice Systems",
     "industry": "Retail",
     "headcount": 105,
     "employees": [
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "co-0003",
-    "name": "Northstar Systems 003",
+    "name": "Northstar Systems",
     "industry": "Financial Services",
     "headcount": 160,
     "employees": [
@@ -3137,7 +3137,7 @@
   },
   {
     "id": "co-0004",
-    "name": "Brightline Collective 004",
+    "name": "Brightline Collective",
     "industry": "Healthcare",
     "headcount": 119,
     "employees": [
@@ -4097,7 +4097,7 @@
   },
   {
     "id": "co-0005",
-    "name": "Cobalt Works 005",
+    "name": "Cobalt Works",
     "industry": "Software",
     "headcount": 104,
     "employees": [
@@ -4937,7 +4937,7 @@
   },
   {
     "id": "co-0006",
-    "name": "Juniper Labs 006",
+    "name": "Juniper Labs",
     "industry": "Logistics",
     "headcount": 144,
     "employees": [
@@ -6097,7 +6097,7 @@
   },
   {
     "id": "co-0007",
-    "name": "Pioneer Works 007",
+    "name": "Pioneer Works",
     "industry": "Professional Services",
     "headcount": 146,
     "employees": [
@@ -7273,7 +7273,7 @@
   },
   {
     "id": "co-0008",
-    "name": "Redwood Technologies 008",
+    "name": "Redwood Technologies",
     "industry": "Energy",
     "headcount": 126,
     "employees": [
@@ -8289,7 +8289,7 @@
   },
   {
     "id": "co-0009",
-    "name": "Orbit Works 009",
+    "name": "Orbit Works",
     "industry": "Logistics",
     "headcount": 118,
     "employees": [
@@ -9241,7 +9241,7 @@
   },
   {
     "id": "co-0010",
-    "name": "Summit Collective 010",
+    "name": "Summit Collective",
     "industry": "Retail",
     "headcount": 152,
     "employees": [
@@ -10465,7 +10465,7 @@
   },
   {
     "id": "co-0011",
-    "name": "Pioneer Labs 011",
+    "name": "Pioneer Labs",
     "industry": "Telecommunications",
     "headcount": 153,
     "employees": [
@@ -11697,7 +11697,7 @@
   },
   {
     "id": "co-0012",
-    "name": "Northstar Group 012",
+    "name": "Northstar Group",
     "industry": "Professional Services",
     "headcount": 140,
     "employees": [
@@ -12825,7 +12825,7 @@
   },
   {
     "id": "co-0013",
-    "name": "Brightline Works 013",
+    "name": "Brightline Works",
     "industry": "Healthcare",
     "headcount": 147,
     "employees": [
@@ -14009,7 +14009,7 @@
   },
   {
     "id": "co-0014",
-    "name": "Northstar Systems 014",
+    "name": "Northstar Systems",
     "industry": "Software",
     "headcount": 117,
     "employees": [
@@ -14953,7 +14953,7 @@
   },
   {
     "id": "co-0015",
-    "name": "Brightline Works 015",
+    "name": "Brightline Works",
     "industry": "Software",
     "headcount": 129,
     "employees": [
@@ -15993,7 +15993,7 @@
   },
   {
     "id": "co-0016",
-    "name": "Juniper Systems 016",
+    "name": "Juniper Systems",
     "industry": "Telecommunications",
     "headcount": 145,
     "employees": [
@@ -17161,7 +17161,7 @@
   },
   {
     "id": "co-0017",
-    "name": "Summit Collective 017",
+    "name": "Summit Collective",
     "industry": "Financial Services",
     "headcount": 132,
     "employees": [
@@ -18225,7 +18225,7 @@
   },
   {
     "id": "co-0018",
-    "name": "Orbit Works 018",
+    "name": "Orbit Works",
     "industry": "Energy",
     "headcount": 102,
     "employees": [
@@ -19049,7 +19049,7 @@
   },
   {
     "id": "co-0019",
-    "name": "Summit Technologies 019",
+    "name": "Summit Technologies",
     "industry": "Healthcare",
     "headcount": 129,
     "employees": [
@@ -20089,7 +20089,7 @@
   },
   {
     "id": "co-0020",
-    "name": "Harbor Collective 020",
+    "name": "Harbor Collective",
     "industry": "Telecommunications",
     "headcount": 131,
     "employees": [
@@ -21145,7 +21145,7 @@
   },
   {
     "id": "co-0021",
-    "name": "Juniper Collective 021",
+    "name": "Juniper Collective",
     "industry": "Healthcare",
     "headcount": 143,
     "employees": [
@@ -22297,7 +22297,7 @@
   },
   {
     "id": "co-0022",
-    "name": "Lattice Labs 022",
+    "name": "Lattice Labs",
     "industry": "Media",
     "headcount": 111,
     "employees": [
@@ -23193,7 +23193,7 @@
   },
   {
     "id": "co-0023",
-    "name": "Summit Labs 023",
+    "name": "Summit Labs",
     "industry": "Retail",
     "headcount": 124,
     "employees": [
@@ -24193,7 +24193,7 @@
   },
   {
     "id": "co-0024",
-    "name": "Harbor Technologies 024",
+    "name": "Harbor Technologies",
     "industry": "Media",
     "headcount": 122,
     "employees": [
@@ -25177,7 +25177,7 @@
   },
   {
     "id": "co-0025",
-    "name": "Brightline Collective 025",
+    "name": "Brightline Collective",
     "industry": "Retail",
     "headcount": 120,
     "employees": [
@@ -26145,7 +26145,7 @@
   },
   {
     "id": "co-0026",
-    "name": "Brightline Collective 026",
+    "name": "Brightline Collective",
     "industry": "Professional Services",
     "headcount": 132,
     "employees": [
@@ -27209,7 +27209,7 @@
   },
   {
     "id": "co-0027",
-    "name": "Cobalt Works 027",
+    "name": "Cobalt Works",
     "industry": "Professional Services",
     "headcount": 154,
     "employees": [
@@ -28449,7 +28449,7 @@
   },
   {
     "id": "co-0028",
-    "name": "Orbit Technologies 028",
+    "name": "Orbit Technologies",
     "industry": "Logistics",
     "headcount": 107,
     "employees": [
@@ -29313,7 +29313,7 @@
   },
   {
     "id": "co-0029",
-    "name": "Lattice Group 029",
+    "name": "Lattice Group",
     "industry": "Software",
     "headcount": 131,
     "employees": [
@@ -30369,7 +30369,7 @@
   },
   {
     "id": "co-0030",
-    "name": "Juniper Works 030",
+    "name": "Juniper Works",
     "industry": "Software",
     "headcount": 140,
     "employees": [
@@ -31497,7 +31497,7 @@
   },
   {
     "id": "co-0031",
-    "name": "Lattice Systems 031",
+    "name": "Lattice Systems",
     "industry": "Retail",
     "headcount": 158,
     "employees": [
@@ -32769,7 +32769,7 @@
   },
   {
     "id": "co-0032",
-    "name": "Brightline Systems 032",
+    "name": "Brightline Systems",
     "industry": "Manufacturing",
     "headcount": 147,
     "employees": [
@@ -33953,7 +33953,7 @@
   },
   {
     "id": "co-0033",
-    "name": "Brightline Systems 033",
+    "name": "Brightline Systems",
     "industry": "Software",
     "headcount": 106,
     "employees": [
@@ -34809,7 +34809,7 @@
   },
   {
     "id": "co-0034",
-    "name": "Cobalt Systems 034",
+    "name": "Cobalt Systems",
     "industry": "Professional Services",
     "headcount": 159,
     "employees": [
@@ -36089,7 +36089,7 @@
   },
   {
     "id": "co-0035",
-    "name": "Brightline Systems 035",
+    "name": "Brightline Systems",
     "industry": "Telecommunications",
     "headcount": 142,
     "employees": [
@@ -37233,7 +37233,7 @@
   },
   {
     "id": "co-0036",
-    "name": "Orbit Works 036",
+    "name": "Orbit Works",
     "industry": "Financial Services",
     "headcount": 115,
     "employees": [
@@ -38161,7 +38161,7 @@
   },
   {
     "id": "co-0037",
-    "name": "Harbor Collective 037",
+    "name": "Harbor Collective",
     "industry": "Healthcare",
     "headcount": 124,
     "employees": [
@@ -39161,7 +39161,7 @@
   },
   {
     "id": "co-0038",
-    "name": "Harbor Works 038",
+    "name": "Harbor Works",
     "industry": "Logistics",
     "headcount": 150,
     "employees": [
@@ -40369,7 +40369,7 @@
   },
   {
     "id": "co-0039",
-    "name": "Orbit Collective 039",
+    "name": "Orbit Collective",
     "industry": "Healthcare",
     "headcount": 132,
     "employees": [
@@ -41433,7 +41433,7 @@
   },
   {
     "id": "co-0040",
-    "name": "Pioneer Systems 040",
+    "name": "Pioneer Systems",
     "industry": "Software",
     "headcount": 154,
     "employees": [
@@ -42673,7 +42673,7 @@
   },
   {
     "id": "co-0041",
-    "name": "Northstar Labs 041",
+    "name": "Northstar Labs",
     "industry": "Retail",
     "headcount": 149,
     "employees": [
@@ -43873,7 +43873,7 @@
   },
   {
     "id": "co-0042",
-    "name": "Harbor Collective 042",
+    "name": "Harbor Collective",
     "industry": "Logistics",
     "headcount": 123,
     "employees": [
@@ -44865,7 +44865,7 @@
   },
   {
     "id": "co-0043",
-    "name": "Juniper Group 043",
+    "name": "Juniper Group",
     "industry": "Energy",
     "headcount": 140,
     "employees": [
@@ -45993,7 +45993,7 @@
   },
   {
     "id": "co-0044",
-    "name": "Cobalt Collective 044",
+    "name": "Cobalt Collective",
     "industry": "Retail",
     "headcount": 113,
     "employees": [
@@ -46905,7 +46905,7 @@
   },
   {
     "id": "co-0045",
-    "name": "Redwood Works 045",
+    "name": "Redwood Works",
     "industry": "Software",
     "headcount": 102,
     "employees": [
@@ -47729,7 +47729,7 @@
   },
   {
     "id": "co-0046",
-    "name": "Summit Works 046",
+    "name": "Summit Works",
     "industry": "Manufacturing",
     "headcount": 157,
     "employees": [
@@ -48993,7 +48993,7 @@
   },
   {
     "id": "co-0047",
-    "name": "Pioneer Collective 047",
+    "name": "Pioneer Collective",
     "industry": "Energy",
     "headcount": 121,
     "employees": [
@@ -49969,7 +49969,7 @@
   },
   {
     "id": "co-0048",
-    "name": "Harbor Collective 048",
+    "name": "Harbor Collective",
     "industry": "Telecommunications",
     "headcount": 142,
     "employees": [
@@ -51113,7 +51113,7 @@
   },
   {
     "id": "co-0049",
-    "name": "Cobalt Systems 049",
+    "name": "Cobalt Systems",
     "industry": "Manufacturing",
     "headcount": 143,
     "employees": [
@@ -52265,7 +52265,7 @@
   },
   {
     "id": "co-0050",
-    "name": "Pioneer Group 050",
+    "name": "Pioneer Group",
     "industry": "Energy",
     "headcount": 106,
     "employees": [
@@ -53121,7 +53121,7 @@
   },
   {
     "id": "co-0051",
-    "name": "Harbor Systems 051",
+    "name": "Harbor Systems",
     "industry": "Energy",
     "headcount": 136,
     "employees": [
@@ -54217,7 +54217,7 @@
   },
   {
     "id": "co-0052",
-    "name": "Lattice Group 052",
+    "name": "Lattice Group",
     "industry": "Logistics",
     "headcount": 133,
     "employees": [
@@ -55289,7 +55289,7 @@
   },
   {
     "id": "co-0053",
-    "name": "Northstar Labs 053",
+    "name": "Northstar Labs",
     "industry": "Professional Services",
     "headcount": 146,
     "employees": [
@@ -56465,7 +56465,7 @@
   },
   {
     "id": "co-0054",
-    "name": "Juniper Works 054",
+    "name": "Juniper Works",
     "industry": "Software",
     "headcount": 101,
     "employees": [
@@ -57281,7 +57281,7 @@
   },
   {
     "id": "co-0055",
-    "name": "Summit Works 055",
+    "name": "Summit Works",
     "industry": "Retail",
     "headcount": 118,
     "employees": [
@@ -58233,7 +58233,7 @@
   },
   {
     "id": "co-0056",
-    "name": "Brightline Works 056",
+    "name": "Brightline Works",
     "industry": "Healthcare",
     "headcount": 129,
     "employees": [
@@ -59273,7 +59273,7 @@
   },
   {
     "id": "co-0057",
-    "name": "Orbit Works 057",
+    "name": "Orbit Works",
     "industry": "Media",
     "headcount": 124,
     "employees": [
@@ -60273,7 +60273,7 @@
   },
   {
     "id": "co-0058",
-    "name": "Lattice Group 058",
+    "name": "Lattice Group",
     "industry": "Software",
     "headcount": 120,
     "employees": [
@@ -61241,7 +61241,7 @@
   },
   {
     "id": "co-0059",
-    "name": "Juniper Works 059",
+    "name": "Juniper Works",
     "industry": "Software",
     "headcount": 125,
     "employees": [
@@ -62249,7 +62249,7 @@
   },
   {
     "id": "co-0060",
-    "name": "Northstar Systems 060",
+    "name": "Northstar Systems",
     "industry": "Professional Services",
     "headcount": 152,
     "employees": [
@@ -63473,7 +63473,7 @@
   },
   {
     "id": "co-0061",
-    "name": "Orbit Collective 061",
+    "name": "Orbit Collective",
     "industry": "Retail",
     "headcount": 156,
     "employees": [
@@ -64729,7 +64729,7 @@
   },
   {
     "id": "co-0062",
-    "name": "Juniper Technologies 062",
+    "name": "Juniper Technologies",
     "industry": "Software",
     "headcount": 139,
     "employees": [
@@ -65849,7 +65849,7 @@
   },
   {
     "id": "co-0063",
-    "name": "Cobalt Technologies 063",
+    "name": "Cobalt Technologies",
     "industry": "Logistics",
     "headcount": 122,
     "employees": [
@@ -66833,7 +66833,7 @@
   },
   {
     "id": "co-0064",
-    "name": "Summit Technologies 064",
+    "name": "Summit Technologies",
     "industry": "Energy",
     "headcount": 107,
     "employees": [
@@ -67697,7 +67697,7 @@
   },
   {
     "id": "co-0065",
-    "name": "Brightline Labs 065",
+    "name": "Brightline Labs",
     "industry": "Telecommunications",
     "headcount": 153,
     "employees": [
@@ -68929,7 +68929,7 @@
   },
   {
     "id": "co-0066",
-    "name": "Cobalt Labs 066",
+    "name": "Cobalt Labs",
     "industry": "Software",
     "headcount": 136,
     "employees": [
@@ -70025,7 +70025,7 @@
   },
   {
     "id": "co-0067",
-    "name": "Northstar Works 067",
+    "name": "Northstar Works",
     "industry": "Media",
     "headcount": 113,
     "employees": [
@@ -70937,7 +70937,7 @@
   },
   {
     "id": "co-0068",
-    "name": "Pioneer Technologies 068",
+    "name": "Pioneer Technologies",
     "industry": "Healthcare",
     "headcount": 153,
     "employees": [
@@ -72169,7 +72169,7 @@
   },
   {
     "id": "co-0069",
-    "name": "Lattice Systems 069",
+    "name": "Lattice Systems",
     "industry": "Telecommunications",
     "headcount": 102,
     "employees": [
@@ -72993,7 +72993,7 @@
   },
   {
     "id": "co-0070",
-    "name": "Juniper Technologies 070",
+    "name": "Juniper Technologies",
     "industry": "Financial Services",
     "headcount": 113,
     "employees": [
@@ -73905,7 +73905,7 @@
   },
   {
     "id": "co-0071",
-    "name": "Juniper Works 071",
+    "name": "Juniper Works",
     "industry": "Telecommunications",
     "headcount": 150,
     "employees": [
@@ -75113,7 +75113,7 @@
   },
   {
     "id": "co-0072",
-    "name": "Harbor Collective 072",
+    "name": "Harbor Collective",
     "industry": "Media",
     "headcount": 139,
     "employees": [
@@ -76233,7 +76233,7 @@
   },
   {
     "id": "co-0073",
-    "name": "Orbit Collective 073",
+    "name": "Orbit Collective",
     "industry": "Energy",
     "headcount": 136,
     "employees": [
@@ -77329,7 +77329,7 @@
   },
   {
     "id": "co-0074",
-    "name": "Cobalt Technologies 074",
+    "name": "Cobalt Technologies",
     "industry": "Manufacturing",
     "headcount": 120,
     "employees": [
@@ -78297,7 +78297,7 @@
   },
   {
     "id": "co-0075",
-    "name": "Northstar Collective 075",
+    "name": "Northstar Collective",
     "industry": "Software",
     "headcount": 131,
     "employees": [
@@ -79353,7 +79353,7 @@
   },
   {
     "id": "co-0076",
-    "name": "Redwood Technologies 076",
+    "name": "Redwood Technologies",
     "industry": "Logistics",
     "headcount": 144,
     "employees": [
@@ -80513,7 +80513,7 @@
   },
   {
     "id": "co-0077",
-    "name": "Brightline Collective 077",
+    "name": "Brightline Collective",
     "industry": "Retail",
     "headcount": 123,
     "employees": [
@@ -81505,7 +81505,7 @@
   },
   {
     "id": "co-0078",
-    "name": "Pioneer Technologies 078",
+    "name": "Pioneer Technologies",
     "industry": "Healthcare",
     "headcount": 124,
     "employees": [
@@ -82505,7 +82505,7 @@
   },
   {
     "id": "co-0079",
-    "name": "Cobalt Collective 079",
+    "name": "Cobalt Collective",
     "industry": "Retail",
     "headcount": 140,
     "employees": [
@@ -83633,7 +83633,7 @@
   },
   {
     "id": "co-0080",
-    "name": "Brightline Labs 080",
+    "name": "Brightline Labs",
     "industry": "Professional Services",
     "headcount": 100,
     "employees": [
@@ -84441,7 +84441,7 @@
   },
   {
     "id": "co-0081",
-    "name": "Brightline Group 081",
+    "name": "Brightline Group",
     "industry": "Energy",
     "headcount": 124,
     "employees": [
@@ -85441,7 +85441,7 @@
   },
   {
     "id": "co-0082",
-    "name": "Cobalt Systems 082",
+    "name": "Cobalt Systems",
     "industry": "Media",
     "headcount": 115,
     "employees": [
@@ -86369,7 +86369,7 @@
   },
   {
     "id": "co-0083",
-    "name": "Cobalt Technologies 083",
+    "name": "Cobalt Technologies",
     "industry": "Professional Services",
     "headcount": 122,
     "employees": [
@@ -87353,7 +87353,7 @@
   },
   {
     "id": "co-0084",
-    "name": "Harbor Works 084",
+    "name": "Harbor Works",
     "industry": "Financial Services",
     "headcount": 103,
     "employees": [
@@ -88185,7 +88185,7 @@
   },
   {
     "id": "co-0085",
-    "name": "Orbit Group 085",
+    "name": "Orbit Group",
     "industry": "Energy",
     "headcount": 160,
     "employees": [
@@ -89473,7 +89473,7 @@
   },
   {
     "id": "co-0086",
-    "name": "Redwood Technologies 086",
+    "name": "Redwood Technologies",
     "industry": "Professional Services",
     "headcount": 133,
     "employees": [
@@ -90545,7 +90545,7 @@
   },
   {
     "id": "co-0087",
-    "name": "Orbit Collective 087",
+    "name": "Orbit Collective",
     "industry": "Financial Services",
     "headcount": 146,
     "employees": [
@@ -91721,7 +91721,7 @@
   },
   {
     "id": "co-0088",
-    "name": "Brightline Systems 088",
+    "name": "Brightline Systems",
     "industry": "Professional Services",
     "headcount": 135,
     "employees": [
@@ -92809,7 +92809,7 @@
   },
   {
     "id": "co-0089",
-    "name": "Juniper Group 089",
+    "name": "Juniper Group",
     "industry": "Energy",
     "headcount": 141,
     "employees": [
@@ -93945,7 +93945,7 @@
   },
   {
     "id": "co-0090",
-    "name": "Lattice Systems 090",
+    "name": "Lattice Systems",
     "industry": "Financial Services",
     "headcount": 112,
     "employees": [
@@ -94849,7 +94849,7 @@
   },
   {
     "id": "co-0091",
-    "name": "Orbit Collective 091",
+    "name": "Orbit Collective",
     "industry": "Financial Services",
     "headcount": 135,
     "employees": [
@@ -95937,7 +95937,7 @@
   },
   {
     "id": "co-0092",
-    "name": "Harbor Systems 092",
+    "name": "Harbor Systems",
     "industry": "Energy",
     "headcount": 136,
     "employees": [
@@ -97033,7 +97033,7 @@
   },
   {
     "id": "co-0093",
-    "name": "Pioneer Works 093",
+    "name": "Pioneer Works",
     "industry": "Manufacturing",
     "headcount": 150,
     "employees": [
@@ -98241,7 +98241,7 @@
   },
   {
     "id": "co-0094",
-    "name": "Brightline Systems 094",
+    "name": "Brightline Systems",
     "industry": "Healthcare",
     "headcount": 121,
     "employees": [
@@ -99217,7 +99217,7 @@
   },
   {
     "id": "co-0095",
-    "name": "Cobalt Labs 095",
+    "name": "Cobalt Labs",
     "industry": "Professional Services",
     "headcount": 118,
     "employees": [
@@ -100169,7 +100169,7 @@
   },
   {
     "id": "co-0096",
-    "name": "Northstar Systems 096",
+    "name": "Northstar Systems",
     "industry": "Manufacturing",
     "headcount": 153,
     "employees": [
@@ -101401,7 +101401,7 @@
   },
   {
     "id": "co-0097",
-    "name": "Juniper Technologies 097",
+    "name": "Juniper Technologies",
     "industry": "Energy",
     "headcount": 140,
     "employees": [
@@ -102529,7 +102529,7 @@
   },
   {
     "id": "co-0098",
-    "name": "Pioneer Technologies 098",
+    "name": "Pioneer Technologies",
     "industry": "Energy",
     "headcount": 129,
     "employees": [
@@ -103569,7 +103569,7 @@
   },
   {
     "id": "co-0099",
-    "name": "Summit Group 099",
+    "name": "Summit Group",
     "industry": "Logistics",
     "headcount": 157,
     "employees": [
@@ -104833,7 +104833,7 @@
   },
   {
     "id": "co-0100",
-    "name": "Summit Technologies 100",
+    "name": "Summit Technologies",
     "industry": "Logistics",
     "headcount": 138,
     "employees": [
@@ -105945,7 +105945,7 @@
   },
   {
     "id": "co-0101",
-    "name": "Redwood Collective 101",
+    "name": "Redwood Collective",
     "industry": "Media",
     "headcount": 125,
     "employees": [
@@ -106953,7 +106953,7 @@
   },
   {
     "id": "co-0102",
-    "name": "Brightline Technologies 102",
+    "name": "Brightline Technologies",
     "industry": "Logistics",
     "headcount": 130,
     "employees": [
@@ -108001,7 +108001,7 @@
   },
   {
     "id": "co-0103",
-    "name": "Cobalt Works 103",
+    "name": "Cobalt Works",
     "industry": "Energy",
     "headcount": 109,
     "employees": [
@@ -108881,7 +108881,7 @@
   },
   {
     "id": "co-0104",
-    "name": "Harbor Collective 104",
+    "name": "Harbor Collective",
     "industry": "Energy",
     "headcount": 104,
     "employees": [
@@ -109721,7 +109721,7 @@
   },
   {
     "id": "co-0105",
-    "name": "Orbit Technologies 105",
+    "name": "Orbit Technologies",
     "industry": "Manufacturing",
     "headcount": 110,
     "employees": [
@@ -110609,7 +110609,7 @@
   },
   {
     "id": "co-0106",
-    "name": "Cobalt Group 106",
+    "name": "Cobalt Group",
     "industry": "Media",
     "headcount": 122,
     "employees": [
@@ -111593,7 +111593,7 @@
   },
   {
     "id": "co-0107",
-    "name": "Harbor Systems 107",
+    "name": "Harbor Systems",
     "industry": "Telecommunications",
     "headcount": 113,
     "employees": [
@@ -112505,7 +112505,7 @@
   },
   {
     "id": "co-0108",
-    "name": "Lattice Labs 108",
+    "name": "Lattice Labs",
     "industry": "Healthcare",
     "headcount": 152,
     "employees": [
@@ -113729,7 +113729,7 @@
   },
   {
     "id": "co-0109",
-    "name": "Orbit Technologies 109",
+    "name": "Orbit Technologies",
     "industry": "Telecommunications",
     "headcount": 109,
     "employees": [
@@ -114609,7 +114609,7 @@
   },
   {
     "id": "co-0110",
-    "name": "Northstar Systems 110",
+    "name": "Northstar Systems",
     "industry": "Energy",
     "headcount": 101,
     "employees": [
@@ -115425,7 +115425,7 @@
   },
   {
     "id": "co-0111",
-    "name": "Northstar Labs 111",
+    "name": "Northstar Labs",
     "industry": "Professional Services",
     "headcount": 155,
     "employees": [
@@ -116673,7 +116673,7 @@
   },
   {
     "id": "co-0112",
-    "name": "Cobalt Group 112",
+    "name": "Cobalt Group",
     "industry": "Manufacturing",
     "headcount": 122,
     "employees": [
@@ -117657,7 +117657,7 @@
   },
   {
     "id": "co-0113",
-    "name": "Brightline Systems 113",
+    "name": "Brightline Systems",
     "industry": "Professional Services",
     "headcount": 119,
     "employees": [
@@ -118617,7 +118617,7 @@
   },
   {
     "id": "co-0114",
-    "name": "Harbor Technologies 114",
+    "name": "Harbor Technologies",
     "industry": "Media",
     "headcount": 140,
     "employees": [
@@ -119745,7 +119745,7 @@
   },
   {
     "id": "co-0115",
-    "name": "Orbit Group 115",
+    "name": "Orbit Group",
     "industry": "Manufacturing",
     "headcount": 126,
     "employees": [
@@ -120761,7 +120761,7 @@
   },
   {
     "id": "co-0116",
-    "name": "Summit Works 116",
+    "name": "Summit Works",
     "industry": "Logistics",
     "headcount": 142,
     "employees": [
@@ -121905,7 +121905,7 @@
   },
   {
     "id": "co-0117",
-    "name": "Juniper Works 117",
+    "name": "Juniper Works",
     "industry": "Media",
     "headcount": 101,
     "employees": [
@@ -122721,7 +122721,7 @@
   },
   {
     "id": "co-0118",
-    "name": "Summit Labs 118",
+    "name": "Summit Labs",
     "industry": "Media",
     "headcount": 109,
     "employees": [
@@ -123601,7 +123601,7 @@
   },
   {
     "id": "co-0119",
-    "name": "Cobalt Systems 119",
+    "name": "Cobalt Systems",
     "industry": "Software",
     "headcount": 130,
     "employees": [
@@ -124649,7 +124649,7 @@
   },
   {
     "id": "co-0120",
-    "name": "Redwood Works 120",
+    "name": "Redwood Works",
     "industry": "Telecommunications",
     "headcount": 151,
     "employees": [
@@ -125865,7 +125865,7 @@
   },
   {
     "id": "co-0121",
-    "name": "Juniper Systems 121",
+    "name": "Juniper Systems",
     "industry": "Professional Services",
     "headcount": 116,
     "employees": [
@@ -126801,7 +126801,7 @@
   },
   {
     "id": "co-0122",
-    "name": "Orbit Works 122",
+    "name": "Orbit Works",
     "industry": "Software",
     "headcount": 104,
     "employees": [
@@ -127641,7 +127641,7 @@
   },
   {
     "id": "co-0123",
-    "name": "Northstar Technologies 123",
+    "name": "Northstar Technologies",
     "industry": "Manufacturing",
     "headcount": 112,
     "employees": [
@@ -128545,7 +128545,7 @@
   },
   {
     "id": "co-0124",
-    "name": "Lattice Works 124",
+    "name": "Lattice Works",
     "industry": "Professional Services",
     "headcount": 135,
     "employees": [
@@ -129633,7 +129633,7 @@
   },
   {
     "id": "co-0125",
-    "name": "Redwood Works 125",
+    "name": "Redwood Works",
     "industry": "Financial Services",
     "headcount": 122,
     "employees": [
@@ -130617,7 +130617,7 @@
   },
   {
     "id": "co-0126",
-    "name": "Cobalt Works 126",
+    "name": "Cobalt Works",
     "industry": "Logistics",
     "headcount": 131,
     "employees": [
@@ -131673,7 +131673,7 @@
   },
   {
     "id": "co-0127",
-    "name": "Redwood Group 127",
+    "name": "Redwood Group",
     "industry": "Financial Services",
     "headcount": 130,
     "employees": [
@@ -132721,7 +132721,7 @@
   },
   {
     "id": "co-0128",
-    "name": "Northstar Technologies 128",
+    "name": "Northstar Technologies",
     "industry": "Healthcare",
     "headcount": 147,
     "employees": [
@@ -133905,7 +133905,7 @@
   },
   {
     "id": "co-0129",
-    "name": "Summit Works 129",
+    "name": "Summit Works",
     "industry": "Manufacturing",
     "headcount": 136,
     "employees": [
@@ -135001,7 +135001,7 @@
   },
   {
     "id": "co-0130",
-    "name": "Redwood Systems 130",
+    "name": "Redwood Systems",
     "industry": "Retail",
     "headcount": 116,
     "employees": [
@@ -135937,7 +135937,7 @@
   },
   {
     "id": "co-0131",
-    "name": "Northstar Group 131",
+    "name": "Northstar Group",
     "industry": "Energy",
     "headcount": 154,
     "employees": [
@@ -137177,7 +137177,7 @@
   },
   {
     "id": "co-0132",
-    "name": "Orbit Labs 132",
+    "name": "Orbit Labs",
     "industry": "Software",
     "headcount": 151,
     "employees": [
@@ -138393,7 +138393,7 @@
   },
   {
     "id": "co-0133",
-    "name": "Harbor Works 133",
+    "name": "Harbor Works",
     "industry": "Healthcare",
     "headcount": 115,
     "employees": [
@@ -139321,7 +139321,7 @@
   },
   {
     "id": "co-0134",
-    "name": "Cobalt Technologies 134",
+    "name": "Cobalt Technologies",
     "industry": "Energy",
     "headcount": 124,
     "employees": [
@@ -140321,7 +140321,7 @@
   },
   {
     "id": "co-0135",
-    "name": "Lattice Collective 135",
+    "name": "Lattice Collective",
     "industry": "Professional Services",
     "headcount": 152,
     "employees": [
@@ -141545,7 +141545,7 @@
   },
   {
     "id": "co-0136",
-    "name": "Lattice Systems 136",
+    "name": "Lattice Systems",
     "industry": "Software",
     "headcount": 150,
     "employees": [
@@ -142753,7 +142753,7 @@
   },
   {
     "id": "co-0137",
-    "name": "Pioneer Systems 137",
+    "name": "Pioneer Systems",
     "industry": "Professional Services",
     "headcount": 113,
     "employees": [
@@ -143665,7 +143665,7 @@
   },
   {
     "id": "co-0138",
-    "name": "Northstar Labs 138",
+    "name": "Northstar Labs",
     "industry": "Retail",
     "headcount": 117,
     "employees": [
@@ -144609,7 +144609,7 @@
   },
   {
     "id": "co-0139",
-    "name": "Juniper Collective 139",
+    "name": "Juniper Collective",
     "industry": "Retail",
     "headcount": 127,
     "employees": [
@@ -145633,7 +145633,7 @@
   },
   {
     "id": "co-0140",
-    "name": "Cobalt Group 140",
+    "name": "Cobalt Group",
     "industry": "Healthcare",
     "headcount": 146,
     "employees": [
@@ -146809,7 +146809,7 @@
   },
   {
     "id": "co-0141",
-    "name": "Redwood Technologies 141",
+    "name": "Redwood Technologies",
     "industry": "Manufacturing",
     "headcount": 100,
     "employees": [
@@ -147617,7 +147617,7 @@
   },
   {
     "id": "co-0142",
-    "name": "Northstar Technologies 142",
+    "name": "Northstar Technologies",
     "industry": "Retail",
     "headcount": 115,
     "employees": [
@@ -148545,7 +148545,7 @@
   },
   {
     "id": "co-0143",
-    "name": "Harbor Group 143",
+    "name": "Harbor Group",
     "industry": "Professional Services",
     "headcount": 121,
     "employees": [
@@ -149521,7 +149521,7 @@
   },
   {
     "id": "co-0144",
-    "name": "Pioneer Collective 144",
+    "name": "Pioneer Collective",
     "industry": "Telecommunications",
     "headcount": 145,
     "employees": [
@@ -150689,7 +150689,7 @@
   },
   {
     "id": "co-0145",
-    "name": "Harbor Technologies 145",
+    "name": "Harbor Technologies",
     "industry": "Telecommunications",
     "headcount": 122,
     "employees": [
@@ -151673,7 +151673,7 @@
   },
   {
     "id": "co-0146",
-    "name": "Brightline Labs 146",
+    "name": "Brightline Labs",
     "industry": "Retail",
     "headcount": 107,
     "employees": [
@@ -152537,7 +152537,7 @@
   },
   {
     "id": "co-0147",
-    "name": "Pioneer Labs 147",
+    "name": "Pioneer Labs",
     "industry": "Energy",
     "headcount": 151,
     "employees": [
@@ -153753,7 +153753,7 @@
   },
   {
     "id": "co-0148",
-    "name": "Lattice Group 148",
+    "name": "Lattice Group",
     "industry": "Healthcare",
     "headcount": 136,
     "employees": [
@@ -154849,7 +154849,7 @@
   },
   {
     "id": "co-0149",
-    "name": "Pioneer Technologies 149",
+    "name": "Pioneer Technologies",
     "industry": "Retail",
     "headcount": 137,
     "employees": [
@@ -155953,7 +155953,7 @@
   },
   {
     "id": "co-0150",
-    "name": "Northstar Systems 150",
+    "name": "Northstar Systems",
     "industry": "Software",
     "headcount": 135,
     "employees": [
@@ -157041,7 +157041,7 @@
   },
   {
     "id": "co-0151",
-    "name": "Northstar Group 151",
+    "name": "Northstar Group",
     "industry": "Telecommunications",
     "headcount": 106,
     "employees": [
@@ -157897,7 +157897,7 @@
   },
   {
     "id": "co-0152",
-    "name": "Redwood Group 152",
+    "name": "Redwood Group",
     "industry": "Financial Services",
     "headcount": 158,
     "employees": [
@@ -159169,7 +159169,7 @@
   },
   {
     "id": "co-0153",
-    "name": "Lattice Group 153",
+    "name": "Lattice Group",
     "industry": "Logistics",
     "headcount": 107,
     "employees": [
@@ -160033,7 +160033,7 @@
   },
   {
     "id": "co-0154",
-    "name": "Summit Works 154",
+    "name": "Summit Works",
     "industry": "Energy",
     "headcount": 126,
     "employees": [
@@ -161049,7 +161049,7 @@
   },
   {
     "id": "co-0155",
-    "name": "Northstar Group 155",
+    "name": "Northstar Group",
     "industry": "Financial Services",
     "headcount": 106,
     "employees": [
@@ -161905,7 +161905,7 @@
   },
   {
     "id": "co-0156",
-    "name": "Lattice Group 156",
+    "name": "Lattice Group",
     "industry": "Manufacturing",
     "headcount": 121,
     "employees": [
@@ -162881,7 +162881,7 @@
   },
   {
     "id": "co-0157",
-    "name": "Summit Collective 157",
+    "name": "Summit Collective",
     "industry": "Energy",
     "headcount": 148,
     "employees": [
@@ -164073,7 +164073,7 @@
   },
   {
     "id": "co-0158",
-    "name": "Summit Labs 158",
+    "name": "Summit Labs",
     "industry": "Software",
     "headcount": 149,
     "employees": [
@@ -165273,7 +165273,7 @@
   },
   {
     "id": "co-0159",
-    "name": "Lattice Group 159",
+    "name": "Lattice Group",
     "industry": "Healthcare",
     "headcount": 113,
     "employees": [
@@ -166185,7 +166185,7 @@
   },
   {
     "id": "co-0160",
-    "name": "Redwood Group 160",
+    "name": "Redwood Group",
     "industry": "Manufacturing",
     "headcount": 153,
     "employees": [
@@ -167417,7 +167417,7 @@
   },
   {
     "id": "co-0161",
-    "name": "Cobalt Works 161",
+    "name": "Cobalt Works",
     "industry": "Telecommunications",
     "headcount": 159,
     "employees": [
@@ -168697,7 +168697,7 @@
   },
   {
     "id": "co-0162",
-    "name": "Juniper Systems 162",
+    "name": "Juniper Systems",
     "industry": "Logistics",
     "headcount": 127,
     "employees": [
@@ -169721,7 +169721,7 @@
   },
   {
     "id": "co-0163",
-    "name": "Juniper Systems 163",
+    "name": "Juniper Systems",
     "industry": "Energy",
     "headcount": 131,
     "employees": [
@@ -170777,7 +170777,7 @@
   },
   {
     "id": "co-0164",
-    "name": "Pioneer Technologies 164",
+    "name": "Pioneer Technologies",
     "industry": "Healthcare",
     "headcount": 145,
     "employees": [
@@ -171945,7 +171945,7 @@
   },
   {
     "id": "co-0165",
-    "name": "Lattice Collective 165",
+    "name": "Lattice Collective",
     "industry": "Manufacturing",
     "headcount": 131,
     "employees": [
@@ -173001,7 +173001,7 @@
   },
   {
     "id": "co-0166",
-    "name": "Redwood Collective 166",
+    "name": "Redwood Collective",
     "industry": "Media",
     "headcount": 158,
     "employees": [
@@ -174273,7 +174273,7 @@
   },
   {
     "id": "co-0167",
-    "name": "Redwood Collective 167",
+    "name": "Redwood Collective",
     "industry": "Software",
     "headcount": 131,
     "employees": [
@@ -175329,7 +175329,7 @@
   },
   {
     "id": "co-0168",
-    "name": "Lattice Group 168",
+    "name": "Lattice Group",
     "industry": "Software",
     "headcount": 149,
     "employees": [
@@ -176529,7 +176529,7 @@
   },
   {
     "id": "co-0169",
-    "name": "Lattice Group 169",
+    "name": "Lattice Group",
     "industry": "Healthcare",
     "headcount": 127,
     "employees": [
@@ -177553,7 +177553,7 @@
   },
   {
     "id": "co-0170",
-    "name": "Pioneer Technologies 170",
+    "name": "Pioneer Technologies",
     "industry": "Financial Services",
     "headcount": 131,
     "employees": [
@@ -178609,7 +178609,7 @@
   },
   {
     "id": "co-0171",
-    "name": "Redwood Collective 171",
+    "name": "Redwood Collective",
     "industry": "Financial Services",
     "headcount": 119,
     "employees": [
@@ -179569,7 +179569,7 @@
   },
   {
     "id": "co-0172",
-    "name": "Summit Technologies 172",
+    "name": "Summit Technologies",
     "industry": "Media",
     "headcount": 138,
     "employees": [
@@ -180681,7 +180681,7 @@
   },
   {
     "id": "co-0173",
-    "name": "Harbor Labs 173",
+    "name": "Harbor Labs",
     "industry": "Logistics",
     "headcount": 113,
     "employees": [
@@ -181593,7 +181593,7 @@
   },
   {
     "id": "co-0174",
-    "name": "Harbor Works 174",
+    "name": "Harbor Works",
     "industry": "Healthcare",
     "headcount": 110,
     "employees": [
@@ -182481,7 +182481,7 @@
   },
   {
     "id": "co-0175",
-    "name": "Orbit Labs 175",
+    "name": "Orbit Labs",
     "industry": "Media",
     "headcount": 146,
     "employees": [
@@ -183657,7 +183657,7 @@
   },
   {
     "id": "co-0176",
-    "name": "Northstar Labs 176",
+    "name": "Northstar Labs",
     "industry": "Energy",
     "headcount": 122,
     "employees": [
@@ -184641,7 +184641,7 @@
   },
   {
     "id": "co-0177",
-    "name": "Redwood Technologies 177",
+    "name": "Redwood Technologies",
     "industry": "Media",
     "headcount": 133,
     "employees": [
@@ -185713,7 +185713,7 @@
   },
   {
     "id": "co-0178",
-    "name": "Orbit Group 178",
+    "name": "Orbit Group",
     "industry": "Professional Services",
     "headcount": 160,
     "employees": [
@@ -187001,7 +187001,7 @@
   },
   {
     "id": "co-0179",
-    "name": "Lattice Group 179",
+    "name": "Lattice Group",
     "industry": "Media",
     "headcount": 117,
     "employees": [
@@ -187945,7 +187945,7 @@
   },
   {
     "id": "co-0180",
-    "name": "Brightline Works 180",
+    "name": "Brightline Works",
     "industry": "Healthcare",
     "headcount": 101,
     "employees": [
@@ -188761,7 +188761,7 @@
   },
   {
     "id": "co-0181",
-    "name": "Pioneer Group 181",
+    "name": "Pioneer Group",
     "industry": "Manufacturing",
     "headcount": 140,
     "employees": [
@@ -189889,7 +189889,7 @@
   },
   {
     "id": "co-0182",
-    "name": "Harbor Works 182",
+    "name": "Harbor Works",
     "industry": "Manufacturing",
     "headcount": 132,
     "employees": [
@@ -190953,7 +190953,7 @@
   },
   {
     "id": "co-0183",
-    "name": "Orbit Systems 183",
+    "name": "Orbit Systems",
     "industry": "Professional Services",
     "headcount": 131,
     "employees": [
@@ -192009,7 +192009,7 @@
   },
   {
     "id": "co-0184",
-    "name": "Redwood Collective 184",
+    "name": "Redwood Collective",
     "industry": "Media",
     "headcount": 137,
     "employees": [
@@ -193113,7 +193113,7 @@
   },
   {
     "id": "co-0185",
-    "name": "Summit Systems 185",
+    "name": "Summit Systems",
     "industry": "Professional Services",
     "headcount": 125,
     "employees": [
@@ -194121,7 +194121,7 @@
   },
   {
     "id": "co-0186",
-    "name": "Orbit Labs 186",
+    "name": "Orbit Labs",
     "industry": "Software",
     "headcount": 146,
     "employees": [
@@ -195297,7 +195297,7 @@
   },
   {
     "id": "co-0187",
-    "name": "Harbor Technologies 187",
+    "name": "Harbor Technologies",
     "industry": "Telecommunications",
     "headcount": 159,
     "employees": [
@@ -196577,7 +196577,7 @@
   },
   {
     "id": "co-0188",
-    "name": "Lattice Labs 188",
+    "name": "Lattice Labs",
     "industry": "Manufacturing",
     "headcount": 150,
     "employees": [
@@ -197785,7 +197785,7 @@
   },
   {
     "id": "co-0189",
-    "name": "Northstar Technologies 189",
+    "name": "Northstar Technologies",
     "industry": "Healthcare",
     "headcount": 139,
     "employees": [
@@ -198905,7 +198905,7 @@
   },
   {
     "id": "co-0190",
-    "name": "Cobalt Collective 190",
+    "name": "Cobalt Collective",
     "industry": "Energy",
     "headcount": 107,
     "employees": [
@@ -199769,7 +199769,7 @@
   },
   {
     "id": "co-0191",
-    "name": "Redwood Technologies 191",
+    "name": "Redwood Technologies",
     "industry": "Retail",
     "headcount": 134,
     "employees": [
@@ -200849,7 +200849,7 @@
   },
   {
     "id": "co-0192",
-    "name": "Harbor Works 192",
+    "name": "Harbor Works",
     "industry": "Financial Services",
     "headcount": 108,
     "employees": [
@@ -201721,7 +201721,7 @@
   },
   {
     "id": "co-0193",
-    "name": "Brightline Technologies 193",
+    "name": "Brightline Technologies",
     "industry": "Manufacturing",
     "headcount": 123,
     "employees": [
@@ -202713,7 +202713,7 @@
   },
   {
     "id": "co-0194",
-    "name": "Northstar Technologies 194",
+    "name": "Northstar Technologies",
     "industry": "Media",
     "headcount": 150,
     "employees": [
@@ -203921,7 +203921,7 @@
   },
   {
     "id": "co-0195",
-    "name": "Lattice Labs 195",
+    "name": "Lattice Labs",
     "industry": "Logistics",
     "headcount": 101,
     "employees": [
@@ -204737,7 +204737,7 @@
   },
   {
     "id": "co-0196",
-    "name": "Redwood Collective 196",
+    "name": "Redwood Collective",
     "industry": "Media",
     "headcount": 106,
     "employees": [
@@ -205593,7 +205593,7 @@
   },
   {
     "id": "co-0197",
-    "name": "Pioneer Systems 197",
+    "name": "Pioneer Systems",
     "industry": "Software",
     "headcount": 152,
     "employees": [
@@ -206817,7 +206817,7 @@
   },
   {
     "id": "co-0198",
-    "name": "Juniper Systems 198",
+    "name": "Juniper Systems",
     "industry": "Retail",
     "headcount": 108,
     "employees": [
@@ -207689,7 +207689,7 @@
   },
   {
     "id": "co-0199",
-    "name": "Redwood Collective 199",
+    "name": "Redwood Collective",
     "industry": "Retail",
     "headcount": 160,
     "employees": [
@@ -208977,7 +208977,7 @@
   },
   {
     "id": "co-0200",
-    "name": "Pioneer Systems 200",
+    "name": "Pioneer Systems",
     "industry": "Telecommunications",
     "headcount": 110,
     "employees": [
@@ -209865,7 +209865,7 @@
   },
   {
     "id": "co-0201",
-    "name": "Brightline Collective 201",
+    "name": "Brightline Collective",
     "industry": "Healthcare",
     "headcount": 101,
     "employees": [
@@ -210681,7 +210681,7 @@
   },
   {
     "id": "co-0202",
-    "name": "Redwood Group 202",
+    "name": "Redwood Group",
     "industry": "Energy",
     "headcount": 150,
     "employees": [
@@ -211889,7 +211889,7 @@
   },
   {
     "id": "co-0203",
-    "name": "Orbit Works 203",
+    "name": "Orbit Works",
     "industry": "Professional Services",
     "headcount": 160,
     "employees": [
@@ -213177,7 +213177,7 @@
   },
   {
     "id": "co-0204",
-    "name": "Summit Works 204",
+    "name": "Summit Works",
     "industry": "Software",
     "headcount": 141,
     "employees": [
@@ -214313,7 +214313,7 @@
   },
   {
     "id": "co-0205",
-    "name": "Pioneer Collective 205",
+    "name": "Pioneer Collective",
     "industry": "Telecommunications",
     "headcount": 158,
     "employees": [
@@ -215585,7 +215585,7 @@
   },
   {
     "id": "co-0206",
-    "name": "Pioneer Systems 206",
+    "name": "Pioneer Systems",
     "industry": "Media",
     "headcount": 108,
     "employees": [
@@ -216457,7 +216457,7 @@
   },
   {
     "id": "co-0207",
-    "name": "Orbit Systems 207",
+    "name": "Orbit Systems",
     "industry": "Retail",
     "headcount": 101,
     "employees": [
@@ -217273,7 +217273,7 @@
   },
   {
     "id": "co-0208",
-    "name": "Lattice Technologies 208",
+    "name": "Lattice Technologies",
     "industry": "Financial Services",
     "headcount": 131,
     "employees": [
@@ -218329,7 +218329,7 @@
   },
   {
     "id": "co-0209",
-    "name": "Cobalt Labs 209",
+    "name": "Cobalt Labs",
     "industry": "Professional Services",
     "headcount": 127,
     "employees": [
@@ -219353,7 +219353,7 @@
   },
   {
     "id": "co-0210",
-    "name": "Pioneer Collective 210",
+    "name": "Pioneer Collective",
     "industry": "Logistics",
     "headcount": 158,
     "employees": [
@@ -220625,7 +220625,7 @@
   },
   {
     "id": "co-0211",
-    "name": "Brightline Systems 211",
+    "name": "Brightline Systems",
     "industry": "Retail",
     "headcount": 115,
     "employees": [
@@ -221553,7 +221553,7 @@
   },
   {
     "id": "co-0212",
-    "name": "Redwood Technologies 212",
+    "name": "Redwood Technologies",
     "industry": "Financial Services",
     "headcount": 151,
     "employees": [
@@ -222769,7 +222769,7 @@
   },
   {
     "id": "co-0213",
-    "name": "Pioneer Group 213",
+    "name": "Pioneer Group",
     "industry": "Logistics",
     "headcount": 142,
     "employees": [
@@ -223913,7 +223913,7 @@
   },
   {
     "id": "co-0214",
-    "name": "Orbit Technologies 214",
+    "name": "Orbit Technologies",
     "industry": "Software",
     "headcount": 147,
     "employees": [
@@ -225097,7 +225097,7 @@
   },
   {
     "id": "co-0215",
-    "name": "Brightline Systems 215",
+    "name": "Brightline Systems",
     "industry": "Energy",
     "headcount": 109,
     "employees": [
@@ -225977,7 +225977,7 @@
   },
   {
     "id": "co-0216",
-    "name": "Northstar Technologies 216",
+    "name": "Northstar Technologies",
     "industry": "Energy",
     "headcount": 141,
     "employees": [
@@ -227113,7 +227113,7 @@
   },
   {
     "id": "co-0217",
-    "name": "Brightline Systems 217",
+    "name": "Brightline Systems",
     "industry": "Retail",
     "headcount": 118,
     "employees": [
@@ -228065,7 +228065,7 @@
   },
   {
     "id": "co-0218",
-    "name": "Harbor Technologies 218",
+    "name": "Harbor Technologies",
     "industry": "Retail",
     "headcount": 139,
     "employees": [
@@ -229185,7 +229185,7 @@
   },
   {
     "id": "co-0219",
-    "name": "Orbit Collective 219",
+    "name": "Orbit Collective",
     "industry": "Financial Services",
     "headcount": 136,
     "employees": [
@@ -230281,7 +230281,7 @@
   },
   {
     "id": "co-0220",
-    "name": "Cobalt Group 220",
+    "name": "Cobalt Group",
     "industry": "Logistics",
     "headcount": 106,
     "employees": [
@@ -231137,7 +231137,7 @@
   },
   {
     "id": "co-0221",
-    "name": "Juniper Works 221",
+    "name": "Juniper Works",
     "industry": "Professional Services",
     "headcount": 107,
     "employees": [
@@ -232001,7 +232001,7 @@
   },
   {
     "id": "co-0222",
-    "name": "Summit Collective 222",
+    "name": "Summit Collective",
     "industry": "Healthcare",
     "headcount": 109,
     "employees": [
@@ -232881,7 +232881,7 @@
   },
   {
     "id": "co-0223",
-    "name": "Redwood Technologies 223",
+    "name": "Redwood Technologies",
     "industry": "Logistics",
     "headcount": 158,
     "employees": [
@@ -234153,7 +234153,7 @@
   },
   {
     "id": "co-0224",
-    "name": "Summit Collective 224",
+    "name": "Summit Collective",
     "industry": "Manufacturing",
     "headcount": 124,
     "employees": [
@@ -235153,7 +235153,7 @@
   },
   {
     "id": "co-0225",
-    "name": "Summit Labs 225",
+    "name": "Summit Labs",
     "industry": "Financial Services",
     "headcount": 156,
     "employees": [
@@ -236409,7 +236409,7 @@
   },
   {
     "id": "co-0226",
-    "name": "Summit Labs 226",
+    "name": "Summit Labs",
     "industry": "Telecommunications",
     "headcount": 151,
     "employees": [
@@ -237625,7 +237625,7 @@
   },
   {
     "id": "co-0227",
-    "name": "Orbit Labs 227",
+    "name": "Orbit Labs",
     "industry": "Healthcare",
     "headcount": 149,
     "employees": [
@@ -238825,7 +238825,7 @@
   },
   {
     "id": "co-0228",
-    "name": "Pioneer Collective 228",
+    "name": "Pioneer Collective",
     "industry": "Software",
     "headcount": 118,
     "employees": [
@@ -239777,7 +239777,7 @@
   },
   {
     "id": "co-0229",
-    "name": "Summit Systems 229",
+    "name": "Summit Systems",
     "industry": "Professional Services",
     "headcount": 115,
     "employees": [
@@ -240705,7 +240705,7 @@
   },
   {
     "id": "co-0230",
-    "name": "Orbit Labs 230",
+    "name": "Orbit Labs",
     "industry": "Healthcare",
     "headcount": 160,
     "employees": [
@@ -241993,7 +241993,7 @@
   },
   {
     "id": "co-0231",
-    "name": "Pioneer Technologies 231",
+    "name": "Pioneer Technologies",
     "industry": "Logistics",
     "headcount": 160,
     "employees": [
@@ -243281,7 +243281,7 @@
   },
   {
     "id": "co-0232",
-    "name": "Brightline Systems 232",
+    "name": "Brightline Systems",
     "industry": "Professional Services",
     "headcount": 106,
     "employees": [
@@ -244137,7 +244137,7 @@
   },
   {
     "id": "co-0233",
-    "name": "Orbit Labs 233",
+    "name": "Orbit Labs",
     "industry": "Manufacturing",
     "headcount": 149,
     "employees": [
@@ -245337,7 +245337,7 @@
   },
   {
     "id": "co-0234",
-    "name": "Orbit Technologies 234",
+    "name": "Orbit Technologies",
     "industry": "Retail",
     "headcount": 140,
     "employees": [
@@ -246465,7 +246465,7 @@
   },
   {
     "id": "co-0235",
-    "name": "Pioneer Collective 235",
+    "name": "Pioneer Collective",
     "industry": "Logistics",
     "headcount": 118,
     "employees": [
@@ -247417,7 +247417,7 @@
   },
   {
     "id": "co-0236",
-    "name": "Lattice Group 236",
+    "name": "Lattice Group",
     "industry": "Software",
     "headcount": 135,
     "employees": [
@@ -248505,7 +248505,7 @@
   },
   {
     "id": "co-0237",
-    "name": "Pioneer Labs 237",
+    "name": "Pioneer Labs",
     "industry": "Software",
     "headcount": 135,
     "employees": [
@@ -249593,7 +249593,7 @@
   },
   {
     "id": "co-0238",
-    "name": "Harbor Group 238",
+    "name": "Harbor Group",
     "industry": "Telecommunications",
     "headcount": 133,
     "employees": [
@@ -250665,7 +250665,7 @@
   },
   {
     "id": "co-0239",
-    "name": "Lattice Group 239",
+    "name": "Lattice Group",
     "industry": "Logistics",
     "headcount": 147,
     "employees": [
@@ -251849,7 +251849,7 @@
   },
   {
     "id": "co-0240",
-    "name": "Lattice Group 240",
+    "name": "Lattice Group",
     "industry": "Healthcare",
     "headcount": 115,
     "employees": [
@@ -252777,7 +252777,7 @@
   },
   {
     "id": "co-0241",
-    "name": "Pioneer Systems 241",
+    "name": "Pioneer Systems",
     "industry": "Logistics",
     "headcount": 157,
     "employees": [
@@ -254041,7 +254041,7 @@
   },
   {
     "id": "co-0242",
-    "name": "Lattice Collective 242",
+    "name": "Lattice Collective",
     "industry": "Energy",
     "headcount": 131,
     "employees": [
@@ -255097,7 +255097,7 @@
   },
   {
     "id": "co-0243",
-    "name": "Pioneer Systems 243",
+    "name": "Pioneer Systems",
     "industry": "Logistics",
     "headcount": 101,
     "employees": [
@@ -255913,7 +255913,7 @@
   },
   {
     "id": "co-0244",
-    "name": "Cobalt Works 244",
+    "name": "Cobalt Works",
     "industry": "Software",
     "headcount": 122,
     "employees": [
@@ -256897,7 +256897,7 @@
   },
   {
     "id": "co-0245",
-    "name": "Pioneer Labs 245",
+    "name": "Pioneer Labs",
     "industry": "Logistics",
     "headcount": 153,
     "employees": [
@@ -258129,7 +258129,7 @@
   },
   {
     "id": "co-0246",
-    "name": "Summit Collective 246",
+    "name": "Summit Collective",
     "industry": "Professional Services",
     "headcount": 110,
     "employees": [
@@ -259017,7 +259017,7 @@
   },
   {
     "id": "co-0247",
-    "name": "Redwood Collective 247",
+    "name": "Redwood Collective",
     "industry": "Software",
     "headcount": 110,
     "employees": [
@@ -259905,7 +259905,7 @@
   },
   {
     "id": "co-0248",
-    "name": "Brightline Systems 248",
+    "name": "Brightline Systems",
     "industry": "Professional Services",
     "headcount": 143,
     "employees": [
@@ -261057,7 +261057,7 @@
   },
   {
     "id": "co-0249",
-    "name": "Brightline Technologies 249",
+    "name": "Brightline Technologies",
     "industry": "Manufacturing",
     "headcount": 119,
     "employees": [
@@ -262017,7 +262017,7 @@
   },
   {
     "id": "co-0250",
-    "name": "Redwood Labs 250",
+    "name": "Redwood Labs",
     "industry": "Healthcare",
     "headcount": 108,
     "employees": [
@@ -262889,7 +262889,7 @@
   },
   {
     "id": "co-0251",
-    "name": "Summit Technologies 251",
+    "name": "Summit Technologies",
     "industry": "Telecommunications",
     "headcount": 111,
     "employees": [
@@ -263785,7 +263785,7 @@
   },
   {
     "id": "co-0252",
-    "name": "Northstar Works 252",
+    "name": "Northstar Works",
     "industry": "Telecommunications",
     "headcount": 141,
     "employees": [
@@ -264921,7 +264921,7 @@
   },
   {
     "id": "co-0253",
-    "name": "Brightline Collective 253",
+    "name": "Brightline Collective",
     "industry": "Software",
     "headcount": 115,
     "employees": [
@@ -265849,7 +265849,7 @@
   },
   {
     "id": "co-0254",
-    "name": "Juniper Labs 254",
+    "name": "Juniper Labs",
     "industry": "Manufacturing",
     "headcount": 124,
     "employees": [
@@ -266849,7 +266849,7 @@
   },
   {
     "id": "co-0255",
-    "name": "Juniper Labs 255",
+    "name": "Juniper Labs",
     "industry": "Software",
     "headcount": 159,
     "employees": [
@@ -268129,7 +268129,7 @@
   },
   {
     "id": "co-0256",
-    "name": "Orbit Systems 256",
+    "name": "Orbit Systems",
     "industry": "Software",
     "headcount": 130,
     "employees": [
@@ -269177,7 +269177,7 @@
   },
   {
     "id": "co-0257",
-    "name": "Pioneer Technologies 257",
+    "name": "Pioneer Technologies",
     "industry": "Financial Services",
     "headcount": 142,
     "employees": [
@@ -270321,7 +270321,7 @@
   },
   {
     "id": "co-0258",
-    "name": "Orbit Labs 258",
+    "name": "Orbit Labs",
     "industry": "Manufacturing",
     "headcount": 143,
     "employees": [
@@ -271473,7 +271473,7 @@
   },
   {
     "id": "co-0259",
-    "name": "Pioneer Labs 259",
+    "name": "Pioneer Labs",
     "industry": "Energy",
     "headcount": 129,
     "employees": [
@@ -272513,7 +272513,7 @@
   },
   {
     "id": "co-0260",
-    "name": "Northstar Labs 260",
+    "name": "Northstar Labs",
     "industry": "Telecommunications",
     "headcount": 142,
     "employees": [
@@ -273657,7 +273657,7 @@
   },
   {
     "id": "co-0261",
-    "name": "Northstar Labs 261",
+    "name": "Northstar Labs",
     "industry": "Retail",
     "headcount": 143,
     "employees": [
@@ -274809,7 +274809,7 @@
   },
   {
     "id": "co-0262",
-    "name": "Lattice Group 262",
+    "name": "Lattice Group",
     "industry": "Financial Services",
     "headcount": 130,
     "employees": [
@@ -275857,7 +275857,7 @@
   },
   {
     "id": "co-0263",
-    "name": "Harbor Systems 263",
+    "name": "Harbor Systems",
     "industry": "Energy",
     "headcount": 139,
     "employees": [
@@ -276977,7 +276977,7 @@
   },
   {
     "id": "co-0264",
-    "name": "Harbor Group 264",
+    "name": "Harbor Group",
     "industry": "Retail",
     "headcount": 154,
     "employees": [
@@ -278217,7 +278217,7 @@
   },
   {
     "id": "co-0265",
-    "name": "Lattice Works 265",
+    "name": "Lattice Works",
     "industry": "Manufacturing",
     "headcount": 132,
     "employees": [
@@ -279281,7 +279281,7 @@
   },
   {
     "id": "co-0266",
-    "name": "Juniper Group 266",
+    "name": "Juniper Group",
     "industry": "Software",
     "headcount": 109,
     "employees": [
@@ -280161,7 +280161,7 @@
   },
   {
     "id": "co-0267",
-    "name": "Summit Collective 267",
+    "name": "Summit Collective",
     "industry": "Energy",
     "headcount": 115,
     "employees": [
@@ -281089,7 +281089,7 @@
   },
   {
     "id": "co-0268",
-    "name": "Juniper Labs 268",
+    "name": "Juniper Labs",
     "industry": "Financial Services",
     "headcount": 109,
     "employees": [
@@ -281969,7 +281969,7 @@
   },
   {
     "id": "co-0269",
-    "name": "Brightline Group 269",
+    "name": "Brightline Group",
     "industry": "Telecommunications",
     "headcount": 106,
     "employees": [
@@ -282825,7 +282825,7 @@
   },
   {
     "id": "co-0270",
-    "name": "Northstar Group 270",
+    "name": "Northstar Group",
     "industry": "Logistics",
     "headcount": 147,
     "employees": [
@@ -284009,7 +284009,7 @@
   },
   {
     "id": "co-0271",
-    "name": "Lattice Labs 271",
+    "name": "Lattice Labs",
     "industry": "Manufacturing",
     "headcount": 137,
     "employees": [
@@ -285113,7 +285113,7 @@
   },
   {
     "id": "co-0272",
-    "name": "Juniper Labs 272",
+    "name": "Juniper Labs",
     "industry": "Media",
     "headcount": 119,
     "employees": [
@@ -286073,7 +286073,7 @@
   },
   {
     "id": "co-0273",
-    "name": "Northstar Labs 273",
+    "name": "Northstar Labs",
     "industry": "Media",
     "headcount": 109,
     "employees": [
@@ -286953,7 +286953,7 @@
   },
   {
     "id": "co-0274",
-    "name": "Pioneer Labs 274",
+    "name": "Pioneer Labs",
     "industry": "Software",
     "headcount": 126,
     "employees": [
@@ -287969,7 +287969,7 @@
   },
   {
     "id": "co-0275",
-    "name": "Orbit Works 275",
+    "name": "Orbit Works",
     "industry": "Financial Services",
     "headcount": 136,
     "employees": [
@@ -289065,7 +289065,7 @@
   },
   {
     "id": "co-0276",
-    "name": "Brightline Works 276",
+    "name": "Brightline Works",
     "industry": "Energy",
     "headcount": 127,
     "employees": [
@@ -290089,7 +290089,7 @@
   },
   {
     "id": "co-0277",
-    "name": "Summit Works 277",
+    "name": "Summit Works",
     "industry": "Manufacturing",
     "headcount": 135,
     "employees": [
@@ -291177,7 +291177,7 @@
   },
   {
     "id": "co-0278",
-    "name": "Juniper Works 278",
+    "name": "Juniper Works",
     "industry": "Healthcare",
     "headcount": 143,
     "employees": [
@@ -292329,7 +292329,7 @@
   },
   {
     "id": "co-0279",
-    "name": "Cobalt Collective 279",
+    "name": "Cobalt Collective",
     "industry": "Retail",
     "headcount": 105,
     "employees": [
@@ -293177,7 +293177,7 @@
   },
   {
     "id": "co-0280",
-    "name": "Lattice Collective 280",
+    "name": "Lattice Collective",
     "industry": "Media",
     "headcount": 120,
     "employees": [
@@ -294145,7 +294145,7 @@
   },
   {
     "id": "co-0281",
-    "name": "Brightline Technologies 281",
+    "name": "Brightline Technologies",
     "industry": "Manufacturing",
     "headcount": 107,
     "employees": [
@@ -295009,7 +295009,7 @@
   },
   {
     "id": "co-0282",
-    "name": "Lattice Group 282",
+    "name": "Lattice Group",
     "industry": "Logistics",
     "headcount": 147,
     "employees": [
@@ -296193,7 +296193,7 @@
   },
   {
     "id": "co-0283",
-    "name": "Pioneer Technologies 283",
+    "name": "Pioneer Technologies",
     "industry": "Professional Services",
     "headcount": 134,
     "employees": [
@@ -297273,7 +297273,7 @@
   },
   {
     "id": "co-0284",
-    "name": "Harbor Labs 284",
+    "name": "Harbor Labs",
     "industry": "Energy",
     "headcount": 133,
     "employees": [
@@ -298345,7 +298345,7 @@
   },
   {
     "id": "co-0285",
-    "name": "Lattice Technologies 285",
+    "name": "Lattice Technologies",
     "industry": "Manufacturing",
     "headcount": 125,
     "employees": [
@@ -299353,7 +299353,7 @@
   },
   {
     "id": "co-0286",
-    "name": "Summit Collective 286",
+    "name": "Summit Collective",
     "industry": "Energy",
     "headcount": 106,
     "employees": [
@@ -300209,7 +300209,7 @@
   },
   {
     "id": "co-0287",
-    "name": "Redwood Works 287",
+    "name": "Redwood Works",
     "industry": "Manufacturing",
     "headcount": 143,
     "employees": [
@@ -301361,7 +301361,7 @@
   },
   {
     "id": "co-0288",
-    "name": "Summit Systems 288",
+    "name": "Summit Systems",
     "industry": "Telecommunications",
     "headcount": 139,
     "employees": [
@@ -302481,7 +302481,7 @@
   },
   {
     "id": "co-0289",
-    "name": "Orbit Technologies 289",
+    "name": "Orbit Technologies",
     "industry": "Software",
     "headcount": 142,
     "employees": [
@@ -303625,7 +303625,7 @@
   },
   {
     "id": "co-0290",
-    "name": "Harbor Works 290",
+    "name": "Harbor Works",
     "industry": "Telecommunications",
     "headcount": 149,
     "employees": [
@@ -304825,7 +304825,7 @@
   },
   {
     "id": "co-0291",
-    "name": "Northstar Labs 291",
+    "name": "Northstar Labs",
     "industry": "Media",
     "headcount": 106,
     "employees": [
@@ -305681,7 +305681,7 @@
   },
   {
     "id": "co-0292",
-    "name": "Cobalt Collective 292",
+    "name": "Cobalt Collective",
     "industry": "Healthcare",
     "headcount": 126,
     "employees": [
@@ -306697,7 +306697,7 @@
   },
   {
     "id": "co-0293",
-    "name": "Pioneer Systems 293",
+    "name": "Pioneer Systems",
     "industry": "Logistics",
     "headcount": 154,
     "employees": [
@@ -307937,7 +307937,7 @@
   },
   {
     "id": "co-0294",
-    "name": "Harbor Group 294",
+    "name": "Harbor Group",
     "industry": "Energy",
     "headcount": 141,
     "employees": [
@@ -309073,7 +309073,7 @@
   },
   {
     "id": "co-0295",
-    "name": "Northstar Technologies 295",
+    "name": "Northstar Technologies",
     "industry": "Telecommunications",
     "headcount": 126,
     "employees": [
@@ -310089,7 +310089,7 @@
   },
   {
     "id": "co-0296",
-    "name": "Lattice Systems 296",
+    "name": "Lattice Systems",
     "industry": "Professional Services",
     "headcount": 108,
     "employees": [
@@ -310961,7 +310961,7 @@
   },
   {
     "id": "co-0297",
-    "name": "Orbit Works 297",
+    "name": "Orbit Works",
     "industry": "Media",
     "headcount": 120,
     "employees": [
@@ -311929,7 +311929,7 @@
   },
   {
     "id": "co-0298",
-    "name": "Cobalt Systems 298",
+    "name": "Cobalt Systems",
     "industry": "Media",
     "headcount": 125,
     "employees": [
@@ -312937,7 +312937,7 @@
   },
   {
     "id": "co-0299",
-    "name": "Redwood Labs 299",
+    "name": "Redwood Labs",
     "industry": "Retail",
     "headcount": 157,
     "employees": [
@@ -314201,7 +314201,7 @@
   },
   {
     "id": "co-0300",
-    "name": "Redwood Systems 300",
+    "name": "Redwood Systems",
     "industry": "Logistics",
     "headcount": 149,
     "employees": [
@@ -315401,7 +315401,7 @@
   },
   {
     "id": "co-0301",
-    "name": "Juniper Labs 301",
+    "name": "Juniper Labs",
     "industry": "Manufacturing",
     "headcount": 118,
     "employees": [
@@ -316353,7 +316353,7 @@
   },
   {
     "id": "co-0302",
-    "name": "Lattice Works 302",
+    "name": "Lattice Works",
     "industry": "Financial Services",
     "headcount": 116,
     "employees": [
@@ -317289,7 +317289,7 @@
   },
   {
     "id": "co-0303",
-    "name": "Orbit Collective 303",
+    "name": "Orbit Collective",
     "industry": "Media",
     "headcount": 128,
     "employees": [
@@ -318321,7 +318321,7 @@
   },
   {
     "id": "co-0304",
-    "name": "Cobalt Systems 304",
+    "name": "Cobalt Systems",
     "industry": "Financial Services",
     "headcount": 143,
     "employees": [
@@ -319473,7 +319473,7 @@
   },
   {
     "id": "co-0305",
-    "name": "Northstar Collective 305",
+    "name": "Northstar Collective",
     "industry": "Telecommunications",
     "headcount": 136,
     "employees": [
@@ -320569,7 +320569,7 @@
   },
   {
     "id": "co-0306",
-    "name": "Redwood Group 306",
+    "name": "Redwood Group",
     "industry": "Media",
     "headcount": 153,
     "employees": [
@@ -321801,7 +321801,7 @@
   },
   {
     "id": "co-0307",
-    "name": "Pioneer Technologies 307",
+    "name": "Pioneer Technologies",
     "industry": "Professional Services",
     "headcount": 150,
     "employees": [
@@ -323009,7 +323009,7 @@
   },
   {
     "id": "co-0308",
-    "name": "Redwood Works 308",
+    "name": "Redwood Works",
     "industry": "Energy",
     "headcount": 147,
     "employees": [
@@ -324193,7 +324193,7 @@
   },
   {
     "id": "co-0309",
-    "name": "Lattice Collective 309",
+    "name": "Lattice Collective",
     "industry": "Software",
     "headcount": 149,
     "employees": [
@@ -325393,7 +325393,7 @@
   },
   {
     "id": "co-0310",
-    "name": "Redwood Works 310",
+    "name": "Redwood Works",
     "industry": "Manufacturing",
     "headcount": 159,
     "employees": [
@@ -326673,7 +326673,7 @@
   },
   {
     "id": "co-0311",
-    "name": "Northstar Labs 311",
+    "name": "Northstar Labs",
     "industry": "Software",
     "headcount": 134,
     "employees": [
@@ -327753,7 +327753,7 @@
   },
   {
     "id": "co-0312",
-    "name": "Harbor Technologies 312",
+    "name": "Harbor Technologies",
     "industry": "Financial Services",
     "headcount": 107,
     "employees": [
@@ -328617,7 +328617,7 @@
   },
   {
     "id": "co-0313",
-    "name": "Harbor Group 313",
+    "name": "Harbor Group",
     "industry": "Healthcare",
     "headcount": 127,
     "employees": [
@@ -329641,7 +329641,7 @@
   },
   {
     "id": "co-0314",
-    "name": "Brightline Systems 314",
+    "name": "Brightline Systems",
     "industry": "Professional Services",
     "headcount": 152,
     "employees": [
@@ -330865,7 +330865,7 @@
   },
   {
     "id": "co-0315",
-    "name": "Orbit Technologies 315",
+    "name": "Orbit Technologies",
     "industry": "Professional Services",
     "headcount": 122,
     "employees": [
@@ -331849,7 +331849,7 @@
   },
   {
     "id": "co-0316",
-    "name": "Cobalt Group 316",
+    "name": "Cobalt Group",
     "industry": "Financial Services",
     "headcount": 130,
     "employees": [
@@ -332897,7 +332897,7 @@
   },
   {
     "id": "co-0317",
-    "name": "Lattice Systems 317",
+    "name": "Lattice Systems",
     "industry": "Healthcare",
     "headcount": 132,
     "employees": [
@@ -333961,7 +333961,7 @@
   },
   {
     "id": "co-0318",
-    "name": "Brightline Works 318",
+    "name": "Brightline Works",
     "industry": "Financial Services",
     "headcount": 150,
     "employees": [
@@ -335169,7 +335169,7 @@
   },
   {
     "id": "co-0319",
-    "name": "Harbor Works 319",
+    "name": "Harbor Works",
     "industry": "Media",
     "headcount": 104,
     "employees": [
@@ -336009,7 +336009,7 @@
   },
   {
     "id": "co-0320",
-    "name": "Summit Technologies 320",
+    "name": "Summit Technologies",
     "industry": "Healthcare",
     "headcount": 108,
     "employees": [
@@ -336881,7 +336881,7 @@
   },
   {
     "id": "co-0321",
-    "name": "Brightline Group 321",
+    "name": "Brightline Group",
     "industry": "Logistics",
     "headcount": 121,
     "employees": [
@@ -337857,7 +337857,7 @@
   },
   {
     "id": "co-0322",
-    "name": "Summit Group 322",
+    "name": "Summit Group",
     "industry": "Logistics",
     "headcount": 122,
     "employees": [
@@ -338841,7 +338841,7 @@
   },
   {
     "id": "co-0323",
-    "name": "Juniper Works 323",
+    "name": "Juniper Works",
     "industry": "Professional Services",
     "headcount": 149,
     "employees": [
@@ -340041,7 +340041,7 @@
   },
   {
     "id": "co-0324",
-    "name": "Orbit Works 324",
+    "name": "Orbit Works",
     "industry": "Manufacturing",
     "headcount": 159,
     "employees": [
@@ -341321,7 +341321,7 @@
   },
   {
     "id": "co-0325",
-    "name": "Brightline Group 325",
+    "name": "Brightline Group",
     "industry": "Logistics",
     "headcount": 160,
     "employees": [
@@ -342609,7 +342609,7 @@
   },
   {
     "id": "co-0326",
-    "name": "Juniper Group 326",
+    "name": "Juniper Group",
     "industry": "Telecommunications",
     "headcount": 156,
     "employees": [
@@ -343865,7 +343865,7 @@
   },
   {
     "id": "co-0327",
-    "name": "Pioneer Technologies 327",
+    "name": "Pioneer Technologies",
     "industry": "Software",
     "headcount": 130,
     "employees": [
@@ -344913,7 +344913,7 @@
   },
   {
     "id": "co-0328",
-    "name": "Lattice Collective 328",
+    "name": "Lattice Collective",
     "industry": "Manufacturing",
     "headcount": 137,
     "employees": [
@@ -346017,7 +346017,7 @@
   },
   {
     "id": "co-0329",
-    "name": "Cobalt Works 329",
+    "name": "Cobalt Works",
     "industry": "Healthcare",
     "headcount": 106,
     "employees": [
@@ -346873,7 +346873,7 @@
   },
   {
     "id": "co-0330",
-    "name": "Juniper Systems 330",
+    "name": "Juniper Systems",
     "industry": "Manufacturing",
     "headcount": 119,
     "employees": [
@@ -347833,7 +347833,7 @@
   },
   {
     "id": "co-0331",
-    "name": "Orbit Group 331",
+    "name": "Orbit Group",
     "industry": "Financial Services",
     "headcount": 111,
     "employees": [
@@ -348729,7 +348729,7 @@
   },
   {
     "id": "co-0332",
-    "name": "Redwood Group 332",
+    "name": "Redwood Group",
     "industry": "Media",
     "headcount": 138,
     "employees": [
@@ -349841,7 +349841,7 @@
   },
   {
     "id": "co-0333",
-    "name": "Northstar Collective 333",
+    "name": "Northstar Collective",
     "industry": "Logistics",
     "headcount": 143,
     "employees": [
@@ -350993,7 +350993,7 @@
   },
   {
     "id": "co-0334",
-    "name": "Northstar Works 334",
+    "name": "Northstar Works",
     "industry": "Logistics",
     "headcount": 132,
     "employees": [
@@ -352057,7 +352057,7 @@
   },
   {
     "id": "co-0335",
-    "name": "Juniper Systems 335",
+    "name": "Juniper Systems",
     "industry": "Manufacturing",
     "headcount": 142,
     "employees": [
@@ -353201,7 +353201,7 @@
   },
   {
     "id": "co-0336",
-    "name": "Cobalt Collective 336",
+    "name": "Cobalt Collective",
     "industry": "Logistics",
     "headcount": 151,
     "employees": [
@@ -354417,7 +354417,7 @@
   },
   {
     "id": "co-0337",
-    "name": "Cobalt Labs 337",
+    "name": "Cobalt Labs",
     "industry": "Logistics",
     "headcount": 142,
     "employees": [
@@ -355561,7 +355561,7 @@
   },
   {
     "id": "co-0338",
-    "name": "Redwood Labs 338",
+    "name": "Redwood Labs",
     "industry": "Software",
     "headcount": 152,
     "employees": [
@@ -356785,7 +356785,7 @@
   },
   {
     "id": "co-0339",
-    "name": "Cobalt Collective 339",
+    "name": "Cobalt Collective",
     "industry": "Telecommunications",
     "headcount": 124,
     "employees": [
@@ -357785,7 +357785,7 @@
   },
   {
     "id": "co-0340",
-    "name": "Summit Systems 340",
+    "name": "Summit Systems",
     "industry": "Professional Services",
     "headcount": 154,
     "employees": [
@@ -359025,7 +359025,7 @@
   },
   {
     "id": "co-0341",
-    "name": "Lattice Technologies 341",
+    "name": "Lattice Technologies",
     "industry": "Financial Services",
     "headcount": 157,
     "employees": [
@@ -360289,7 +360289,7 @@
   },
   {
     "id": "co-0342",
-    "name": "Summit Systems 342",
+    "name": "Summit Systems",
     "industry": "Software",
     "headcount": 131,
     "employees": [
@@ -361345,7 +361345,7 @@
   },
   {
     "id": "co-0343",
-    "name": "Lattice Labs 343",
+    "name": "Lattice Labs",
     "industry": "Professional Services",
     "headcount": 160,
     "employees": [
@@ -362633,7 +362633,7 @@
   },
   {
     "id": "co-0344",
-    "name": "Orbit Group 344",
+    "name": "Orbit Group",
     "industry": "Telecommunications",
     "headcount": 145,
     "employees": [
@@ -363801,7 +363801,7 @@
   },
   {
     "id": "co-0345",
-    "name": "Harbor Labs 345",
+    "name": "Harbor Labs",
     "industry": "Healthcare",
     "headcount": 116,
     "employees": [
@@ -364737,7 +364737,7 @@
   },
   {
     "id": "co-0346",
-    "name": "Orbit Systems 346",
+    "name": "Orbit Systems",
     "industry": "Media",
     "headcount": 121,
     "employees": [
@@ -365713,7 +365713,7 @@
   },
   {
     "id": "co-0347",
-    "name": "Juniper Technologies 347",
+    "name": "Juniper Technologies",
     "industry": "Telecommunications",
     "headcount": 156,
     "employees": [
@@ -366969,7 +366969,7 @@
   },
   {
     "id": "co-0348",
-    "name": "Lattice Technologies 348",
+    "name": "Lattice Technologies",
     "industry": "Software",
     "headcount": 110,
     "employees": [
@@ -367857,7 +367857,7 @@
   },
   {
     "id": "co-0349",
-    "name": "Cobalt Technologies 349",
+    "name": "Cobalt Technologies",
     "industry": "Telecommunications",
     "headcount": 153,
     "employees": [
@@ -369089,7 +369089,7 @@
   },
   {
     "id": "co-0350",
-    "name": "Lattice Group 350",
+    "name": "Lattice Group",
     "industry": "Manufacturing",
     "headcount": 149,
     "employees": [
@@ -370289,7 +370289,7 @@
   },
   {
     "id": "co-0351",
-    "name": "Juniper Systems 351",
+    "name": "Juniper Systems",
     "industry": "Healthcare",
     "headcount": 114,
     "employees": [
@@ -371209,7 +371209,7 @@
   },
   {
     "id": "co-0352",
-    "name": "Harbor Labs 352",
+    "name": "Harbor Labs",
     "industry": "Retail",
     "headcount": 148,
     "employees": [
@@ -372401,7 +372401,7 @@
   },
   {
     "id": "co-0353",
-    "name": "Orbit Collective 353",
+    "name": "Orbit Collective",
     "industry": "Software",
     "headcount": 115,
     "employees": [
@@ -373329,7 +373329,7 @@
   },
   {
     "id": "co-0354",
-    "name": "Orbit Group 354",
+    "name": "Orbit Group",
     "industry": "Software",
     "headcount": 124,
     "employees": [
@@ -374329,7 +374329,7 @@
   },
   {
     "id": "co-0355",
-    "name": "Juniper Technologies 355",
+    "name": "Juniper Technologies",
     "industry": "Energy",
     "headcount": 159,
     "employees": [
@@ -375609,7 +375609,7 @@
   },
   {
     "id": "co-0356",
-    "name": "Cobalt Labs 356",
+    "name": "Cobalt Labs",
     "industry": "Professional Services",
     "headcount": 121,
     "employees": [
@@ -376585,7 +376585,7 @@
   },
   {
     "id": "co-0357",
-    "name": "Redwood Works 357",
+    "name": "Redwood Works",
     "industry": "Telecommunications",
     "headcount": 110,
     "employees": [
@@ -377473,7 +377473,7 @@
   },
   {
     "id": "co-0358",
-    "name": "Redwood Works 358",
+    "name": "Redwood Works",
     "industry": "Manufacturing",
     "headcount": 158,
     "employees": [
@@ -378745,7 +378745,7 @@
   },
   {
     "id": "co-0359",
-    "name": "Orbit Technologies 359",
+    "name": "Orbit Technologies",
     "industry": "Software",
     "headcount": 110,
     "employees": [
@@ -379633,7 +379633,7 @@
   },
   {
     "id": "co-0360",
-    "name": "Pioneer Systems 360",
+    "name": "Pioneer Systems",
     "industry": "Manufacturing",
     "headcount": 103,
     "employees": [
@@ -380465,7 +380465,7 @@
   },
   {
     "id": "co-0361",
-    "name": "Orbit Group 361",
+    "name": "Orbit Group",
     "industry": "Telecommunications",
     "headcount": 156,
     "employees": [
@@ -381721,7 +381721,7 @@
   },
   {
     "id": "co-0362",
-    "name": "Lattice Collective 362",
+    "name": "Lattice Collective",
     "industry": "Telecommunications",
     "headcount": 144,
     "employees": [
@@ -382881,7 +382881,7 @@
   },
   {
     "id": "co-0363",
-    "name": "Northstar Technologies 363",
+    "name": "Northstar Technologies",
     "industry": "Software",
     "headcount": 145,
     "employees": [
@@ -384049,7 +384049,7 @@
   },
   {
     "id": "co-0364",
-    "name": "Pioneer Systems 364",
+    "name": "Pioneer Systems",
     "industry": "Professional Services",
     "headcount": 128,
     "employees": [
@@ -385081,7 +385081,7 @@
   },
   {
     "id": "co-0365",
-    "name": "Northstar Systems 365",
+    "name": "Northstar Systems",
     "industry": "Manufacturing",
     "headcount": 122,
     "employees": [
@@ -386065,7 +386065,7 @@
   },
   {
     "id": "co-0366",
-    "name": "Brightline Works 366",
+    "name": "Brightline Works",
     "industry": "Telecommunications",
     "headcount": 150,
     "employees": [
@@ -387273,7 +387273,7 @@
   },
   {
     "id": "co-0367",
-    "name": "Pioneer Technologies 367",
+    "name": "Pioneer Technologies",
     "industry": "Professional Services",
     "headcount": 126,
     "employees": [
@@ -388289,7 +388289,7 @@
   },
   {
     "id": "co-0368",
-    "name": "Redwood Technologies 368",
+    "name": "Redwood Technologies",
     "industry": "Media",
     "headcount": 115,
     "employees": [
@@ -389217,7 +389217,7 @@
   },
   {
     "id": "co-0369",
-    "name": "Pioneer Labs 369",
+    "name": "Pioneer Labs",
     "industry": "Software",
     "headcount": 156,
     "employees": [
@@ -390473,7 +390473,7 @@
   },
   {
     "id": "co-0370",
-    "name": "Orbit Technologies 370",
+    "name": "Orbit Technologies",
     "industry": "Software",
     "headcount": 107,
     "employees": [
@@ -391337,7 +391337,7 @@
   },
   {
     "id": "co-0371",
-    "name": "Cobalt Technologies 371",
+    "name": "Cobalt Technologies",
     "industry": "Media",
     "headcount": 125,
     "employees": [
@@ -392345,7 +392345,7 @@
   },
   {
     "id": "co-0372",
-    "name": "Lattice Systems 372",
+    "name": "Lattice Systems",
     "industry": "Professional Services",
     "headcount": 118,
     "employees": [
@@ -393297,7 +393297,7 @@
   },
   {
     "id": "co-0373",
-    "name": "Orbit Labs 373",
+    "name": "Orbit Labs",
     "industry": "Retail",
     "headcount": 136,
     "employees": [
@@ -394393,7 +394393,7 @@
   },
   {
     "id": "co-0374",
-    "name": "Pioneer Labs 374",
+    "name": "Pioneer Labs",
     "industry": "Logistics",
     "headcount": 106,
     "employees": [
@@ -395249,7 +395249,7 @@
   },
   {
     "id": "co-0375",
-    "name": "Lattice Systems 375",
+    "name": "Lattice Systems",
     "industry": "Telecommunications",
     "headcount": 147,
     "employees": [
@@ -396433,7 +396433,7 @@
   },
   {
     "id": "co-0376",
-    "name": "Orbit Technologies 376",
+    "name": "Orbit Technologies",
     "industry": "Financial Services",
     "headcount": 116,
     "employees": [
@@ -397369,7 +397369,7 @@
   },
   {
     "id": "co-0377",
-    "name": "Pioneer Systems 377",
+    "name": "Pioneer Systems",
     "industry": "Manufacturing",
     "headcount": 134,
     "employees": [
@@ -398449,7 +398449,7 @@
   },
   {
     "id": "co-0378",
-    "name": "Juniper Labs 378",
+    "name": "Juniper Labs",
     "industry": "Financial Services",
     "headcount": 160,
     "employees": [
@@ -399737,7 +399737,7 @@
   },
   {
     "id": "co-0379",
-    "name": "Lattice Works 379",
+    "name": "Lattice Works",
     "industry": "Telecommunications",
     "headcount": 116,
     "employees": [
@@ -400673,7 +400673,7 @@
   },
   {
     "id": "co-0380",
-    "name": "Orbit Technologies 380",
+    "name": "Orbit Technologies",
     "industry": "Software",
     "headcount": 129,
     "employees": [
@@ -401713,7 +401713,7 @@
   },
   {
     "id": "co-0381",
-    "name": "Summit Technologies 381",
+    "name": "Summit Technologies",
     "industry": "Financial Services",
     "headcount": 117,
     "employees": [
@@ -402657,7 +402657,7 @@
   },
   {
     "id": "co-0382",
-    "name": "Pioneer Technologies 382",
+    "name": "Pioneer Technologies",
     "industry": "Professional Services",
     "headcount": 159,
     "employees": [
@@ -403937,7 +403937,7 @@
   },
   {
     "id": "co-0383",
-    "name": "Northstar Group 383",
+    "name": "Northstar Group",
     "industry": "Retail",
     "headcount": 148,
     "employees": [
@@ -405129,7 +405129,7 @@
   },
   {
     "id": "co-0384",
-    "name": "Northstar Collective 384",
+    "name": "Northstar Collective",
     "industry": "Professional Services",
     "headcount": 135,
     "employees": [
@@ -406217,7 +406217,7 @@
   },
   {
     "id": "co-0385",
-    "name": "Lattice Labs 385",
+    "name": "Lattice Labs",
     "industry": "Professional Services",
     "headcount": 141,
     "employees": [
@@ -407353,7 +407353,7 @@
   },
   {
     "id": "co-0386",
-    "name": "Redwood Collective 386",
+    "name": "Redwood Collective",
     "industry": "Software",
     "headcount": 106,
     "employees": [
@@ -408209,7 +408209,7 @@
   },
   {
     "id": "co-0387",
-    "name": "Lattice Works 387",
+    "name": "Lattice Works",
     "industry": "Energy",
     "headcount": 120,
     "employees": [
@@ -409177,7 +409177,7 @@
   },
   {
     "id": "co-0388",
-    "name": "Redwood Collective 388",
+    "name": "Redwood Collective",
     "industry": "Telecommunications",
     "headcount": 109,
     "employees": [
@@ -410057,7 +410057,7 @@
   },
   {
     "id": "co-0389",
-    "name": "Harbor Works 389",
+    "name": "Harbor Works",
     "industry": "Retail",
     "headcount": 127,
     "employees": [
@@ -411081,7 +411081,7 @@
   },
   {
     "id": "co-0390",
-    "name": "Summit Collective 390",
+    "name": "Summit Collective",
     "industry": "Retail",
     "headcount": 144,
     "employees": [
@@ -412241,7 +412241,7 @@
   },
   {
     "id": "co-0391",
-    "name": "Summit Collective 391",
+    "name": "Summit Collective",
     "industry": "Healthcare",
     "headcount": 138,
     "employees": [
@@ -413353,7 +413353,7 @@
   },
   {
     "id": "co-0392",
-    "name": "Harbor Group 392",
+    "name": "Harbor Group",
     "industry": "Media",
     "headcount": 123,
     "employees": [
@@ -414345,7 +414345,7 @@
   },
   {
     "id": "co-0393",
-    "name": "Harbor Works 393",
+    "name": "Harbor Works",
     "industry": "Logistics",
     "headcount": 140,
     "employees": [
@@ -415473,7 +415473,7 @@
   },
   {
     "id": "co-0394",
-    "name": "Northstar Labs 394",
+    "name": "Northstar Labs",
     "industry": "Energy",
     "headcount": 156,
     "employees": [
@@ -416729,7 +416729,7 @@
   },
   {
     "id": "co-0395",
-    "name": "Juniper Collective 395",
+    "name": "Juniper Collective",
     "industry": "Media",
     "headcount": 160,
     "employees": [
@@ -418017,7 +418017,7 @@
   },
   {
     "id": "co-0396",
-    "name": "Orbit Group 396",
+    "name": "Orbit Group",
     "industry": "Media",
     "headcount": 131,
     "employees": [
@@ -419073,7 +419073,7 @@
   },
   {
     "id": "co-0397",
-    "name": "Northstar Labs 397",
+    "name": "Northstar Labs",
     "industry": "Telecommunications",
     "headcount": 100,
     "employees": [
@@ -419881,7 +419881,7 @@
   },
   {
     "id": "co-0398",
-    "name": "Harbor Collective 398",
+    "name": "Harbor Collective",
     "industry": "Financial Services",
     "headcount": 150,
     "employees": [
@@ -421089,7 +421089,7 @@
   },
   {
     "id": "co-0399",
-    "name": "Pioneer Technologies 399",
+    "name": "Pioneer Technologies",
     "industry": "Software",
     "headcount": 133,
     "employees": [
@@ -422161,7 +422161,7 @@
   },
   {
     "id": "co-0400",
-    "name": "Cobalt Works 400",
+    "name": "Cobalt Works",
     "industry": "Software",
     "headcount": 159,
     "employees": [
@@ -423441,7 +423441,7 @@
   },
   {
     "id": "co-0401",
-    "name": "Orbit Systems 401",
+    "name": "Orbit Systems",
     "industry": "Professional Services",
     "headcount": 100,
     "employees": [
@@ -424249,7 +424249,7 @@
   },
   {
     "id": "co-0402",
-    "name": "Northstar Group 402",
+    "name": "Northstar Group",
     "industry": "Manufacturing",
     "headcount": 137,
     "employees": [
@@ -425353,7 +425353,7 @@
   },
   {
     "id": "co-0403",
-    "name": "Brightline Group 403",
+    "name": "Brightline Group",
     "industry": "Media",
     "headcount": 117,
     "employees": [
@@ -426297,7 +426297,7 @@
   },
   {
     "id": "co-0404",
-    "name": "Orbit Group 404",
+    "name": "Orbit Group",
     "industry": "Telecommunications",
     "headcount": 159,
     "employees": [
@@ -427577,7 +427577,7 @@
   },
   {
     "id": "co-0405",
-    "name": "Lattice Systems 405",
+    "name": "Lattice Systems",
     "industry": "Telecommunications",
     "headcount": 156,
     "employees": [
@@ -428833,7 +428833,7 @@
   },
   {
     "id": "co-0406",
-    "name": "Juniper Group 406",
+    "name": "Juniper Group",
     "industry": "Media",
     "headcount": 135,
     "employees": [
@@ -429921,7 +429921,7 @@
   },
   {
     "id": "co-0407",
-    "name": "Juniper Labs 407",
+    "name": "Juniper Labs",
     "industry": "Energy",
     "headcount": 119,
     "employees": [
@@ -430881,7 +430881,7 @@
   },
   {
     "id": "co-0408",
-    "name": "Orbit Technologies 408",
+    "name": "Orbit Technologies",
     "industry": "Telecommunications",
     "headcount": 121,
     "employees": [
@@ -431857,7 +431857,7 @@
   },
   {
     "id": "co-0409",
-    "name": "Northstar Collective 409",
+    "name": "Northstar Collective",
     "industry": "Telecommunications",
     "headcount": 147,
     "employees": [
@@ -433041,7 +433041,7 @@
   },
   {
     "id": "co-0410",
-    "name": "Brightline Technologies 410",
+    "name": "Brightline Technologies",
     "industry": "Energy",
     "headcount": 114,
     "employees": [
@@ -433961,7 +433961,7 @@
   },
   {
     "id": "co-0411",
-    "name": "Cobalt Group 411",
+    "name": "Cobalt Group",
     "industry": "Retail",
     "headcount": 107,
     "employees": [
@@ -434825,7 +434825,7 @@
   },
   {
     "id": "co-0412",
-    "name": "Harbor Works 412",
+    "name": "Harbor Works",
     "industry": "Retail",
     "headcount": 107,
     "employees": [
@@ -435689,7 +435689,7 @@
   },
   {
     "id": "co-0413",
-    "name": "Cobalt Works 413",
+    "name": "Cobalt Works",
     "industry": "Energy",
     "headcount": 122,
     "employees": [
@@ -436673,7 +436673,7 @@
   },
   {
     "id": "co-0414",
-    "name": "Lattice Works 414",
+    "name": "Lattice Works",
     "industry": "Healthcare",
     "headcount": 126,
     "employees": [
@@ -437689,7 +437689,7 @@
   },
   {
     "id": "co-0415",
-    "name": "Brightline Group 415",
+    "name": "Brightline Group",
     "industry": "Energy",
     "headcount": 145,
     "employees": [
@@ -438857,7 +438857,7 @@
   },
   {
     "id": "co-0416",
-    "name": "Juniper Systems 416",
+    "name": "Juniper Systems",
     "industry": "Professional Services",
     "headcount": 114,
     "employees": [
@@ -439777,7 +439777,7 @@
   },
   {
     "id": "co-0417",
-    "name": "Summit Collective 417",
+    "name": "Summit Collective",
     "industry": "Telecommunications",
     "headcount": 110,
     "employees": [
@@ -440665,7 +440665,7 @@
   },
   {
     "id": "co-0418",
-    "name": "Juniper Works 418",
+    "name": "Juniper Works",
     "industry": "Financial Services",
     "headcount": 154,
     "employees": [
@@ -441905,7 +441905,7 @@
   },
   {
     "id": "co-0419",
-    "name": "Pioneer Technologies 419",
+    "name": "Pioneer Technologies",
     "industry": "Healthcare",
     "headcount": 123,
     "employees": [
@@ -442897,7 +442897,7 @@
   },
   {
     "id": "co-0420",
-    "name": "Redwood Collective 420",
+    "name": "Redwood Collective",
     "industry": "Software",
     "headcount": 145,
     "employees": [
@@ -444065,7 +444065,7 @@
   },
   {
     "id": "co-0421",
-    "name": "Redwood Collective 421",
+    "name": "Redwood Collective",
     "industry": "Financial Services",
     "headcount": 114,
     "employees": [
@@ -444985,7 +444985,7 @@
   },
   {
     "id": "co-0422",
-    "name": "Lattice Technologies 422",
+    "name": "Lattice Technologies",
     "industry": "Telecommunications",
     "headcount": 119,
     "employees": [
@@ -445945,7 +445945,7 @@
   },
   {
     "id": "co-0423",
-    "name": "Orbit Works 423",
+    "name": "Orbit Works",
     "industry": "Media",
     "headcount": 104,
     "employees": [
@@ -446785,7 +446785,7 @@
   },
   {
     "id": "co-0424",
-    "name": "Juniper Works 424",
+    "name": "Juniper Works",
     "industry": "Software",
     "headcount": 115,
     "employees": [
@@ -447713,7 +447713,7 @@
   },
   {
     "id": "co-0425",
-    "name": "Pioneer Group 425",
+    "name": "Pioneer Group",
     "industry": "Healthcare",
     "headcount": 131,
     "employees": [
@@ -448769,7 +448769,7 @@
   },
   {
     "id": "co-0426",
-    "name": "Harbor Group 426",
+    "name": "Harbor Group",
     "industry": "Telecommunications",
     "headcount": 101,
     "employees": [
@@ -449585,7 +449585,7 @@
   },
   {
     "id": "co-0427",
-    "name": "Brightline Technologies 427",
+    "name": "Brightline Technologies",
     "industry": "Logistics",
     "headcount": 123,
     "employees": [
@@ -450577,7 +450577,7 @@
   },
   {
     "id": "co-0428",
-    "name": "Northstar Systems 428",
+    "name": "Northstar Systems",
     "industry": "Manufacturing",
     "headcount": 104,
     "employees": [
@@ -451417,7 +451417,7 @@
   },
   {
     "id": "co-0429",
-    "name": "Lattice Technologies 429",
+    "name": "Lattice Technologies",
     "industry": "Energy",
     "headcount": 115,
     "employees": [
@@ -452345,7 +452345,7 @@
   },
   {
     "id": "co-0430",
-    "name": "Brightline Works 430",
+    "name": "Brightline Works",
     "industry": "Logistics",
     "headcount": 141,
     "employees": [
@@ -453481,7 +453481,7 @@
   },
   {
     "id": "co-0431",
-    "name": "Summit Collective 431",
+    "name": "Summit Collective",
     "industry": "Retail",
     "headcount": 139,
     "employees": [
@@ -454601,7 +454601,7 @@
   },
   {
     "id": "co-0432",
-    "name": "Orbit Technologies 432",
+    "name": "Orbit Technologies",
     "industry": "Professional Services",
     "headcount": 153,
     "employees": [
@@ -455833,7 +455833,7 @@
   },
   {
     "id": "co-0433",
-    "name": "Redwood Labs 433",
+    "name": "Redwood Labs",
     "industry": "Media",
     "headcount": 151,
     "employees": [
@@ -457049,7 +457049,7 @@
   },
   {
     "id": "co-0434",
-    "name": "Northstar Works 434",
+    "name": "Northstar Works",
     "industry": "Energy",
     "headcount": 117,
     "employees": [
@@ -457993,7 +457993,7 @@
   },
   {
     "id": "co-0435",
-    "name": "Pioneer Collective 435",
+    "name": "Pioneer Collective",
     "industry": "Energy",
     "headcount": 158,
     "employees": [
@@ -459265,7 +459265,7 @@
   },
   {
     "id": "co-0436",
-    "name": "Redwood Works 436",
+    "name": "Redwood Works",
     "industry": "Financial Services",
     "headcount": 133,
     "employees": [
@@ -460337,7 +460337,7 @@
   },
   {
     "id": "co-0437",
-    "name": "Lattice Labs 437",
+    "name": "Lattice Labs",
     "industry": "Professional Services",
     "headcount": 110,
     "employees": [
@@ -461225,7 +461225,7 @@
   },
   {
     "id": "co-0438",
-    "name": "Northstar Labs 438",
+    "name": "Northstar Labs",
     "industry": "Financial Services",
     "headcount": 156,
     "employees": [
@@ -462481,7 +462481,7 @@
   },
   {
     "id": "co-0439",
-    "name": "Redwood Group 439",
+    "name": "Redwood Group",
     "industry": "Financial Services",
     "headcount": 103,
     "employees": [
@@ -463313,7 +463313,7 @@
   },
   {
     "id": "co-0440",
-    "name": "Summit Group 440",
+    "name": "Summit Group",
     "industry": "Retail",
     "headcount": 133,
     "employees": [
@@ -464385,7 +464385,7 @@
   },
   {
     "id": "co-0441",
-    "name": "Northstar Systems 441",
+    "name": "Northstar Systems",
     "industry": "Retail",
     "headcount": 148,
     "employees": [
@@ -465577,7 +465577,7 @@
   },
   {
     "id": "co-0442",
-    "name": "Pioneer Works 442",
+    "name": "Pioneer Works",
     "industry": "Financial Services",
     "headcount": 102,
     "employees": [
@@ -466401,7 +466401,7 @@
   },
   {
     "id": "co-0443",
-    "name": "Juniper Collective 443",
+    "name": "Juniper Collective",
     "industry": "Logistics",
     "headcount": 117,
     "employees": [
@@ -467345,7 +467345,7 @@
   },
   {
     "id": "co-0444",
-    "name": "Redwood Collective 444",
+    "name": "Redwood Collective",
     "industry": "Manufacturing",
     "headcount": 138,
     "employees": [
@@ -468457,7 +468457,7 @@
   },
   {
     "id": "co-0445",
-    "name": "Brightline Technologies 445",
+    "name": "Brightline Technologies",
     "industry": "Professional Services",
     "headcount": 149,
     "employees": [
@@ -469657,7 +469657,7 @@
   },
   {
     "id": "co-0446",
-    "name": "Juniper Works 446",
+    "name": "Juniper Works",
     "industry": "Software",
     "headcount": 113,
     "employees": [
@@ -470569,7 +470569,7 @@
   },
   {
     "id": "co-0447",
-    "name": "Redwood Systems 447",
+    "name": "Redwood Systems",
     "industry": "Logistics",
     "headcount": 128,
     "employees": [
@@ -471601,7 +471601,7 @@
   },
   {
     "id": "co-0448",
-    "name": "Orbit Labs 448",
+    "name": "Orbit Labs",
     "industry": "Healthcare",
     "headcount": 160,
     "employees": [
@@ -472889,7 +472889,7 @@
   },
   {
     "id": "co-0449",
-    "name": "Harbor Works 449",
+    "name": "Harbor Works",
     "industry": "Software",
     "headcount": 111,
     "employees": [
@@ -473785,7 +473785,7 @@
   },
   {
     "id": "co-0450",
-    "name": "Brightline Group 450",
+    "name": "Brightline Group",
     "industry": "Healthcare",
     "headcount": 118,
     "employees": [
@@ -474737,7 +474737,7 @@
   },
   {
     "id": "co-0451",
-    "name": "Pioneer Technologies 451",
+    "name": "Pioneer Technologies",
     "industry": "Professional Services",
     "headcount": 119,
     "employees": [
@@ -475697,7 +475697,7 @@
   },
   {
     "id": "co-0452",
-    "name": "Cobalt Collective 452",
+    "name": "Cobalt Collective",
     "industry": "Telecommunications",
     "headcount": 160,
     "employees": [
@@ -476985,7 +476985,7 @@
   },
   {
     "id": "co-0453",
-    "name": "Pioneer Labs 453",
+    "name": "Pioneer Labs",
     "industry": "Healthcare",
     "headcount": 103,
     "employees": [
@@ -477817,7 +477817,7 @@
   },
   {
     "id": "co-0454",
-    "name": "Lattice Group 454",
+    "name": "Lattice Group",
     "industry": "Software",
     "headcount": 152,
     "employees": [
@@ -479041,7 +479041,7 @@
   },
   {
     "id": "co-0455",
-    "name": "Cobalt Technologies 455",
+    "name": "Cobalt Technologies",
     "industry": "Energy",
     "headcount": 132,
     "employees": [
@@ -480105,7 +480105,7 @@
   },
   {
     "id": "co-0456",
-    "name": "Northstar Collective 456",
+    "name": "Northstar Collective",
     "industry": "Energy",
     "headcount": 147,
     "employees": [
@@ -481289,7 +481289,7 @@
   },
   {
     "id": "co-0457",
-    "name": "Orbit Works 457",
+    "name": "Orbit Works",
     "industry": "Software",
     "headcount": 138,
     "employees": [
@@ -482401,7 +482401,7 @@
   },
   {
     "id": "co-0458",
-    "name": "Harbor Labs 458",
+    "name": "Harbor Labs",
     "industry": "Software",
     "headcount": 106,
     "employees": [
@@ -483257,7 +483257,7 @@
   },
   {
     "id": "co-0459",
-    "name": "Pioneer Technologies 459",
+    "name": "Pioneer Technologies",
     "industry": "Professional Services",
     "headcount": 138,
     "employees": [
@@ -484369,7 +484369,7 @@
   },
   {
     "id": "co-0460",
-    "name": "Pioneer Works 460",
+    "name": "Pioneer Works",
     "industry": "Professional Services",
     "headcount": 142,
     "employees": [
@@ -485513,7 +485513,7 @@
   },
   {
     "id": "co-0461",
-    "name": "Harbor Systems 461",
+    "name": "Harbor Systems",
     "industry": "Retail",
     "headcount": 128,
     "employees": [
@@ -486545,7 +486545,7 @@
   },
   {
     "id": "co-0462",
-    "name": "Brightline Group 462",
+    "name": "Brightline Group",
     "industry": "Logistics",
     "headcount": 150,
     "employees": [
@@ -487753,7 +487753,7 @@
   },
   {
     "id": "co-0463",
-    "name": "Cobalt Labs 463",
+    "name": "Cobalt Labs",
     "industry": "Manufacturing",
     "headcount": 109,
     "employees": [
@@ -488633,7 +488633,7 @@
   },
   {
     "id": "co-0464",
-    "name": "Harbor Technologies 464",
+    "name": "Harbor Technologies",
     "industry": "Media",
     "headcount": 115,
     "employees": [
@@ -489561,7 +489561,7 @@
   },
   {
     "id": "co-0465",
-    "name": "Lattice Systems 465",
+    "name": "Lattice Systems",
     "industry": "Financial Services",
     "headcount": 153,
     "employees": [
@@ -490793,7 +490793,7 @@
   },
   {
     "id": "co-0466",
-    "name": "Cobalt Group 466",
+    "name": "Cobalt Group",
     "industry": "Financial Services",
     "headcount": 108,
     "employees": [
@@ -491665,7 +491665,7 @@
   },
   {
     "id": "co-0467",
-    "name": "Juniper Systems 467",
+    "name": "Juniper Systems",
     "industry": "Software",
     "headcount": 112,
     "employees": [
@@ -492569,7 +492569,7 @@
   },
   {
     "id": "co-0468",
-    "name": "Cobalt Technologies 468",
+    "name": "Cobalt Technologies",
     "industry": "Healthcare",
     "headcount": 133,
     "employees": [
@@ -493641,7 +493641,7 @@
   },
   {
     "id": "co-0469",
-    "name": "Redwood Collective 469",
+    "name": "Redwood Collective",
     "industry": "Telecommunications",
     "headcount": 133,
     "employees": [
@@ -494713,7 +494713,7 @@
   },
   {
     "id": "co-0470",
-    "name": "Redwood Systems 470",
+    "name": "Redwood Systems",
     "industry": "Energy",
     "headcount": 101,
     "employees": [
@@ -495529,7 +495529,7 @@
   },
   {
     "id": "co-0471",
-    "name": "Brightline Labs 471",
+    "name": "Brightline Labs",
     "industry": "Professional Services",
     "headcount": 151,
     "employees": [
@@ -496745,7 +496745,7 @@
   },
   {
     "id": "co-0472",
-    "name": "Lattice Works 472",
+    "name": "Lattice Works",
     "industry": "Telecommunications",
     "headcount": 124,
     "employees": [
@@ -497745,7 +497745,7 @@
   },
   {
     "id": "co-0473",
-    "name": "Orbit Works 473",
+    "name": "Orbit Works",
     "industry": "Telecommunications",
     "headcount": 108,
     "employees": [
@@ -498617,7 +498617,7 @@
   },
   {
     "id": "co-0474",
-    "name": "Lattice Group 474",
+    "name": "Lattice Group",
     "industry": "Healthcare",
     "headcount": 123,
     "employees": [
@@ -499609,7 +499609,7 @@
   },
   {
     "id": "co-0475",
-    "name": "Cobalt Collective 475",
+    "name": "Cobalt Collective",
     "industry": "Media",
     "headcount": 119,
     "employees": [
@@ -500569,7 +500569,7 @@
   },
   {
     "id": "co-0476",
-    "name": "Harbor Systems 476",
+    "name": "Harbor Systems",
     "industry": "Retail",
     "headcount": 152,
     "employees": [
@@ -501793,7 +501793,7 @@
   },
   {
     "id": "co-0477",
-    "name": "Harbor Works 477",
+    "name": "Harbor Works",
     "industry": "Energy",
     "headcount": 117,
     "employees": [
@@ -502737,7 +502737,7 @@
   },
   {
     "id": "co-0478",
-    "name": "Harbor Collective 478",
+    "name": "Harbor Collective",
     "industry": "Professional Services",
     "headcount": 116,
     "employees": [
@@ -503673,7 +503673,7 @@
   },
   {
     "id": "co-0479",
-    "name": "Summit Collective 479",
+    "name": "Summit Collective",
     "industry": "Energy",
     "headcount": 132,
     "employees": [
@@ -504737,7 +504737,7 @@
   },
   {
     "id": "co-0480",
-    "name": "Northstar Technologies 480",
+    "name": "Northstar Technologies",
     "industry": "Logistics",
     "headcount": 110,
     "employees": [
@@ -505625,7 +505625,7 @@
   },
   {
     "id": "co-0481",
-    "name": "Pioneer Labs 481",
+    "name": "Pioneer Labs",
     "industry": "Retail",
     "headcount": 138,
     "employees": [
@@ -506737,7 +506737,7 @@
   },
   {
     "id": "co-0482",
-    "name": "Redwood Technologies 482",
+    "name": "Redwood Technologies",
     "industry": "Healthcare",
     "headcount": 143,
     "employees": [
@@ -507889,7 +507889,7 @@
   },
   {
     "id": "co-0483",
-    "name": "Redwood Systems 483",
+    "name": "Redwood Systems",
     "industry": "Logistics",
     "headcount": 158,
     "employees": [
@@ -509161,7 +509161,7 @@
   },
   {
     "id": "co-0484",
-    "name": "Orbit Systems 484",
+    "name": "Orbit Systems",
     "industry": "Logistics",
     "headcount": 153,
     "employees": [
@@ -510393,7 +510393,7 @@
   },
   {
     "id": "co-0485",
-    "name": "Northstar Works 485",
+    "name": "Northstar Works",
     "industry": "Energy",
     "headcount": 142,
     "employees": [
@@ -511537,7 +511537,7 @@
   },
   {
     "id": "co-0486",
-    "name": "Lattice Collective 486",
+    "name": "Lattice Collective",
     "industry": "Telecommunications",
     "headcount": 134,
     "employees": [
@@ -512617,7 +512617,7 @@
   },
   {
     "id": "co-0487",
-    "name": "Cobalt Works 487",
+    "name": "Cobalt Works",
     "industry": "Healthcare",
     "headcount": 148,
     "employees": [
@@ -513809,7 +513809,7 @@
   },
   {
     "id": "co-0488",
-    "name": "Brightline Group 488",
+    "name": "Brightline Group",
     "industry": "Retail",
     "headcount": 158,
     "employees": [
@@ -515081,7 +515081,7 @@
   },
   {
     "id": "co-0489",
-    "name": "Summit Labs 489",
+    "name": "Summit Labs",
     "industry": "Professional Services",
     "headcount": 110,
     "employees": [
@@ -515969,7 +515969,7 @@
   },
   {
     "id": "co-0490",
-    "name": "Northstar Technologies 490",
+    "name": "Northstar Technologies",
     "industry": "Telecommunications",
     "headcount": 127,
     "employees": [
@@ -516993,7 +516993,7 @@
   },
   {
     "id": "co-0491",
-    "name": "Harbor Technologies 491",
+    "name": "Harbor Technologies",
     "industry": "Telecommunications",
     "headcount": 147,
     "employees": [
@@ -518177,7 +518177,7 @@
   },
   {
     "id": "co-0492",
-    "name": "Cobalt Technologies 492",
+    "name": "Cobalt Technologies",
     "industry": "Professional Services",
     "headcount": 137,
     "employees": [
@@ -519281,7 +519281,7 @@
   },
   {
     "id": "co-0493",
-    "name": "Pioneer Technologies 493",
+    "name": "Pioneer Technologies",
     "industry": "Telecommunications",
     "headcount": 117,
     "employees": [
@@ -520225,7 +520225,7 @@
   },
   {
     "id": "co-0494",
-    "name": "Pioneer Works 494",
+    "name": "Pioneer Works",
     "industry": "Telecommunications",
     "headcount": 146,
     "employees": [
@@ -521401,7 +521401,7 @@
   },
   {
     "id": "co-0495",
-    "name": "Brightline Collective 495",
+    "name": "Brightline Collective",
     "industry": "Telecommunications",
     "headcount": 140,
     "employees": [
@@ -522529,7 +522529,7 @@
   },
   {
     "id": "co-0496",
-    "name": "Lattice Technologies 496",
+    "name": "Lattice Technologies",
     "industry": "Media",
     "headcount": 135,
     "employees": [
@@ -523617,7 +523617,7 @@
   },
   {
     "id": "co-0497",
-    "name": "Summit Technologies 497",
+    "name": "Summit Technologies",
     "industry": "Retail",
     "headcount": 129,
     "employees": [
@@ -524657,7 +524657,7 @@
   },
   {
     "id": "co-0498",
-    "name": "Juniper Works 498",
+    "name": "Juniper Works",
     "industry": "Healthcare",
     "headcount": 127,
     "employees": [
@@ -525681,7 +525681,7 @@
   },
   {
     "id": "co-0499",
-    "name": "Redwood Systems 499",
+    "name": "Redwood Systems",
     "industry": "Energy",
     "headcount": 148,
     "employees": [
@@ -526873,7 +526873,7 @@
   },
   {
     "id": "co-0500",
-    "name": "Redwood Collective 500",
+    "name": "Redwood Collective",
     "industry": "Healthcare",
     "headcount": 130,
     "employees": [

@@ -4,7 +4,7 @@ A static org-chart explorer and evaluation project. The browser app infers repor
 
 The explorer includes a searchable company directory, sector-based quick picks, and an org-atlas landing illustration to make discovery feel more like browsing a map than filling out a form.
 
-The app opens at `#/org`, a company directory with search and quick picks. Choosing a company opens its shareable profile at `#/org/<company-slug>`, with a header, stats, and four views:
+The app opens at `#/org`, a company directory with search and quick picks. Choosing a company opens its shareable profile at `#/org/<company-id>`, with a header, stats, and four views:
 
 - **Org chart**: the inferred tree. Click any person to trace their reporting path to the CEO. Includes an "Ask the org" bar (for example, "who runs data?" or "who does the Head of Security report to?").
 - **Leadership**: C-suite, VP, and head-level people with their inferred manager and direct-report counts.
@@ -59,4 +59,8 @@ Evaluation reports direct-edge precision, recall, and coverage across the full d
 
 ## Deployment
 
-The site is hosted on Vercel. `vercel.json` serves `public/` as a static site with no build step. Import the repository in [Vercel](https://vercel.com/new), and each push to `main` redeploys automatically.
+**Live site:** [https://org-chart-woad.vercel.app/#/org](https://org-chart-woad.vercel.app/#/org)
+
+The site is hosted on Vercel. `vercel.json` serves `public/` as a static site with no build step.
+
+The URL for the live site is [https://org-chart-woad.vercel.app/#/org](https://org-chart-woad.vercel.app/#/org).

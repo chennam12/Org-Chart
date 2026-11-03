@@ -303,7 +303,7 @@ def build_dataset(company_count, seed):
 
     for company_number in range(company_count):
         company_id = f"co-{company_number + 1:04d}"
-        name = f"{rng.choice(['Northstar', 'Brightline', 'Juniper', 'Orbit', 'Pioneer', 'Cobalt', 'Redwood', 'Summit', 'Harbor', 'Lattice'])} {rng.choice(['Labs', 'Systems', 'Group', 'Works', 'Technologies', 'Collective'])} {company_number + 1:03d}"
+        name = f"{rng.choice(['Northstar', 'Brightline', 'Juniper', 'Orbit', 'Pioneer', 'Cobalt', 'Redwood', 'Summit', 'Harbor', 'Lattice'])} {rng.choice(['Labs', 'Systems', 'Group', 'Works', 'Technologies', 'Collective'])}"
         employee_target = rng.randint(100, 160)
         department_count = rng.randint(6, 9)
         selected_departments = rng.sample(departments, department_count)
