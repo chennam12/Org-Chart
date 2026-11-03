@@ -144,6 +144,27 @@ def infer_company(company):
 
     ceos = [e for e in employees if profiles[e["id"]]["rank"] == 0]
     predictions = {}
+
+    def is_department_leader(profile):
+        return profile["rank"] in (2, 3)
+
+    def senior_fallback(person_id):
+        # Unresolved people attach only to the single director or manager in
+        # their own department; otherwise they stay unresolved.
+        person = profiles[person_id]
+        matches = [
+            candidate
+            for candidate in employees
+            if candidate["id"] != person_id
+            and profiles[candidate["id"]]["department"] == person["department"]
+            and is_department_leader(profiles[candidate["id"]])
+            and profiles[candidate["id"]]["rank"] < person["rank"]
+        ]
+        if len(matches) == 1:
+            predictions[person_id] = {
+                "manager_id": matches[0]["id"],
+                "confidence": EXECUTIVE_FALLBACK_CONFIDENCE,
+            }
     for employee in employees:
         person_id = employee["id"]
         person = profiles[person_id]
@@ -179,8 +200,10 @@ def infer_company(company):
                     if item[2]["team"] == person["team"]
                 ]
                 if not manager_candidates:
+                    senior_fallback(person_id)
                     continue
             elif len(manager_candidates) != 1:
+                senior_fallback(person_id)
                 continue
             candidates = manager_candidates
 
@@ -190,12 +213,15 @@ def infer_company(company):
                     "manager_id": ceos[0]["id"],
                     "confidence": EXECUTIVE_FALLBACK_CONFIDENCE,
                 }
+            else:
+                senior_fallback(person_id)
             continue
         closest_rank = max(rank for rank, _, _ in candidates)
         closest = [
             candidate for rank, candidate, manager in candidates if rank == closest_rank
         ]
         if len(closest) != 1:
+            senior_fallback(person_id)
             continue
 
         manager = closest[0]

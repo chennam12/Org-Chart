@@ -491,6 +491,23 @@ input:focus {
   border-radius: 50%;
   background: #65a578;
 }
+.unplaced-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+}
+.unplaced-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 1000px;
+}
+.unplaced-grid .person-card {
+  margin: 0;
+}
 .unresolved-box {
   width: 178px;
   padding: 12px;

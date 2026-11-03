@@ -61,6 +61,7 @@ const departmentAliases = {
   data: "Data",
   analytics: "Data",
   "data analytics": "Data",
+  "data & analytics": "Data",
   product: "Product",
   prod: "Product",
   sales: "Sales",
@@ -99,7 +100,6 @@ const departmentTerms = {
   Data: [
     "data",
     "analytics",
-    "analyst",
     "scientist",
     "business intelligence",
     "bi",
@@ -109,6 +109,7 @@ const departmentTerms = {
     "sales",
     "revenue",
     "account executive",
+    "account manager",
     "commercial",
     "business development",
   ],
@@ -228,6 +229,25 @@ function inferOrg(company) {
     (employee) => profiles.get(employee.id).rank === 0,
   );
   const edges = new Map();
+  // Unresolved people attach only to the single director or manager in their
+  // own department; otherwise they stay unresolved.
+  const fallbackToLeader = (employee) => {
+    const person = profiles.get(employee.id);
+    const leaders = company.employees.filter((candidate) => {
+      const profile = profiles.get(candidate.id);
+      return (
+        candidate.id !== employee.id &&
+        profile.department === person.department &&
+        (profile.rank === 2 || profile.rank === 3) &&
+        profile.rank < person.rank
+      );
+    });
+    if (leaders.length === 1)
+      edges.set(employee.id, {
+        managerId: leaders[0].id,
+        confidence: Math.round(EXECUTIVE_FALLBACK_CONFIDENCE * 100),
+      });
+  };
   for (const employee of company.employees) {
     const person = profiles.get(employee.id);
     if (person.rank === null || person.rank === 0) continue;
@@ -235,7 +255,7 @@ function inferOrg(company) {
       if (person.rank === 1 && ceos.length === 1)
         edges.set(employee.id, {
           managerId: ceos[0].id,
-          confidence: EXECUTIVE_FALLBACK_CONFIDENCE,
+          confidence: Math.round(EXECUTIVE_FALLBACK_CONFIDENCE * 100),
         });
       continue;
     }
@@ -261,8 +281,12 @@ function inferOrg(company) {
         usableCandidates = usableCandidates.filter(
           (item) => item.manager.team === person.team,
         );
-        if (!usableCandidates.length) continue;
+        if (!usableCandidates.length) {
+          fallbackToLeader(employee);
+          continue;
+        }
       } else if (usableCandidates.length !== 1) {
+        fallbackToLeader(employee);
         continue;
       }
     }
@@ -270,8 +294,9 @@ function inferOrg(company) {
       if (person.rank === 1 && ceos.length === 1)
         edges.set(employee.id, {
           managerId: ceos[0].id,
-          confidence: EXECUTIVE_FALLBACK_CONFIDENCE,
+          confidence: Math.round(EXECUTIVE_FALLBACK_CONFIDENCE * 100),
         });
+      else fallbackToLeader(employee);
       continue;
     }
     const closestRank = Math.max(
@@ -280,7 +305,10 @@ function inferOrg(company) {
     const closest = usableCandidates.filter(
       (item) => item.manager.rank === closestRank,
     );
-    if (closest.length !== 1) continue;
+    if (closest.length !== 1) {
+      fallbackToLeader(employee);
+      continue;
+    }
     const { candidate: manager, manager: managerProfile } = closest[0];
     const teamMatch = Boolean(
       person.team && managerProfile.team && person.team === managerProfile.team,
@@ -396,19 +424,41 @@ function hasSearchMatch(person, children, visited) {
   );
 }
 
-function renderDescendants(person, depth = 0) {
-  const reports = model.children.get(person.id) || [];
+function renderDescendants(person, visited) {
+  const reports = (model.children.get(person.id) || []).filter(
+    (report) => !visited.has(report.id),
+  );
   const visible = searchValue
     ? reports.filter((report) =>
         hasSearchMatch(report, model.children, new Set()),
       )
     : reports;
-  if (!visible.length || depth >= 5) return "";
-  return `<ul>${visible.map((report) => `<li>${personCard(report)}${renderDescendants(report, depth + 1)}</li>`).join("")}</ul>`;
+  if (!visible.length) return "";
+  return `<ul>${visible
+    .map((report) => {
+      visited.add(report.id);
+      return `<li>${personCard(report)}${renderDescendants(report, visited)}</li>`;
+    })
+    .join("")}</ul>`;
 }
 
-function renderBranch(person, root = false) {
-  return `<div class="tree-root"><ul class="tree"><li>${personCard(person, root)}${renderDescendants(person)}</li></ul></div>`;
+function renderBranch(person, root = false, visited = new Set()) {
+  visited.add(person.id);
+  return `<div class="tree-root"><ul class="tree"><li>${personCard(person, root)}${renderDescendants(person, visited)}</li></ul></div>`;
+}
+
+// Walks up the inferred manager chain until it reaches a person with no
+// manager, or a manager already seen (a cycle).
+function topOfChain(personId) {
+  const seen = new Set([personId]);
+  let cursor = personId;
+  for (;;) {
+    const managerId = currentInference.edges.get(cursor)?.managerId;
+    if (!managerId || !model.peopleById.has(managerId) || seen.has(managerId))
+      return cursor;
+    seen.add(managerId);
+    cursor = managerId;
+  }
 }
 
 function pathToCeo(personId) {
@@ -473,15 +523,29 @@ function renderChart() {
       )}</ul></div><div class="unresolved-row"><span class="unresolved-person">Showing reporting path for <b>${escapeHTML(matched[0].name)}</b></span></div>`;
     return;
   }
-  const unresolved = model.unresolved;
-  const unresolvedPeople = unresolved
-    .slice(0, 12)
-    .map(
-      (person) =>
-        `<span class="unresolved-person"><b>${escapeHTML(person.name)}</b> · ${escapeHTML(person.title || "Title missing")}</span>`,
-    )
-    .join("");
-  chartViewport.innerHTML = `${renderBranch(model.root, true)}${unresolved.length ? `<div class="unresolved-row"><div class="unresolved-box"><strong>${unresolved.length} unresolved</strong><span>Not placed in the tree. The inference abstained where evidence was missing or ambiguous.</span></div>${unresolvedPeople}</div>` : ""}`;
+  const visited = new Set();
+  const ceoTree = renderBranch(model.root, true, visited);
+  const separateTrees = [];
+  const unplaced = [];
+  for (const person of currentCompany.employees) {
+    if (visited.has(person.id)) continue;
+    const topId = topOfChain(person.id);
+    if (visited.has(topId)) continue;
+    const top = model.peopleById.get(topId);
+    if (model.children.get(topId)?.length) {
+      separateTrees.push(renderBranch(top, false, visited));
+    } else {
+      visited.add(topId);
+      unplaced.push(top);
+    }
+  }
+  const separateHTML = separateTrees.length
+    ? `<div class="unplaced-section"><div class="unresolved-box"><strong>${separateTrees.length} reporting line${separateTrees.length === 1 ? "" : "s"} not connected to the CEO</strong><span>Each tree starts at a person whose manager could not be inferred.</span></div>${separateTrees.join("")}</div>`
+    : "";
+  const unplacedHTML = unplaced.length
+    ? `<div class="unplaced-section"><div class="unresolved-box"><strong>${unplaced.length} unresolved</strong><span>Not placed in the tree. The inference abstained where evidence was missing or ambiguous.</span></div><div class="unplaced-grid">${unplaced.map((person) => personCard(person)).join("")}</div></div>`
+    : "";
+  chartViewport.innerHTML = `${ceoTree}${separateHTML}${unplacedHTML}`;
 }
 
 function renderLeadership() {

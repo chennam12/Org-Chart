@@ -55,7 +55,7 @@ python3 scripts/evaluate.py
 python3 -m unittest discover -s scripts -v
 ```
 
-Evaluation reports direct-edge precision, recall, and coverage across the full dataset at several confidence thresholds. On the checked-in seed (65,490 people and 64,990 known manager edges), the baseline produced 40,473 edges at 97.96% precision and 61.01% recall. Unresolved executives are linked to the single CEO at confidence 0.6, which is below the 0.8 threshold. At the 0.8 confidence threshold, it produced 32,459 edges at 100% precision and 49.94% recall. These results measure recovery of the synthetic generator's labels, not performance on real company data.
+Evaluation reports direct-edge precision, recall, and coverage across the full dataset at several confidence thresholds. On the checked-in seed (65,490 people and 64,990 known manager edges), the baseline produced 48,195 edges at 87.79% precision and 65.11% recall. Unresolved executives are linked to the single CEO at confidence 0.6, and other unresolved people are linked to the single director or manager in their department at confidence 0.6 when exactly one exists. Both are below the 0.8 threshold. At the 0.8 confidence threshold, it produced 32,459 edges at 100% precision and 49.94% recall. These results measure recovery of the synthetic generator's labels, not performance on real company data.
 
 ## Deployment
 
