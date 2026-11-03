@@ -1,1 +1,3002 @@
-[{"id":"co-0001","name":"Lattice Labs 001","industry":"Professional Services","headcount":124},{"id":"co-0002","name":"Lattice Systems 002","industry":"Retail","headcount":105},{"id":"co-0003","name":"Northstar Systems 003","industry":"Financial Services","headcount":160},{"id":"co-0004","name":"Brightline Collective 004","industry":"Healthcare","headcount":119},{"id":"co-0005","name":"Cobalt Works 005","industry":"Software","headcount":104},{"id":"co-0006","name":"Juniper Labs 006","industry":"Logistics","headcount":144},{"id":"co-0007","name":"Pioneer Works 007","industry":"Professional Services","headcount":146},{"id":"co-0008","name":"Redwood Technologies 008","industry":"Energy","headcount":126},{"id":"co-0009","name":"Orbit Works 009","industry":"Logistics","headcount":118},{"id":"co-0010","name":"Summit Collective 010","industry":"Retail","headcount":152},{"id":"co-0011","name":"Pioneer Labs 011","industry":"Telecommunications","headcount":153},{"id":"co-0012","name":"Northstar Group 012","industry":"Professional Services","headcount":140},{"id":"co-0013","name":"Brightline Works 013","industry":"Healthcare","headcount":147},{"id":"co-0014","name":"Northstar Systems 014","industry":"Software","headcount":117},{"id":"co-0015","name":"Brightline Works 015","industry":"Software","headcount":129},{"id":"co-0016","name":"Juniper Systems 016","industry":"Telecommunications","headcount":145},{"id":"co-0017","name":"Summit Collective 017","industry":"Financial Services","headcount":132},{"id":"co-0018","name":"Orbit Works 018","industry":"Energy","headcount":102},{"id":"co-0019","name":"Summit Technologies 019","industry":"Healthcare","headcount":129},{"id":"co-0020","name":"Harbor Collective 020","industry":"Telecommunications","headcount":131},{"id":"co-0021","name":"Juniper Collective 021","industry":"Healthcare","headcount":143},{"id":"co-0022","name":"Lattice Labs 022","industry":"Media","headcount":111},{"id":"co-0023","name":"Summit Labs 023","industry":"Retail","headcount":124},{"id":"co-0024","name":"Harbor Technologies 024","industry":"Media","headcount":122},{"id":"co-0025","name":"Brightline Collective 025","industry":"Retail","headcount":120},{"id":"co-0026","name":"Brightline Collective 026","industry":"Professional Services","headcount":132},{"id":"co-0027","name":"Cobalt Works 027","industry":"Professional Services","headcount":154},{"id":"co-0028","name":"Orbit Technologies 028","industry":"Logistics","headcount":107},{"id":"co-0029","name":"Lattice Group 029","industry":"Software","headcount":131},{"id":"co-0030","name":"Juniper Works 030","industry":"Software","headcount":140},{"id":"co-0031","name":"Lattice Systems 031","industry":"Retail","headcount":158},{"id":"co-0032","name":"Brightline Systems 032","industry":"Manufacturing","headcount":147},{"id":"co-0033","name":"Brightline Systems 033","industry":"Software","headcount":106},{"id":"co-0034","name":"Cobalt Systems 034","industry":"Professional Services","headcount":159},{"id":"co-0035","name":"Brightline Systems 035","industry":"Telecommunications","headcount":142},{"id":"co-0036","name":"Orbit Works 036","industry":"Financial Services","headcount":115},{"id":"co-0037","name":"Harbor Collective 037","industry":"Healthcare","headcount":124},{"id":"co-0038","name":"Harbor Works 038","industry":"Logistics","headcount":150},{"id":"co-0039","name":"Orbit Collective 039","industry":"Healthcare","headcount":132},{"id":"co-0040","name":"Pioneer Systems 040","industry":"Software","headcount":154},{"id":"co-0041","name":"Northstar Labs 041","industry":"Retail","headcount":149},{"id":"co-0042","name":"Harbor Collective 042","industry":"Logistics","headcount":123},{"id":"co-0043","name":"Juniper Group 043","industry":"Energy","headcount":140},{"id":"co-0044","name":"Cobalt Collective 044","industry":"Retail","headcount":113},{"id":"co-0045","name":"Redwood Works 045","industry":"Software","headcount":102},{"id":"co-0046","name":"Summit Works 046","industry":"Manufacturing","headcount":157},{"id":"co-0047","name":"Pioneer Collective 047","industry":"Energy","headcount":121},{"id":"co-0048","name":"Harbor Collective 048","industry":"Telecommunications","headcount":142},{"id":"co-0049","name":"Cobalt Systems 049","industry":"Manufacturing","headcount":143},{"id":"co-0050","name":"Pioneer Group 050","industry":"Energy","headcount":106},{"id":"co-0051","name":"Harbor Systems 051","industry":"Energy","headcount":136},{"id":"co-0052","name":"Lattice Group 052","industry":"Logistics","headcount":133},{"id":"co-0053","name":"Northstar Labs 053","industry":"Professional Services","headcount":146},{"id":"co-0054","name":"Juniper Works 054","industry":"Software","headcount":101},{"id":"co-0055","name":"Summit Works 055","industry":"Retail","headcount":118},{"id":"co-0056","name":"Brightline Works 056","industry":"Healthcare","headcount":129},{"id":"co-0057","name":"Orbit Works 057","industry":"Media","headcount":124},{"id":"co-0058","name":"Lattice Group 058","industry":"Software","headcount":120},{"id":"co-0059","name":"Juniper Works 059","industry":"Software","headcount":125},{"id":"co-0060","name":"Northstar Systems 060","industry":"Professional Services","headcount":152},{"id":"co-0061","name":"Orbit Collective 061","industry":"Retail","headcount":156},{"id":"co-0062","name":"Juniper Technologies 062","industry":"Software","headcount":139},{"id":"co-0063","name":"Cobalt Technologies 063","industry":"Logistics","headcount":122},{"id":"co-0064","name":"Summit Technologies 064","industry":"Energy","headcount":107},{"id":"co-0065","name":"Brightline Labs 065","industry":"Telecommunications","headcount":153},{"id":"co-0066","name":"Cobalt Labs 066","industry":"Software","headcount":136},{"id":"co-0067","name":"Northstar Works 067","industry":"Media","headcount":113},{"id":"co-0068","name":"Pioneer Technologies 068","industry":"Healthcare","headcount":153},{"id":"co-0069","name":"Lattice Systems 069","industry":"Telecommunications","headcount":102},{"id":"co-0070","name":"Juniper Technologies 070","industry":"Financial Services","headcount":113},{"id":"co-0071","name":"Juniper Works 071","industry":"Telecommunications","headcount":150},{"id":"co-0072","name":"Harbor Collective 072","industry":"Media","headcount":139},{"id":"co-0073","name":"Orbit Collective 073","industry":"Energy","headcount":136},{"id":"co-0074","name":"Cobalt Technologies 074","industry":"Manufacturing","headcount":120},{"id":"co-0075","name":"Northstar Collective 075","industry":"Software","headcount":131},{"id":"co-0076","name":"Redwood Technologies 076","industry":"Logistics","headcount":144},{"id":"co-0077","name":"Brightline Collective 077","industry":"Retail","headcount":123},{"id":"co-0078","name":"Pioneer Technologies 078","industry":"Healthcare","headcount":124},{"id":"co-0079","name":"Cobalt Collective 079","industry":"Retail","headcount":140},{"id":"co-0080","name":"Brightline Labs 080","industry":"Professional Services","headcount":100},{"id":"co-0081","name":"Brightline Group 081","industry":"Energy","headcount":124},{"id":"co-0082","name":"Cobalt Systems 082","industry":"Media","headcount":115},{"id":"co-0083","name":"Cobalt Technologies 083","industry":"Professional Services","headcount":122},{"id":"co-0084","name":"Harbor Works 084","industry":"Financial Services","headcount":103},{"id":"co-0085","name":"Orbit Group 085","industry":"Energy","headcount":160},{"id":"co-0086","name":"Redwood Technologies 086","industry":"Professional Services","headcount":133},{"id":"co-0087","name":"Orbit Collective 087","industry":"Financial Services","headcount":146},{"id":"co-0088","name":"Brightline Systems 088","industry":"Professional Services","headcount":135},{"id":"co-0089","name":"Juniper Group 089","industry":"Energy","headcount":141},{"id":"co-0090","name":"Lattice Systems 090","industry":"Financial Services","headcount":112},{"id":"co-0091","name":"Orbit Collective 091","industry":"Financial Services","headcount":135},{"id":"co-0092","name":"Harbor Systems 092","industry":"Energy","headcount":136},{"id":"co-0093","name":"Pioneer Works 093","industry":"Manufacturing","headcount":150},{"id":"co-0094","name":"Brightline Systems 094","industry":"Healthcare","headcount":121},{"id":"co-0095","name":"Cobalt Labs 095","industry":"Professional Services","headcount":118},{"id":"co-0096","name":"Northstar Systems 096","industry":"Manufacturing","headcount":153},{"id":"co-0097","name":"Juniper Technologies 097","industry":"Energy","headcount":140},{"id":"co-0098","name":"Pioneer Technologies 098","industry":"Energy","headcount":129},{"id":"co-0099","name":"Summit Group 099","industry":"Logistics","headcount":157},{"id":"co-0100","name":"Summit Technologies 100","industry":"Logistics","headcount":138},{"id":"co-0101","name":"Redwood Collective 101","industry":"Media","headcount":125},{"id":"co-0102","name":"Brightline Technologies 102","industry":"Logistics","headcount":130},{"id":"co-0103","name":"Cobalt Works 103","industry":"Energy","headcount":109},{"id":"co-0104","name":"Harbor Collective 104","industry":"Energy","headcount":104},{"id":"co-0105","name":"Orbit Technologies 105","industry":"Manufacturing","headcount":110},{"id":"co-0106","name":"Cobalt Group 106","industry":"Media","headcount":122},{"id":"co-0107","name":"Harbor Systems 107","industry":"Telecommunications","headcount":113},{"id":"co-0108","name":"Lattice Labs 108","industry":"Healthcare","headcount":152},{"id":"co-0109","name":"Orbit Technologies 109","industry":"Telecommunications","headcount":109},{"id":"co-0110","name":"Northstar Systems 110","industry":"Energy","headcount":101},{"id":"co-0111","name":"Northstar Labs 111","industry":"Professional Services","headcount":155},{"id":"co-0112","name":"Cobalt Group 112","industry":"Manufacturing","headcount":122},{"id":"co-0113","name":"Brightline Systems 113","industry":"Professional Services","headcount":119},{"id":"co-0114","name":"Harbor Technologies 114","industry":"Media","headcount":140},{"id":"co-0115","name":"Orbit Group 115","industry":"Manufacturing","headcount":126},{"id":"co-0116","name":"Summit Works 116","industry":"Logistics","headcount":142},{"id":"co-0117","name":"Juniper Works 117","industry":"Media","headcount":101},{"id":"co-0118","name":"Summit Labs 118","industry":"Media","headcount":109},{"id":"co-0119","name":"Cobalt Systems 119","industry":"Software","headcount":130},{"id":"co-0120","name":"Redwood Works 120","industry":"Telecommunications","headcount":151},{"id":"co-0121","name":"Juniper Systems 121","industry":"Professional Services","headcount":116},{"id":"co-0122","name":"Orbit Works 122","industry":"Software","headcount":104},{"id":"co-0123","name":"Northstar Technologies 123","industry":"Manufacturing","headcount":112},{"id":"co-0124","name":"Lattice Works 124","industry":"Professional Services","headcount":135},{"id":"co-0125","name":"Redwood Works 125","industry":"Financial Services","headcount":122},{"id":"co-0126","name":"Cobalt Works 126","industry":"Logistics","headcount":131},{"id":"co-0127","name":"Redwood Group 127","industry":"Financial Services","headcount":130},{"id":"co-0128","name":"Northstar Technologies 128","industry":"Healthcare","headcount":147},{"id":"co-0129","name":"Summit Works 129","industry":"Manufacturing","headcount":136},{"id":"co-0130","name":"Redwood Systems 130","industry":"Retail","headcount":116},{"id":"co-0131","name":"Northstar Group 131","industry":"Energy","headcount":154},{"id":"co-0132","name":"Orbit Labs 132","industry":"Software","headcount":151},{"id":"co-0133","name":"Harbor Works 133","industry":"Healthcare","headcount":115},{"id":"co-0134","name":"Cobalt Technologies 134","industry":"Energy","headcount":124},{"id":"co-0135","name":"Lattice Collective 135","industry":"Professional Services","headcount":152},{"id":"co-0136","name":"Lattice Systems 136","industry":"Software","headcount":150},{"id":"co-0137","name":"Pioneer Systems 137","industry":"Professional Services","headcount":113},{"id":"co-0138","name":"Northstar Labs 138","industry":"Retail","headcount":117},{"id":"co-0139","name":"Juniper Collective 139","industry":"Retail","headcount":127},{"id":"co-0140","name":"Cobalt Group 140","industry":"Healthcare","headcount":146},{"id":"co-0141","name":"Redwood Technologies 141","industry":"Manufacturing","headcount":100},{"id":"co-0142","name":"Northstar Technologies 142","industry":"Retail","headcount":115},{"id":"co-0143","name":"Harbor Group 143","industry":"Professional Services","headcount":121},{"id":"co-0144","name":"Pioneer Collective 144","industry":"Telecommunications","headcount":145},{"id":"co-0145","name":"Harbor Technologies 145","industry":"Telecommunications","headcount":122},{"id":"co-0146","name":"Brightline Labs 146","industry":"Retail","headcount":107},{"id":"co-0147","name":"Pioneer Labs 147","industry":"Energy","headcount":151},{"id":"co-0148","name":"Lattice Group 148","industry":"Healthcare","headcount":136},{"id":"co-0149","name":"Pioneer Technologies 149","industry":"Retail","headcount":137},{"id":"co-0150","name":"Northstar Systems 150","industry":"Software","headcount":135},{"id":"co-0151","name":"Northstar Group 151","industry":"Telecommunications","headcount":106},{"id":"co-0152","name":"Redwood Group 152","industry":"Financial Services","headcount":158},{"id":"co-0153","name":"Lattice Group 153","industry":"Logistics","headcount":107},{"id":"co-0154","name":"Summit Works 154","industry":"Energy","headcount":126},{"id":"co-0155","name":"Northstar Group 155","industry":"Financial Services","headcount":106},{"id":"co-0156","name":"Lattice Group 156","industry":"Manufacturing","headcount":121},{"id":"co-0157","name":"Summit Collective 157","industry":"Energy","headcount":148},{"id":"co-0158","name":"Summit Labs 158","industry":"Software","headcount":149},{"id":"co-0159","name":"Lattice Group 159","industry":"Healthcare","headcount":113},{"id":"co-0160","name":"Redwood Group 160","industry":"Manufacturing","headcount":153},{"id":"co-0161","name":"Cobalt Works 161","industry":"Telecommunications","headcount":159},{"id":"co-0162","name":"Juniper Systems 162","industry":"Logistics","headcount":127},{"id":"co-0163","name":"Juniper Systems 163","industry":"Energy","headcount":131},{"id":"co-0164","name":"Pioneer Technologies 164","industry":"Healthcare","headcount":145},{"id":"co-0165","name":"Lattice Collective 165","industry":"Manufacturing","headcount":131},{"id":"co-0166","name":"Redwood Collective 166","industry":"Media","headcount":158},{"id":"co-0167","name":"Redwood Collective 167","industry":"Software","headcount":131},{"id":"co-0168","name":"Lattice Group 168","industry":"Software","headcount":149},{"id":"co-0169","name":"Lattice Group 169","industry":"Healthcare","headcount":127},{"id":"co-0170","name":"Pioneer Technologies 170","industry":"Financial Services","headcount":131},{"id":"co-0171","name":"Redwood Collective 171","industry":"Financial Services","headcount":119},{"id":"co-0172","name":"Summit Technologies 172","industry":"Media","headcount":138},{"id":"co-0173","name":"Harbor Labs 173","industry":"Logistics","headcount":113},{"id":"co-0174","name":"Harbor Works 174","industry":"Healthcare","headcount":110},{"id":"co-0175","name":"Orbit Labs 175","industry":"Media","headcount":146},{"id":"co-0176","name":"Northstar Labs 176","industry":"Energy","headcount":122},{"id":"co-0177","name":"Redwood Technologies 177","industry":"Media","headcount":133},{"id":"co-0178","name":"Orbit Group 178","industry":"Professional Services","headcount":160},{"id":"co-0179","name":"Lattice Group 179","industry":"Media","headcount":117},{"id":"co-0180","name":"Brightline Works 180","industry":"Healthcare","headcount":101},{"id":"co-0181","name":"Pioneer Group 181","industry":"Manufacturing","headcount":140},{"id":"co-0182","name":"Harbor Works 182","industry":"Manufacturing","headcount":132},{"id":"co-0183","name":"Orbit Systems 183","industry":"Professional Services","headcount":131},{"id":"co-0184","name":"Redwood Collective 184","industry":"Media","headcount":137},{"id":"co-0185","name":"Summit Systems 185","industry":"Professional Services","headcount":125},{"id":"co-0186","name":"Orbit Labs 186","industry":"Software","headcount":146},{"id":"co-0187","name":"Harbor Technologies 187","industry":"Telecommunications","headcount":159},{"id":"co-0188","name":"Lattice Labs 188","industry":"Manufacturing","headcount":150},{"id":"co-0189","name":"Northstar Technologies 189","industry":"Healthcare","headcount":139},{"id":"co-0190","name":"Cobalt Collective 190","industry":"Energy","headcount":107},{"id":"co-0191","name":"Redwood Technologies 191","industry":"Retail","headcount":134},{"id":"co-0192","name":"Harbor Works 192","industry":"Financial Services","headcount":108},{"id":"co-0193","name":"Brightline Technologies 193","industry":"Manufacturing","headcount":123},{"id":"co-0194","name":"Northstar Technologies 194","industry":"Media","headcount":150},{"id":"co-0195","name":"Lattice Labs 195","industry":"Logistics","headcount":101},{"id":"co-0196","name":"Redwood Collective 196","industry":"Media","headcount":106},{"id":"co-0197","name":"Pioneer Systems 197","industry":"Software","headcount":152},{"id":"co-0198","name":"Juniper Systems 198","industry":"Retail","headcount":108},{"id":"co-0199","name":"Redwood Collective 199","industry":"Retail","headcount":160},{"id":"co-0200","name":"Pioneer Systems 200","industry":"Telecommunications","headcount":110},{"id":"co-0201","name":"Brightline Collective 201","industry":"Healthcare","headcount":101},{"id":"co-0202","name":"Redwood Group 202","industry":"Energy","headcount":150},{"id":"co-0203","name":"Orbit Works 203","industry":"Professional Services","headcount":160},{"id":"co-0204","name":"Summit Works 204","industry":"Software","headcount":141},{"id":"co-0205","name":"Pioneer Collective 205","industry":"Telecommunications","headcount":158},{"id":"co-0206","name":"Pioneer Systems 206","industry":"Media","headcount":108},{"id":"co-0207","name":"Orbit Systems 207","industry":"Retail","headcount":101},{"id":"co-0208","name":"Lattice Technologies 208","industry":"Financial Services","headcount":131},{"id":"co-0209","name":"Cobalt Labs 209","industry":"Professional Services","headcount":127},{"id":"co-0210","name":"Pioneer Collective 210","industry":"Logistics","headcount":158},{"id":"co-0211","name":"Brightline Systems 211","industry":"Retail","headcount":115},{"id":"co-0212","name":"Redwood Technologies 212","industry":"Financial Services","headcount":151},{"id":"co-0213","name":"Pioneer Group 213","industry":"Logistics","headcount":142},{"id":"co-0214","name":"Orbit Technologies 214","industry":"Software","headcount":147},{"id":"co-0215","name":"Brightline Systems 215","industry":"Energy","headcount":109},{"id":"co-0216","name":"Northstar Technologies 216","industry":"Energy","headcount":141},{"id":"co-0217","name":"Brightline Systems 217","industry":"Retail","headcount":118},{"id":"co-0218","name":"Harbor Technologies 218","industry":"Retail","headcount":139},{"id":"co-0219","name":"Orbit Collective 219","industry":"Financial Services","headcount":136},{"id":"co-0220","name":"Cobalt Group 220","industry":"Logistics","headcount":106},{"id":"co-0221","name":"Juniper Works 221","industry":"Professional Services","headcount":107},{"id":"co-0222","name":"Summit Collective 222","industry":"Healthcare","headcount":109},{"id":"co-0223","name":"Redwood Technologies 223","industry":"Logistics","headcount":158},{"id":"co-0224","name":"Summit Collective 224","industry":"Manufacturing","headcount":124},{"id":"co-0225","name":"Summit Labs 225","industry":"Financial Services","headcount":156},{"id":"co-0226","name":"Summit Labs 226","industry":"Telecommunications","headcount":151},{"id":"co-0227","name":"Orbit Labs 227","industry":"Healthcare","headcount":149},{"id":"co-0228","name":"Pioneer Collective 228","industry":"Software","headcount":118},{"id":"co-0229","name":"Summit Systems 229","industry":"Professional Services","headcount":115},{"id":"co-0230","name":"Orbit Labs 230","industry":"Healthcare","headcount":160},{"id":"co-0231","name":"Pioneer Technologies 231","industry":"Logistics","headcount":160},{"id":"co-0232","name":"Brightline Systems 232","industry":"Professional Services","headcount":106},{"id":"co-0233","name":"Orbit Labs 233","industry":"Manufacturing","headcount":149},{"id":"co-0234","name":"Orbit Technologies 234","industry":"Retail","headcount":140},{"id":"co-0235","name":"Pioneer Collective 235","industry":"Logistics","headcount":118},{"id":"co-0236","name":"Lattice Group 236","industry":"Software","headcount":135},{"id":"co-0237","name":"Pioneer Labs 237","industry":"Software","headcount":135},{"id":"co-0238","name":"Harbor Group 238","industry":"Telecommunications","headcount":133},{"id":"co-0239","name":"Lattice Group 239","industry":"Logistics","headcount":147},{"id":"co-0240","name":"Lattice Group 240","industry":"Healthcare","headcount":115},{"id":"co-0241","name":"Pioneer Systems 241","industry":"Logistics","headcount":157},{"id":"co-0242","name":"Lattice Collective 242","industry":"Energy","headcount":131},{"id":"co-0243","name":"Pioneer Systems 243","industry":"Logistics","headcount":101},{"id":"co-0244","name":"Cobalt Works 244","industry":"Software","headcount":122},{"id":"co-0245","name":"Pioneer Labs 245","industry":"Logistics","headcount":153},{"id":"co-0246","name":"Summit Collective 246","industry":"Professional Services","headcount":110},{"id":"co-0247","name":"Redwood Collective 247","industry":"Software","headcount":110},{"id":"co-0248","name":"Brightline Systems 248","industry":"Professional Services","headcount":143},{"id":"co-0249","name":"Brightline Technologies 249","industry":"Manufacturing","headcount":119},{"id":"co-0250","name":"Redwood Labs 250","industry":"Healthcare","headcount":108},{"id":"co-0251","name":"Summit Technologies 251","industry":"Telecommunications","headcount":111},{"id":"co-0252","name":"Northstar Works 252","industry":"Telecommunications","headcount":141},{"id":"co-0253","name":"Brightline Collective 253","industry":"Software","headcount":115},{"id":"co-0254","name":"Juniper Labs 254","industry":"Manufacturing","headcount":124},{"id":"co-0255","name":"Juniper Labs 255","industry":"Software","headcount":159},{"id":"co-0256","name":"Orbit Systems 256","industry":"Software","headcount":130},{"id":"co-0257","name":"Pioneer Technologies 257","industry":"Financial Services","headcount":142},{"id":"co-0258","name":"Orbit Labs 258","industry":"Manufacturing","headcount":143},{"id":"co-0259","name":"Pioneer Labs 259","industry":"Energy","headcount":129},{"id":"co-0260","name":"Northstar Labs 260","industry":"Telecommunications","headcount":142},{"id":"co-0261","name":"Northstar Labs 261","industry":"Retail","headcount":143},{"id":"co-0262","name":"Lattice Group 262","industry":"Financial Services","headcount":130},{"id":"co-0263","name":"Harbor Systems 263","industry":"Energy","headcount":139},{"id":"co-0264","name":"Harbor Group 264","industry":"Retail","headcount":154},{"id":"co-0265","name":"Lattice Works 265","industry":"Manufacturing","headcount":132},{"id":"co-0266","name":"Juniper Group 266","industry":"Software","headcount":109},{"id":"co-0267","name":"Summit Collective 267","industry":"Energy","headcount":115},{"id":"co-0268","name":"Juniper Labs 268","industry":"Financial Services","headcount":109},{"id":"co-0269","name":"Brightline Group 269","industry":"Telecommunications","headcount":106},{"id":"co-0270","name":"Northstar Group 270","industry":"Logistics","headcount":147},{"id":"co-0271","name":"Lattice Labs 271","industry":"Manufacturing","headcount":137},{"id":"co-0272","name":"Juniper Labs 272","industry":"Media","headcount":119},{"id":"co-0273","name":"Northstar Labs 273","industry":"Media","headcount":109},{"id":"co-0274","name":"Pioneer Labs 274","industry":"Software","headcount":126},{"id":"co-0275","name":"Orbit Works 275","industry":"Financial Services","headcount":136},{"id":"co-0276","name":"Brightline Works 276","industry":"Energy","headcount":127},{"id":"co-0277","name":"Summit Works 277","industry":"Manufacturing","headcount":135},{"id":"co-0278","name":"Juniper Works 278","industry":"Healthcare","headcount":143},{"id":"co-0279","name":"Cobalt Collective 279","industry":"Retail","headcount":105},{"id":"co-0280","name":"Lattice Collective 280","industry":"Media","headcount":120},{"id":"co-0281","name":"Brightline Technologies 281","industry":"Manufacturing","headcount":107},{"id":"co-0282","name":"Lattice Group 282","industry":"Logistics","headcount":147},{"id":"co-0283","name":"Pioneer Technologies 283","industry":"Professional Services","headcount":134},{"id":"co-0284","name":"Harbor Labs 284","industry":"Energy","headcount":133},{"id":"co-0285","name":"Lattice Technologies 285","industry":"Manufacturing","headcount":125},{"id":"co-0286","name":"Summit Collective 286","industry":"Energy","headcount":106},{"id":"co-0287","name":"Redwood Works 287","industry":"Manufacturing","headcount":143},{"id":"co-0288","name":"Summit Systems 288","industry":"Telecommunications","headcount":139},{"id":"co-0289","name":"Orbit Technologies 289","industry":"Software","headcount":142},{"id":"co-0290","name":"Harbor Works 290","industry":"Telecommunications","headcount":149},{"id":"co-0291","name":"Northstar Labs 291","industry":"Media","headcount":106},{"id":"co-0292","name":"Cobalt Collective 292","industry":"Healthcare","headcount":126},{"id":"co-0293","name":"Pioneer Systems 293","industry":"Logistics","headcount":154},{"id":"co-0294","name":"Harbor Group 294","industry":"Energy","headcount":141},{"id":"co-0295","name":"Northstar Technologies 295","industry":"Telecommunications","headcount":126},{"id":"co-0296","name":"Lattice Systems 296","industry":"Professional Services","headcount":108},{"id":"co-0297","name":"Orbit Works 297","industry":"Media","headcount":120},{"id":"co-0298","name":"Cobalt Systems 298","industry":"Media","headcount":125},{"id":"co-0299","name":"Redwood Labs 299","industry":"Retail","headcount":157},{"id":"co-0300","name":"Redwood Systems 300","industry":"Logistics","headcount":149},{"id":"co-0301","name":"Juniper Labs 301","industry":"Manufacturing","headcount":118},{"id":"co-0302","name":"Lattice Works 302","industry":"Financial Services","headcount":116},{"id":"co-0303","name":"Orbit Collective 303","industry":"Media","headcount":128},{"id":"co-0304","name":"Cobalt Systems 304","industry":"Financial Services","headcount":143},{"id":"co-0305","name":"Northstar Collective 305","industry":"Telecommunications","headcount":136},{"id":"co-0306","name":"Redwood Group 306","industry":"Media","headcount":153},{"id":"co-0307","name":"Pioneer Technologies 307","industry":"Professional Services","headcount":150},{"id":"co-0308","name":"Redwood Works 308","industry":"Energy","headcount":147},{"id":"co-0309","name":"Lattice Collective 309","industry":"Software","headcount":149},{"id":"co-0310","name":"Redwood Works 310","industry":"Manufacturing","headcount":159},{"id":"co-0311","name":"Northstar Labs 311","industry":"Software","headcount":134},{"id":"co-0312","name":"Harbor Technologies 312","industry":"Financial Services","headcount":107},{"id":"co-0313","name":"Harbor Group 313","industry":"Healthcare","headcount":127},{"id":"co-0314","name":"Brightline Systems 314","industry":"Professional Services","headcount":152},{"id":"co-0315","name":"Orbit Technologies 315","industry":"Professional Services","headcount":122},{"id":"co-0316","name":"Cobalt Group 316","industry":"Financial Services","headcount":130},{"id":"co-0317","name":"Lattice Systems 317","industry":"Healthcare","headcount":132},{"id":"co-0318","name":"Brightline Works 318","industry":"Financial Services","headcount":150},{"id":"co-0319","name":"Harbor Works 319","industry":"Media","headcount":104},{"id":"co-0320","name":"Summit Technologies 320","industry":"Healthcare","headcount":108},{"id":"co-0321","name":"Brightline Group 321","industry":"Logistics","headcount":121},{"id":"co-0322","name":"Summit Group 322","industry":"Logistics","headcount":122},{"id":"co-0323","name":"Juniper Works 323","industry":"Professional Services","headcount":149},{"id":"co-0324","name":"Orbit Works 324","industry":"Manufacturing","headcount":159},{"id":"co-0325","name":"Brightline Group 325","industry":"Logistics","headcount":160},{"id":"co-0326","name":"Juniper Group 326","industry":"Telecommunications","headcount":156},{"id":"co-0327","name":"Pioneer Technologies 327","industry":"Software","headcount":130},{"id":"co-0328","name":"Lattice Collective 328","industry":"Manufacturing","headcount":137},{"id":"co-0329","name":"Cobalt Works 329","industry":"Healthcare","headcount":106},{"id":"co-0330","name":"Juniper Systems 330","industry":"Manufacturing","headcount":119},{"id":"co-0331","name":"Orbit Group 331","industry":"Financial Services","headcount":111},{"id":"co-0332","name":"Redwood Group 332","industry":"Media","headcount":138},{"id":"co-0333","name":"Northstar Collective 333","industry":"Logistics","headcount":143},{"id":"co-0334","name":"Northstar Works 334","industry":"Logistics","headcount":132},{"id":"co-0335","name":"Juniper Systems 335","industry":"Manufacturing","headcount":142},{"id":"co-0336","name":"Cobalt Collective 336","industry":"Logistics","headcount":151},{"id":"co-0337","name":"Cobalt Labs 337","industry":"Logistics","headcount":142},{"id":"co-0338","name":"Redwood Labs 338","industry":"Software","headcount":152},{"id":"co-0339","name":"Cobalt Collective 339","industry":"Telecommunications","headcount":124},{"id":"co-0340","name":"Summit Systems 340","industry":"Professional Services","headcount":154},{"id":"co-0341","name":"Lattice Technologies 341","industry":"Financial Services","headcount":157},{"id":"co-0342","name":"Summit Systems 342","industry":"Software","headcount":131},{"id":"co-0343","name":"Lattice Labs 343","industry":"Professional Services","headcount":160},{"id":"co-0344","name":"Orbit Group 344","industry":"Telecommunications","headcount":145},{"id":"co-0345","name":"Harbor Labs 345","industry":"Healthcare","headcount":116},{"id":"co-0346","name":"Orbit Systems 346","industry":"Media","headcount":121},{"id":"co-0347","name":"Juniper Technologies 347","industry":"Telecommunications","headcount":156},{"id":"co-0348","name":"Lattice Technologies 348","industry":"Software","headcount":110},{"id":"co-0349","name":"Cobalt Technologies 349","industry":"Telecommunications","headcount":153},{"id":"co-0350","name":"Lattice Group 350","industry":"Manufacturing","headcount":149},{"id":"co-0351","name":"Juniper Systems 351","industry":"Healthcare","headcount":114},{"id":"co-0352","name":"Harbor Labs 352","industry":"Retail","headcount":148},{"id":"co-0353","name":"Orbit Collective 353","industry":"Software","headcount":115},{"id":"co-0354","name":"Orbit Group 354","industry":"Software","headcount":124},{"id":"co-0355","name":"Juniper Technologies 355","industry":"Energy","headcount":159},{"id":"co-0356","name":"Cobalt Labs 356","industry":"Professional Services","headcount":121},{"id":"co-0357","name":"Redwood Works 357","industry":"Telecommunications","headcount":110},{"id":"co-0358","name":"Redwood Works 358","industry":"Manufacturing","headcount":158},{"id":"co-0359","name":"Orbit Technologies 359","industry":"Software","headcount":110},{"id":"co-0360","name":"Pioneer Systems 360","industry":"Manufacturing","headcount":103},{"id":"co-0361","name":"Orbit Group 361","industry":"Telecommunications","headcount":156},{"id":"co-0362","name":"Lattice Collective 362","industry":"Telecommunications","headcount":144},{"id":"co-0363","name":"Northstar Technologies 363","industry":"Software","headcount":145},{"id":"co-0364","name":"Pioneer Systems 364","industry":"Professional Services","headcount":128},{"id":"co-0365","name":"Northstar Systems 365","industry":"Manufacturing","headcount":122},{"id":"co-0366","name":"Brightline Works 366","industry":"Telecommunications","headcount":150},{"id":"co-0367","name":"Pioneer Technologies 367","industry":"Professional Services","headcount":126},{"id":"co-0368","name":"Redwood Technologies 368","industry":"Media","headcount":115},{"id":"co-0369","name":"Pioneer Labs 369","industry":"Software","headcount":156},{"id":"co-0370","name":"Orbit Technologies 370","industry":"Software","headcount":107},{"id":"co-0371","name":"Cobalt Technologies 371","industry":"Media","headcount":125},{"id":"co-0372","name":"Lattice Systems 372","industry":"Professional Services","headcount":118},{"id":"co-0373","name":"Orbit Labs 373","industry":"Retail","headcount":136},{"id":"co-0374","name":"Pioneer Labs 374","industry":"Logistics","headcount":106},{"id":"co-0375","name":"Lattice Systems 375","industry":"Telecommunications","headcount":147},{"id":"co-0376","name":"Orbit Technologies 376","industry":"Financial Services","headcount":116},{"id":"co-0377","name":"Pioneer Systems 377","industry":"Manufacturing","headcount":134},{"id":"co-0378","name":"Juniper Labs 378","industry":"Financial Services","headcount":160},{"id":"co-0379","name":"Lattice Works 379","industry":"Telecommunications","headcount":116},{"id":"co-0380","name":"Orbit Technologies 380","industry":"Software","headcount":129},{"id":"co-0381","name":"Summit Technologies 381","industry":"Financial Services","headcount":117},{"id":"co-0382","name":"Pioneer Technologies 382","industry":"Professional Services","headcount":159},{"id":"co-0383","name":"Northstar Group 383","industry":"Retail","headcount":148},{"id":"co-0384","name":"Northstar Collective 384","industry":"Professional Services","headcount":135},{"id":"co-0385","name":"Lattice Labs 385","industry":"Professional Services","headcount":141},{"id":"co-0386","name":"Redwood Collective 386","industry":"Software","headcount":106},{"id":"co-0387","name":"Lattice Works 387","industry":"Energy","headcount":120},{"id":"co-0388","name":"Redwood Collective 388","industry":"Telecommunications","headcount":109},{"id":"co-0389","name":"Harbor Works 389","industry":"Retail","headcount":127},{"id":"co-0390","name":"Summit Collective 390","industry":"Retail","headcount":144},{"id":"co-0391","name":"Summit Collective 391","industry":"Healthcare","headcount":138},{"id":"co-0392","name":"Harbor Group 392","industry":"Media","headcount":123},{"id":"co-0393","name":"Harbor Works 393","industry":"Logistics","headcount":140},{"id":"co-0394","name":"Northstar Labs 394","industry":"Energy","headcount":156},{"id":"co-0395","name":"Juniper Collective 395","industry":"Media","headcount":160},{"id":"co-0396","name":"Orbit Group 396","industry":"Media","headcount":131},{"id":"co-0397","name":"Northstar Labs 397","industry":"Telecommunications","headcount":100},{"id":"co-0398","name":"Harbor Collective 398","industry":"Financial Services","headcount":150},{"id":"co-0399","name":"Pioneer Technologies 399","industry":"Software","headcount":133},{"id":"co-0400","name":"Cobalt Works 400","industry":"Software","headcount":159},{"id":"co-0401","name":"Orbit Systems 401","industry":"Professional Services","headcount":100},{"id":"co-0402","name":"Northstar Group 402","industry":"Manufacturing","headcount":137},{"id":"co-0403","name":"Brightline Group 403","industry":"Media","headcount":117},{"id":"co-0404","name":"Orbit Group 404","industry":"Telecommunications","headcount":159},{"id":"co-0405","name":"Lattice Systems 405","industry":"Telecommunications","headcount":156},{"id":"co-0406","name":"Juniper Group 406","industry":"Media","headcount":135},{"id":"co-0407","name":"Juniper Labs 407","industry":"Energy","headcount":119},{"id":"co-0408","name":"Orbit Technologies 408","industry":"Telecommunications","headcount":121},{"id":"co-0409","name":"Northstar Collective 409","industry":"Telecommunications","headcount":147},{"id":"co-0410","name":"Brightline Technologies 410","industry":"Energy","headcount":114},{"id":"co-0411","name":"Cobalt Group 411","industry":"Retail","headcount":107},{"id":"co-0412","name":"Harbor Works 412","industry":"Retail","headcount":107},{"id":"co-0413","name":"Cobalt Works 413","industry":"Energy","headcount":122},{"id":"co-0414","name":"Lattice Works 414","industry":"Healthcare","headcount":126},{"id":"co-0415","name":"Brightline Group 415","industry":"Energy","headcount":145},{"id":"co-0416","name":"Juniper Systems 416","industry":"Professional Services","headcount":114},{"id":"co-0417","name":"Summit Collective 417","industry":"Telecommunications","headcount":110},{"id":"co-0418","name":"Juniper Works 418","industry":"Financial Services","headcount":154},{"id":"co-0419","name":"Pioneer Technologies 419","industry":"Healthcare","headcount":123},{"id":"co-0420","name":"Redwood Collective 420","industry":"Software","headcount":145},{"id":"co-0421","name":"Redwood Collective 421","industry":"Financial Services","headcount":114},{"id":"co-0422","name":"Lattice Technologies 422","industry":"Telecommunications","headcount":119},{"id":"co-0423","name":"Orbit Works 423","industry":"Media","headcount":104},{"id":"co-0424","name":"Juniper Works 424","industry":"Software","headcount":115},{"id":"co-0425","name":"Pioneer Group 425","industry":"Healthcare","headcount":131},{"id":"co-0426","name":"Harbor Group 426","industry":"Telecommunications","headcount":101},{"id":"co-0427","name":"Brightline Technologies 427","industry":"Logistics","headcount":123},{"id":"co-0428","name":"Northstar Systems 428","industry":"Manufacturing","headcount":104},{"id":"co-0429","name":"Lattice Technologies 429","industry":"Energy","headcount":115},{"id":"co-0430","name":"Brightline Works 430","industry":"Logistics","headcount":141},{"id":"co-0431","name":"Summit Collective 431","industry":"Retail","headcount":139},{"id":"co-0432","name":"Orbit Technologies 432","industry":"Professional Services","headcount":153},{"id":"co-0433","name":"Redwood Labs 433","industry":"Media","headcount":151},{"id":"co-0434","name":"Northstar Works 434","industry":"Energy","headcount":117},{"id":"co-0435","name":"Pioneer Collective 435","industry":"Energy","headcount":158},{"id":"co-0436","name":"Redwood Works 436","industry":"Financial Services","headcount":133},{"id":"co-0437","name":"Lattice Labs 437","industry":"Professional Services","headcount":110},{"id":"co-0438","name":"Northstar Labs 438","industry":"Financial Services","headcount":156},{"id":"co-0439","name":"Redwood Group 439","industry":"Financial Services","headcount":103},{"id":"co-0440","name":"Summit Group 440","industry":"Retail","headcount":133},{"id":"co-0441","name":"Northstar Systems 441","industry":"Retail","headcount":148},{"id":"co-0442","name":"Pioneer Works 442","industry":"Financial Services","headcount":102},{"id":"co-0443","name":"Juniper Collective 443","industry":"Logistics","headcount":117},{"id":"co-0444","name":"Redwood Collective 444","industry":"Manufacturing","headcount":138},{"id":"co-0445","name":"Brightline Technologies 445","industry":"Professional Services","headcount":149},{"id":"co-0446","name":"Juniper Works 446","industry":"Software","headcount":113},{"id":"co-0447","name":"Redwood Systems 447","industry":"Logistics","headcount":128},{"id":"co-0448","name":"Orbit Labs 448","industry":"Healthcare","headcount":160},{"id":"co-0449","name":"Harbor Works 449","industry":"Software","headcount":111},{"id":"co-0450","name":"Brightline Group 450","industry":"Healthcare","headcount":118},{"id":"co-0451","name":"Pioneer Technologies 451","industry":"Professional Services","headcount":119},{"id":"co-0452","name":"Cobalt Collective 452","industry":"Telecommunications","headcount":160},{"id":"co-0453","name":"Pioneer Labs 453","industry":"Healthcare","headcount":103},{"id":"co-0454","name":"Lattice Group 454","industry":"Software","headcount":152},{"id":"co-0455","name":"Cobalt Technologies 455","industry":"Energy","headcount":132},{"id":"co-0456","name":"Northstar Collective 456","industry":"Energy","headcount":147},{"id":"co-0457","name":"Orbit Works 457","industry":"Software","headcount":138},{"id":"co-0458","name":"Harbor Labs 458","industry":"Software","headcount":106},{"id":"co-0459","name":"Pioneer Technologies 459","industry":"Professional Services","headcount":138},{"id":"co-0460","name":"Pioneer Works 460","industry":"Professional Services","headcount":142},{"id":"co-0461","name":"Harbor Systems 461","industry":"Retail","headcount":128},{"id":"co-0462","name":"Brightline Group 462","industry":"Logistics","headcount":150},{"id":"co-0463","name":"Cobalt Labs 463","industry":"Manufacturing","headcount":109},{"id":"co-0464","name":"Harbor Technologies 464","industry":"Media","headcount":115},{"id":"co-0465","name":"Lattice Systems 465","industry":"Financial Services","headcount":153},{"id":"co-0466","name":"Cobalt Group 466","industry":"Financial Services","headcount":108},{"id":"co-0467","name":"Juniper Systems 467","industry":"Software","headcount":112},{"id":"co-0468","name":"Cobalt Technologies 468","industry":"Healthcare","headcount":133},{"id":"co-0469","name":"Redwood Collective 469","industry":"Telecommunications","headcount":133},{"id":"co-0470","name":"Redwood Systems 470","industry":"Energy","headcount":101},{"id":"co-0471","name":"Brightline Labs 471","industry":"Professional Services","headcount":151},{"id":"co-0472","name":"Lattice Works 472","industry":"Telecommunications","headcount":124},{"id":"co-0473","name":"Orbit Works 473","industry":"Telecommunications","headcount":108},{"id":"co-0474","name":"Lattice Group 474","industry":"Healthcare","headcount":123},{"id":"co-0475","name":"Cobalt Collective 475","industry":"Media","headcount":119},{"id":"co-0476","name":"Harbor Systems 476","industry":"Retail","headcount":152},{"id":"co-0477","name":"Harbor Works 477","industry":"Energy","headcount":117},{"id":"co-0478","name":"Harbor Collective 478","industry":"Professional Services","headcount":116},{"id":"co-0479","name":"Summit Collective 479","industry":"Energy","headcount":132},{"id":"co-0480","name":"Northstar Technologies 480","industry":"Logistics","headcount":110},{"id":"co-0481","name":"Pioneer Labs 481","industry":"Retail","headcount":138},{"id":"co-0482","name":"Redwood Technologies 482","industry":"Healthcare","headcount":143},{"id":"co-0483","name":"Redwood Systems 483","industry":"Logistics","headcount":158},{"id":"co-0484","name":"Orbit Systems 484","industry":"Logistics","headcount":153},{"id":"co-0485","name":"Northstar Works 485","industry":"Energy","headcount":142},{"id":"co-0486","name":"Lattice Collective 486","industry":"Telecommunications","headcount":134},{"id":"co-0487","name":"Cobalt Works 487","industry":"Healthcare","headcount":148},{"id":"co-0488","name":"Brightline Group 488","industry":"Retail","headcount":158},{"id":"co-0489","name":"Summit Labs 489","industry":"Professional Services","headcount":110},{"id":"co-0490","name":"Northstar Technologies 490","industry":"Telecommunications","headcount":127},{"id":"co-0491","name":"Harbor Technologies 491","industry":"Telecommunications","headcount":147},{"id":"co-0492","name":"Cobalt Technologies 492","industry":"Professional Services","headcount":137},{"id":"co-0493","name":"Pioneer Technologies 493","industry":"Telecommunications","headcount":117},{"id":"co-0494","name":"Pioneer Works 494","industry":"Telecommunications","headcount":146},{"id":"co-0495","name":"Brightline Collective 495","industry":"Telecommunications","headcount":140},{"id":"co-0496","name":"Lattice Technologies 496","industry":"Media","headcount":135},{"id":"co-0497","name":"Summit Technologies 497","industry":"Retail","headcount":129},{"id":"co-0498","name":"Juniper Works 498","industry":"Healthcare","headcount":127},{"id":"co-0499","name":"Redwood Systems 499","industry":"Energy","headcount":148},{"id":"co-0500","name":"Redwood Collective 500","industry":"Healthcare","headcount":130}]
+[
+  {
+    "id": "co-0001",
+    "name": "Lattice Labs 001",
+    "industry": "Professional Services",
+    "headcount": 124
+  },
+  {
+    "id": "co-0002",
+    "name": "Lattice Systems 002",
+    "industry": "Retail",
+    "headcount": 105
+  },
+  {
+    "id": "co-0003",
+    "name": "Northstar Systems 003",
+    "industry": "Financial Services",
+    "headcount": 160
+  },
+  {
+    "id": "co-0004",
+    "name": "Brightline Collective 004",
+    "industry": "Healthcare",
+    "headcount": 119
+  },
+  {
+    "id": "co-0005",
+    "name": "Cobalt Works 005",
+    "industry": "Software",
+    "headcount": 104
+  },
+  {
+    "id": "co-0006",
+    "name": "Juniper Labs 006",
+    "industry": "Logistics",
+    "headcount": 144
+  },
+  {
+    "id": "co-0007",
+    "name": "Pioneer Works 007",
+    "industry": "Professional Services",
+    "headcount": 146
+  },
+  {
+    "id": "co-0008",
+    "name": "Redwood Technologies 008",
+    "industry": "Energy",
+    "headcount": 126
+  },
+  {
+    "id": "co-0009",
+    "name": "Orbit Works 009",
+    "industry": "Logistics",
+    "headcount": 118
+  },
+  {
+    "id": "co-0010",
+    "name": "Summit Collective 010",
+    "industry": "Retail",
+    "headcount": 152
+  },
+  {
+    "id": "co-0011",
+    "name": "Pioneer Labs 011",
+    "industry": "Telecommunications",
+    "headcount": 153
+  },
+  {
+    "id": "co-0012",
+    "name": "Northstar Group 012",
+    "industry": "Professional Services",
+    "headcount": 140
+  },
+  {
+    "id": "co-0013",
+    "name": "Brightline Works 013",
+    "industry": "Healthcare",
+    "headcount": 147
+  },
+  {
+    "id": "co-0014",
+    "name": "Northstar Systems 014",
+    "industry": "Software",
+    "headcount": 117
+  },
+  {
+    "id": "co-0015",
+    "name": "Brightline Works 015",
+    "industry": "Software",
+    "headcount": 129
+  },
+  {
+    "id": "co-0016",
+    "name": "Juniper Systems 016",
+    "industry": "Telecommunications",
+    "headcount": 145
+  },
+  {
+    "id": "co-0017",
+    "name": "Summit Collective 017",
+    "industry": "Financial Services",
+    "headcount": 132
+  },
+  {
+    "id": "co-0018",
+    "name": "Orbit Works 018",
+    "industry": "Energy",
+    "headcount": 102
+  },
+  {
+    "id": "co-0019",
+    "name": "Summit Technologies 019",
+    "industry": "Healthcare",
+    "headcount": 129
+  },
+  {
+    "id": "co-0020",
+    "name": "Harbor Collective 020",
+    "industry": "Telecommunications",
+    "headcount": 131
+  },
+  {
+    "id": "co-0021",
+    "name": "Juniper Collective 021",
+    "industry": "Healthcare",
+    "headcount": 143
+  },
+  {
+    "id": "co-0022",
+    "name": "Lattice Labs 022",
+    "industry": "Media",
+    "headcount": 111
+  },
+  {
+    "id": "co-0023",
+    "name": "Summit Labs 023",
+    "industry": "Retail",
+    "headcount": 124
+  },
+  {
+    "id": "co-0024",
+    "name": "Harbor Technologies 024",
+    "industry": "Media",
+    "headcount": 122
+  },
+  {
+    "id": "co-0025",
+    "name": "Brightline Collective 025",
+    "industry": "Retail",
+    "headcount": 120
+  },
+  {
+    "id": "co-0026",
+    "name": "Brightline Collective 026",
+    "industry": "Professional Services",
+    "headcount": 132
+  },
+  {
+    "id": "co-0027",
+    "name": "Cobalt Works 027",
+    "industry": "Professional Services",
+    "headcount": 154
+  },
+  {
+    "id": "co-0028",
+    "name": "Orbit Technologies 028",
+    "industry": "Logistics",
+    "headcount": 107
+  },
+  {
+    "id": "co-0029",
+    "name": "Lattice Group 029",
+    "industry": "Software",
+    "headcount": 131
+  },
+  {
+    "id": "co-0030",
+    "name": "Juniper Works 030",
+    "industry": "Software",
+    "headcount": 140
+  },
+  {
+    "id": "co-0031",
+    "name": "Lattice Systems 031",
+    "industry": "Retail",
+    "headcount": 158
+  },
+  {
+    "id": "co-0032",
+    "name": "Brightline Systems 032",
+    "industry": "Manufacturing",
+    "headcount": 147
+  },
+  {
+    "id": "co-0033",
+    "name": "Brightline Systems 033",
+    "industry": "Software",
+    "headcount": 106
+  },
+  {
+    "id": "co-0034",
+    "name": "Cobalt Systems 034",
+    "industry": "Professional Services",
+    "headcount": 159
+  },
+  {
+    "id": "co-0035",
+    "name": "Brightline Systems 035",
+    "industry": "Telecommunications",
+    "headcount": 142
+  },
+  {
+    "id": "co-0036",
+    "name": "Orbit Works 036",
+    "industry": "Financial Services",
+    "headcount": 115
+  },
+  {
+    "id": "co-0037",
+    "name": "Harbor Collective 037",
+    "industry": "Healthcare",
+    "headcount": 124
+  },
+  {
+    "id": "co-0038",
+    "name": "Harbor Works 038",
+    "industry": "Logistics",
+    "headcount": 150
+  },
+  {
+    "id": "co-0039",
+    "name": "Orbit Collective 039",
+    "industry": "Healthcare",
+    "headcount": 132
+  },
+  {
+    "id": "co-0040",
+    "name": "Pioneer Systems 040",
+    "industry": "Software",
+    "headcount": 154
+  },
+  {
+    "id": "co-0041",
+    "name": "Northstar Labs 041",
+    "industry": "Retail",
+    "headcount": 149
+  },
+  {
+    "id": "co-0042",
+    "name": "Harbor Collective 042",
+    "industry": "Logistics",
+    "headcount": 123
+  },
+  {
+    "id": "co-0043",
+    "name": "Juniper Group 043",
+    "industry": "Energy",
+    "headcount": 140
+  },
+  {
+    "id": "co-0044",
+    "name": "Cobalt Collective 044",
+    "industry": "Retail",
+    "headcount": 113
+  },
+  {
+    "id": "co-0045",
+    "name": "Redwood Works 045",
+    "industry": "Software",
+    "headcount": 102
+  },
+  {
+    "id": "co-0046",
+    "name": "Summit Works 046",
+    "industry": "Manufacturing",
+    "headcount": 157
+  },
+  {
+    "id": "co-0047",
+    "name": "Pioneer Collective 047",
+    "industry": "Energy",
+    "headcount": 121
+  },
+  {
+    "id": "co-0048",
+    "name": "Harbor Collective 048",
+    "industry": "Telecommunications",
+    "headcount": 142
+  },
+  {
+    "id": "co-0049",
+    "name": "Cobalt Systems 049",
+    "industry": "Manufacturing",
+    "headcount": 143
+  },
+  {
+    "id": "co-0050",
+    "name": "Pioneer Group 050",
+    "industry": "Energy",
+    "headcount": 106
+  },
+  {
+    "id": "co-0051",
+    "name": "Harbor Systems 051",
+    "industry": "Energy",
+    "headcount": 136
+  },
+  {
+    "id": "co-0052",
+    "name": "Lattice Group 052",
+    "industry": "Logistics",
+    "headcount": 133
+  },
+  {
+    "id": "co-0053",
+    "name": "Northstar Labs 053",
+    "industry": "Professional Services",
+    "headcount": 146
+  },
+  {
+    "id": "co-0054",
+    "name": "Juniper Works 054",
+    "industry": "Software",
+    "headcount": 101
+  },
+  {
+    "id": "co-0055",
+    "name": "Summit Works 055",
+    "industry": "Retail",
+    "headcount": 118
+  },
+  {
+    "id": "co-0056",
+    "name": "Brightline Works 056",
+    "industry": "Healthcare",
+    "headcount": 129
+  },
+  {
+    "id": "co-0057",
+    "name": "Orbit Works 057",
+    "industry": "Media",
+    "headcount": 124
+  },
+  {
+    "id": "co-0058",
+    "name": "Lattice Group 058",
+    "industry": "Software",
+    "headcount": 120
+  },
+  {
+    "id": "co-0059",
+    "name": "Juniper Works 059",
+    "industry": "Software",
+    "headcount": 125
+  },
+  {
+    "id": "co-0060",
+    "name": "Northstar Systems 060",
+    "industry": "Professional Services",
+    "headcount": 152
+  },
+  {
+    "id": "co-0061",
+    "name": "Orbit Collective 061",
+    "industry": "Retail",
+    "headcount": 156
+  },
+  {
+    "id": "co-0062",
+    "name": "Juniper Technologies 062",
+    "industry": "Software",
+    "headcount": 139
+  },
+  {
+    "id": "co-0063",
+    "name": "Cobalt Technologies 063",
+    "industry": "Logistics",
+    "headcount": 122
+  },
+  {
+    "id": "co-0064",
+    "name": "Summit Technologies 064",
+    "industry": "Energy",
+    "headcount": 107
+  },
+  {
+    "id": "co-0065",
+    "name": "Brightline Labs 065",
+    "industry": "Telecommunications",
+    "headcount": 153
+  },
+  {
+    "id": "co-0066",
+    "name": "Cobalt Labs 066",
+    "industry": "Software",
+    "headcount": 136
+  },
+  {
+    "id": "co-0067",
+    "name": "Northstar Works 067",
+    "industry": "Media",
+    "headcount": 113
+  },
+  {
+    "id": "co-0068",
+    "name": "Pioneer Technologies 068",
+    "industry": "Healthcare",
+    "headcount": 153
+  },
+  {
+    "id": "co-0069",
+    "name": "Lattice Systems 069",
+    "industry": "Telecommunications",
+    "headcount": 102
+  },
+  {
+    "id": "co-0070",
+    "name": "Juniper Technologies 070",
+    "industry": "Financial Services",
+    "headcount": 113
+  },
+  {
+    "id": "co-0071",
+    "name": "Juniper Works 071",
+    "industry": "Telecommunications",
+    "headcount": 150
+  },
+  {
+    "id": "co-0072",
+    "name": "Harbor Collective 072",
+    "industry": "Media",
+    "headcount": 139
+  },
+  {
+    "id": "co-0073",
+    "name": "Orbit Collective 073",
+    "industry": "Energy",
+    "headcount": 136
+  },
+  {
+    "id": "co-0074",
+    "name": "Cobalt Technologies 074",
+    "industry": "Manufacturing",
+    "headcount": 120
+  },
+  {
+    "id": "co-0075",
+    "name": "Northstar Collective 075",
+    "industry": "Software",
+    "headcount": 131
+  },
+  {
+    "id": "co-0076",
+    "name": "Redwood Technologies 076",
+    "industry": "Logistics",
+    "headcount": 144
+  },
+  {
+    "id": "co-0077",
+    "name": "Brightline Collective 077",
+    "industry": "Retail",
+    "headcount": 123
+  },
+  {
+    "id": "co-0078",
+    "name": "Pioneer Technologies 078",
+    "industry": "Healthcare",
+    "headcount": 124
+  },
+  {
+    "id": "co-0079",
+    "name": "Cobalt Collective 079",
+    "industry": "Retail",
+    "headcount": 140
+  },
+  {
+    "id": "co-0080",
+    "name": "Brightline Labs 080",
+    "industry": "Professional Services",
+    "headcount": 100
+  },
+  {
+    "id": "co-0081",
+    "name": "Brightline Group 081",
+    "industry": "Energy",
+    "headcount": 124
+  },
+  {
+    "id": "co-0082",
+    "name": "Cobalt Systems 082",
+    "industry": "Media",
+    "headcount": 115
+  },
+  {
+    "id": "co-0083",
+    "name": "Cobalt Technologies 083",
+    "industry": "Professional Services",
+    "headcount": 122
+  },
+  {
+    "id": "co-0084",
+    "name": "Harbor Works 084",
+    "industry": "Financial Services",
+    "headcount": 103
+  },
+  {
+    "id": "co-0085",
+    "name": "Orbit Group 085",
+    "industry": "Energy",
+    "headcount": 160
+  },
+  {
+    "id": "co-0086",
+    "name": "Redwood Technologies 086",
+    "industry": "Professional Services",
+    "headcount": 133
+  },
+  {
+    "id": "co-0087",
+    "name": "Orbit Collective 087",
+    "industry": "Financial Services",
+    "headcount": 146
+  },
+  {
+    "id": "co-0088",
+    "name": "Brightline Systems 088",
+    "industry": "Professional Services",
+    "headcount": 135
+  },
+  {
+    "id": "co-0089",
+    "name": "Juniper Group 089",
+    "industry": "Energy",
+    "headcount": 141
+  },
+  {
+    "id": "co-0090",
+    "name": "Lattice Systems 090",
+    "industry": "Financial Services",
+    "headcount": 112
+  },
+  {
+    "id": "co-0091",
+    "name": "Orbit Collective 091",
+    "industry": "Financial Services",
+    "headcount": 135
+  },
+  {
+    "id": "co-0092",
+    "name": "Harbor Systems 092",
+    "industry": "Energy",
+    "headcount": 136
+  },
+  {
+    "id": "co-0093",
+    "name": "Pioneer Works 093",
+    "industry": "Manufacturing",
+    "headcount": 150
+  },
+  {
+    "id": "co-0094",
+    "name": "Brightline Systems 094",
+    "industry": "Healthcare",
+    "headcount": 121
+  },
+  {
+    "id": "co-0095",
+    "name": "Cobalt Labs 095",
+    "industry": "Professional Services",
+    "headcount": 118
+  },
+  {
+    "id": "co-0096",
+    "name": "Northstar Systems 096",
+    "industry": "Manufacturing",
+    "headcount": 153
+  },
+  {
+    "id": "co-0097",
+    "name": "Juniper Technologies 097",
+    "industry": "Energy",
+    "headcount": 140
+  },
+  {
+    "id": "co-0098",
+    "name": "Pioneer Technologies 098",
+    "industry": "Energy",
+    "headcount": 129
+  },
+  {
+    "id": "co-0099",
+    "name": "Summit Group 099",
+    "industry": "Logistics",
+    "headcount": 157
+  },
+  {
+    "id": "co-0100",
+    "name": "Summit Technologies 100",
+    "industry": "Logistics",
+    "headcount": 138
+  },
+  {
+    "id": "co-0101",
+    "name": "Redwood Collective 101",
+    "industry": "Media",
+    "headcount": 125
+  },
+  {
+    "id": "co-0102",
+    "name": "Brightline Technologies 102",
+    "industry": "Logistics",
+    "headcount": 130
+  },
+  {
+    "id": "co-0103",
+    "name": "Cobalt Works 103",
+    "industry": "Energy",
+    "headcount": 109
+  },
+  {
+    "id": "co-0104",
+    "name": "Harbor Collective 104",
+    "industry": "Energy",
+    "headcount": 104
+  },
+  {
+    "id": "co-0105",
+    "name": "Orbit Technologies 105",
+    "industry": "Manufacturing",
+    "headcount": 110
+  },
+  {
+    "id": "co-0106",
+    "name": "Cobalt Group 106",
+    "industry": "Media",
+    "headcount": 122
+  },
+  {
+    "id": "co-0107",
+    "name": "Harbor Systems 107",
+    "industry": "Telecommunications",
+    "headcount": 113
+  },
+  {
+    "id": "co-0108",
+    "name": "Lattice Labs 108",
+    "industry": "Healthcare",
+    "headcount": 152
+  },
+  {
+    "id": "co-0109",
+    "name": "Orbit Technologies 109",
+    "industry": "Telecommunications",
+    "headcount": 109
+  },
+  {
+    "id": "co-0110",
+    "name": "Northstar Systems 110",
+    "industry": "Energy",
+    "headcount": 101
+  },
+  {
+    "id": "co-0111",
+    "name": "Northstar Labs 111",
+    "industry": "Professional Services",
+    "headcount": 155
+  },
+  {
+    "id": "co-0112",
+    "name": "Cobalt Group 112",
+    "industry": "Manufacturing",
+    "headcount": 122
+  },
+  {
+    "id": "co-0113",
+    "name": "Brightline Systems 113",
+    "industry": "Professional Services",
+    "headcount": 119
+  },
+  {
+    "id": "co-0114",
+    "name": "Harbor Technologies 114",
+    "industry": "Media",
+    "headcount": 140
+  },
+  {
+    "id": "co-0115",
+    "name": "Orbit Group 115",
+    "industry": "Manufacturing",
+    "headcount": 126
+  },
+  {
+    "id": "co-0116",
+    "name": "Summit Works 116",
+    "industry": "Logistics",
+    "headcount": 142
+  },
+  {
+    "id": "co-0117",
+    "name": "Juniper Works 117",
+    "industry": "Media",
+    "headcount": 101
+  },
+  {
+    "id": "co-0118",
+    "name": "Summit Labs 118",
+    "industry": "Media",
+    "headcount": 109
+  },
+  {
+    "id": "co-0119",
+    "name": "Cobalt Systems 119",
+    "industry": "Software",
+    "headcount": 130
+  },
+  {
+    "id": "co-0120",
+    "name": "Redwood Works 120",
+    "industry": "Telecommunications",
+    "headcount": 151
+  },
+  {
+    "id": "co-0121",
+    "name": "Juniper Systems 121",
+    "industry": "Professional Services",
+    "headcount": 116
+  },
+  {
+    "id": "co-0122",
+    "name": "Orbit Works 122",
+    "industry": "Software",
+    "headcount": 104
+  },
+  {
+    "id": "co-0123",
+    "name": "Northstar Technologies 123",
+    "industry": "Manufacturing",
+    "headcount": 112
+  },
+  {
+    "id": "co-0124",
+    "name": "Lattice Works 124",
+    "industry": "Professional Services",
+    "headcount": 135
+  },
+  {
+    "id": "co-0125",
+    "name": "Redwood Works 125",
+    "industry": "Financial Services",
+    "headcount": 122
+  },
+  {
+    "id": "co-0126",
+    "name": "Cobalt Works 126",
+    "industry": "Logistics",
+    "headcount": 131
+  },
+  {
+    "id": "co-0127",
+    "name": "Redwood Group 127",
+    "industry": "Financial Services",
+    "headcount": 130
+  },
+  {
+    "id": "co-0128",
+    "name": "Northstar Technologies 128",
+    "industry": "Healthcare",
+    "headcount": 147
+  },
+  {
+    "id": "co-0129",
+    "name": "Summit Works 129",
+    "industry": "Manufacturing",
+    "headcount": 136
+  },
+  {
+    "id": "co-0130",
+    "name": "Redwood Systems 130",
+    "industry": "Retail",
+    "headcount": 116
+  },
+  {
+    "id": "co-0131",
+    "name": "Northstar Group 131",
+    "industry": "Energy",
+    "headcount": 154
+  },
+  {
+    "id": "co-0132",
+    "name": "Orbit Labs 132",
+    "industry": "Software",
+    "headcount": 151
+  },
+  {
+    "id": "co-0133",
+    "name": "Harbor Works 133",
+    "industry": "Healthcare",
+    "headcount": 115
+  },
+  {
+    "id": "co-0134",
+    "name": "Cobalt Technologies 134",
+    "industry": "Energy",
+    "headcount": 124
+  },
+  {
+    "id": "co-0135",
+    "name": "Lattice Collective 135",
+    "industry": "Professional Services",
+    "headcount": 152
+  },
+  {
+    "id": "co-0136",
+    "name": "Lattice Systems 136",
+    "industry": "Software",
+    "headcount": 150
+  },
+  {
+    "id": "co-0137",
+    "name": "Pioneer Systems 137",
+    "industry": "Professional Services",
+    "headcount": 113
+  },
+  {
+    "id": "co-0138",
+    "name": "Northstar Labs 138",
+    "industry": "Retail",
+    "headcount": 117
+  },
+  {
+    "id": "co-0139",
+    "name": "Juniper Collective 139",
+    "industry": "Retail",
+    "headcount": 127
+  },
+  {
+    "id": "co-0140",
+    "name": "Cobalt Group 140",
+    "industry": "Healthcare",
+    "headcount": 146
+  },
+  {
+    "id": "co-0141",
+    "name": "Redwood Technologies 141",
+    "industry": "Manufacturing",
+    "headcount": 100
+  },
+  {
+    "id": "co-0142",
+    "name": "Northstar Technologies 142",
+    "industry": "Retail",
+    "headcount": 115
+  },
+  {
+    "id": "co-0143",
+    "name": "Harbor Group 143",
+    "industry": "Professional Services",
+    "headcount": 121
+  },
+  {
+    "id": "co-0144",
+    "name": "Pioneer Collective 144",
+    "industry": "Telecommunications",
+    "headcount": 145
+  },
+  {
+    "id": "co-0145",
+    "name": "Harbor Technologies 145",
+    "industry": "Telecommunications",
+    "headcount": 122
+  },
+  {
+    "id": "co-0146",
+    "name": "Brightline Labs 146",
+    "industry": "Retail",
+    "headcount": 107
+  },
+  {
+    "id": "co-0147",
+    "name": "Pioneer Labs 147",
+    "industry": "Energy",
+    "headcount": 151
+  },
+  {
+    "id": "co-0148",
+    "name": "Lattice Group 148",
+    "industry": "Healthcare",
+    "headcount": 136
+  },
+  {
+    "id": "co-0149",
+    "name": "Pioneer Technologies 149",
+    "industry": "Retail",
+    "headcount": 137
+  },
+  {
+    "id": "co-0150",
+    "name": "Northstar Systems 150",
+    "industry": "Software",
+    "headcount": 135
+  },
+  {
+    "id": "co-0151",
+    "name": "Northstar Group 151",
+    "industry": "Telecommunications",
+    "headcount": 106
+  },
+  {
+    "id": "co-0152",
+    "name": "Redwood Group 152",
+    "industry": "Financial Services",
+    "headcount": 158
+  },
+  {
+    "id": "co-0153",
+    "name": "Lattice Group 153",
+    "industry": "Logistics",
+    "headcount": 107
+  },
+  {
+    "id": "co-0154",
+    "name": "Summit Works 154",
+    "industry": "Energy",
+    "headcount": 126
+  },
+  {
+    "id": "co-0155",
+    "name": "Northstar Group 155",
+    "industry": "Financial Services",
+    "headcount": 106
+  },
+  {
+    "id": "co-0156",
+    "name": "Lattice Group 156",
+    "industry": "Manufacturing",
+    "headcount": 121
+  },
+  {
+    "id": "co-0157",
+    "name": "Summit Collective 157",
+    "industry": "Energy",
+    "headcount": 148
+  },
+  {
+    "id": "co-0158",
+    "name": "Summit Labs 158",
+    "industry": "Software",
+    "headcount": 149
+  },
+  {
+    "id": "co-0159",
+    "name": "Lattice Group 159",
+    "industry": "Healthcare",
+    "headcount": 113
+  },
+  {
+    "id": "co-0160",
+    "name": "Redwood Group 160",
+    "industry": "Manufacturing",
+    "headcount": 153
+  },
+  {
+    "id": "co-0161",
+    "name": "Cobalt Works 161",
+    "industry": "Telecommunications",
+    "headcount": 159
+  },
+  {
+    "id": "co-0162",
+    "name": "Juniper Systems 162",
+    "industry": "Logistics",
+    "headcount": 127
+  },
+  {
+    "id": "co-0163",
+    "name": "Juniper Systems 163",
+    "industry": "Energy",
+    "headcount": 131
+  },
+  {
+    "id": "co-0164",
+    "name": "Pioneer Technologies 164",
+    "industry": "Healthcare",
+    "headcount": 145
+  },
+  {
+    "id": "co-0165",
+    "name": "Lattice Collective 165",
+    "industry": "Manufacturing",
+    "headcount": 131
+  },
+  {
+    "id": "co-0166",
+    "name": "Redwood Collective 166",
+    "industry": "Media",
+    "headcount": 158
+  },
+  {
+    "id": "co-0167",
+    "name": "Redwood Collective 167",
+    "industry": "Software",
+    "headcount": 131
+  },
+  {
+    "id": "co-0168",
+    "name": "Lattice Group 168",
+    "industry": "Software",
+    "headcount": 149
+  },
+  {
+    "id": "co-0169",
+    "name": "Lattice Group 169",
+    "industry": "Healthcare",
+    "headcount": 127
+  },
+  {
+    "id": "co-0170",
+    "name": "Pioneer Technologies 170",
+    "industry": "Financial Services",
+    "headcount": 131
+  },
+  {
+    "id": "co-0171",
+    "name": "Redwood Collective 171",
+    "industry": "Financial Services",
+    "headcount": 119
+  },
+  {
+    "id": "co-0172",
+    "name": "Summit Technologies 172",
+    "industry": "Media",
+    "headcount": 138
+  },
+  {
+    "id": "co-0173",
+    "name": "Harbor Labs 173",
+    "industry": "Logistics",
+    "headcount": 113
+  },
+  {
+    "id": "co-0174",
+    "name": "Harbor Works 174",
+    "industry": "Healthcare",
+    "headcount": 110
+  },
+  {
+    "id": "co-0175",
+    "name": "Orbit Labs 175",
+    "industry": "Media",
+    "headcount": 146
+  },
+  {
+    "id": "co-0176",
+    "name": "Northstar Labs 176",
+    "industry": "Energy",
+    "headcount": 122
+  },
+  {
+    "id": "co-0177",
+    "name": "Redwood Technologies 177",
+    "industry": "Media",
+    "headcount": 133
+  },
+  {
+    "id": "co-0178",
+    "name": "Orbit Group 178",
+    "industry": "Professional Services",
+    "headcount": 160
+  },
+  {
+    "id": "co-0179",
+    "name": "Lattice Group 179",
+    "industry": "Media",
+    "headcount": 117
+  },
+  {
+    "id": "co-0180",
+    "name": "Brightline Works 180",
+    "industry": "Healthcare",
+    "headcount": 101
+  },
+  {
+    "id": "co-0181",
+    "name": "Pioneer Group 181",
+    "industry": "Manufacturing",
+    "headcount": 140
+  },
+  {
+    "id": "co-0182",
+    "name": "Harbor Works 182",
+    "industry": "Manufacturing",
+    "headcount": 132
+  },
+  {
+    "id": "co-0183",
+    "name": "Orbit Systems 183",
+    "industry": "Professional Services",
+    "headcount": 131
+  },
+  {
+    "id": "co-0184",
+    "name": "Redwood Collective 184",
+    "industry": "Media",
+    "headcount": 137
+  },
+  {
+    "id": "co-0185",
+    "name": "Summit Systems 185",
+    "industry": "Professional Services",
+    "headcount": 125
+  },
+  {
+    "id": "co-0186",
+    "name": "Orbit Labs 186",
+    "industry": "Software",
+    "headcount": 146
+  },
+  {
+    "id": "co-0187",
+    "name": "Harbor Technologies 187",
+    "industry": "Telecommunications",
+    "headcount": 159
+  },
+  {
+    "id": "co-0188",
+    "name": "Lattice Labs 188",
+    "industry": "Manufacturing",
+    "headcount": 150
+  },
+  {
+    "id": "co-0189",
+    "name": "Northstar Technologies 189",
+    "industry": "Healthcare",
+    "headcount": 139
+  },
+  {
+    "id": "co-0190",
+    "name": "Cobalt Collective 190",
+    "industry": "Energy",
+    "headcount": 107
+  },
+  {
+    "id": "co-0191",
+    "name": "Redwood Technologies 191",
+    "industry": "Retail",
+    "headcount": 134
+  },
+  {
+    "id": "co-0192",
+    "name": "Harbor Works 192",
+    "industry": "Financial Services",
+    "headcount": 108
+  },
+  {
+    "id": "co-0193",
+    "name": "Brightline Technologies 193",
+    "industry": "Manufacturing",
+    "headcount": 123
+  },
+  {
+    "id": "co-0194",
+    "name": "Northstar Technologies 194",
+    "industry": "Media",
+    "headcount": 150
+  },
+  {
+    "id": "co-0195",
+    "name": "Lattice Labs 195",
+    "industry": "Logistics",
+    "headcount": 101
+  },
+  {
+    "id": "co-0196",
+    "name": "Redwood Collective 196",
+    "industry": "Media",
+    "headcount": 106
+  },
+  {
+    "id": "co-0197",
+    "name": "Pioneer Systems 197",
+    "industry": "Software",
+    "headcount": 152
+  },
+  {
+    "id": "co-0198",
+    "name": "Juniper Systems 198",
+    "industry": "Retail",
+    "headcount": 108
+  },
+  {
+    "id": "co-0199",
+    "name": "Redwood Collective 199",
+    "industry": "Retail",
+    "headcount": 160
+  },
+  {
+    "id": "co-0200",
+    "name": "Pioneer Systems 200",
+    "industry": "Telecommunications",
+    "headcount": 110
+  },
+  {
+    "id": "co-0201",
+    "name": "Brightline Collective 201",
+    "industry": "Healthcare",
+    "headcount": 101
+  },
+  {
+    "id": "co-0202",
+    "name": "Redwood Group 202",
+    "industry": "Energy",
+    "headcount": 150
+  },
+  {
+    "id": "co-0203",
+    "name": "Orbit Works 203",
+    "industry": "Professional Services",
+    "headcount": 160
+  },
+  {
+    "id": "co-0204",
+    "name": "Summit Works 204",
+    "industry": "Software",
+    "headcount": 141
+  },
+  {
+    "id": "co-0205",
+    "name": "Pioneer Collective 205",
+    "industry": "Telecommunications",
+    "headcount": 158
+  },
+  {
+    "id": "co-0206",
+    "name": "Pioneer Systems 206",
+    "industry": "Media",
+    "headcount": 108
+  },
+  {
+    "id": "co-0207",
+    "name": "Orbit Systems 207",
+    "industry": "Retail",
+    "headcount": 101
+  },
+  {
+    "id": "co-0208",
+    "name": "Lattice Technologies 208",
+    "industry": "Financial Services",
+    "headcount": 131
+  },
+  {
+    "id": "co-0209",
+    "name": "Cobalt Labs 209",
+    "industry": "Professional Services",
+    "headcount": 127
+  },
+  {
+    "id": "co-0210",
+    "name": "Pioneer Collective 210",
+    "industry": "Logistics",
+    "headcount": 158
+  },
+  {
+    "id": "co-0211",
+    "name": "Brightline Systems 211",
+    "industry": "Retail",
+    "headcount": 115
+  },
+  {
+    "id": "co-0212",
+    "name": "Redwood Technologies 212",
+    "industry": "Financial Services",
+    "headcount": 151
+  },
+  {
+    "id": "co-0213",
+    "name": "Pioneer Group 213",
+    "industry": "Logistics",
+    "headcount": 142
+  },
+  {
+    "id": "co-0214",
+    "name": "Orbit Technologies 214",
+    "industry": "Software",
+    "headcount": 147
+  },
+  {
+    "id": "co-0215",
+    "name": "Brightline Systems 215",
+    "industry": "Energy",
+    "headcount": 109
+  },
+  {
+    "id": "co-0216",
+    "name": "Northstar Technologies 216",
+    "industry": "Energy",
+    "headcount": 141
+  },
+  {
+    "id": "co-0217",
+    "name": "Brightline Systems 217",
+    "industry": "Retail",
+    "headcount": 118
+  },
+  {
+    "id": "co-0218",
+    "name": "Harbor Technologies 218",
+    "industry": "Retail",
+    "headcount": 139
+  },
+  {
+    "id": "co-0219",
+    "name": "Orbit Collective 219",
+    "industry": "Financial Services",
+    "headcount": 136
+  },
+  {
+    "id": "co-0220",
+    "name": "Cobalt Group 220",
+    "industry": "Logistics",
+    "headcount": 106
+  },
+  {
+    "id": "co-0221",
+    "name": "Juniper Works 221",
+    "industry": "Professional Services",
+    "headcount": 107
+  },
+  {
+    "id": "co-0222",
+    "name": "Summit Collective 222",
+    "industry": "Healthcare",
+    "headcount": 109
+  },
+  {
+    "id": "co-0223",
+    "name": "Redwood Technologies 223",
+    "industry": "Logistics",
+    "headcount": 158
+  },
+  {
+    "id": "co-0224",
+    "name": "Summit Collective 224",
+    "industry": "Manufacturing",
+    "headcount": 124
+  },
+  {
+    "id": "co-0225",
+    "name": "Summit Labs 225",
+    "industry": "Financial Services",
+    "headcount": 156
+  },
+  {
+    "id": "co-0226",
+    "name": "Summit Labs 226",
+    "industry": "Telecommunications",
+    "headcount": 151
+  },
+  {
+    "id": "co-0227",
+    "name": "Orbit Labs 227",
+    "industry": "Healthcare",
+    "headcount": 149
+  },
+  {
+    "id": "co-0228",
+    "name": "Pioneer Collective 228",
+    "industry": "Software",
+    "headcount": 118
+  },
+  {
+    "id": "co-0229",
+    "name": "Summit Systems 229",
+    "industry": "Professional Services",
+    "headcount": 115
+  },
+  {
+    "id": "co-0230",
+    "name": "Orbit Labs 230",
+    "industry": "Healthcare",
+    "headcount": 160
+  },
+  {
+    "id": "co-0231",
+    "name": "Pioneer Technologies 231",
+    "industry": "Logistics",
+    "headcount": 160
+  },
+  {
+    "id": "co-0232",
+    "name": "Brightline Systems 232",
+    "industry": "Professional Services",
+    "headcount": 106
+  },
+  {
+    "id": "co-0233",
+    "name": "Orbit Labs 233",
+    "industry": "Manufacturing",
+    "headcount": 149
+  },
+  {
+    "id": "co-0234",
+    "name": "Orbit Technologies 234",
+    "industry": "Retail",
+    "headcount": 140
+  },
+  {
+    "id": "co-0235",
+    "name": "Pioneer Collective 235",
+    "industry": "Logistics",
+    "headcount": 118
+  },
+  {
+    "id": "co-0236",
+    "name": "Lattice Group 236",
+    "industry": "Software",
+    "headcount": 135
+  },
+  {
+    "id": "co-0237",
+    "name": "Pioneer Labs 237",
+    "industry": "Software",
+    "headcount": 135
+  },
+  {
+    "id": "co-0238",
+    "name": "Harbor Group 238",
+    "industry": "Telecommunications",
+    "headcount": 133
+  },
+  {
+    "id": "co-0239",
+    "name": "Lattice Group 239",
+    "industry": "Logistics",
+    "headcount": 147
+  },
+  {
+    "id": "co-0240",
+    "name": "Lattice Group 240",
+    "industry": "Healthcare",
+    "headcount": 115
+  },
+  {
+    "id": "co-0241",
+    "name": "Pioneer Systems 241",
+    "industry": "Logistics",
+    "headcount": 157
+  },
+  {
+    "id": "co-0242",
+    "name": "Lattice Collective 242",
+    "industry": "Energy",
+    "headcount": 131
+  },
+  {
+    "id": "co-0243",
+    "name": "Pioneer Systems 243",
+    "industry": "Logistics",
+    "headcount": 101
+  },
+  {
+    "id": "co-0244",
+    "name": "Cobalt Works 244",
+    "industry": "Software",
+    "headcount": 122
+  },
+  {
+    "id": "co-0245",
+    "name": "Pioneer Labs 245",
+    "industry": "Logistics",
+    "headcount": 153
+  },
+  {
+    "id": "co-0246",
+    "name": "Summit Collective 246",
+    "industry": "Professional Services",
+    "headcount": 110
+  },
+  {
+    "id": "co-0247",
+    "name": "Redwood Collective 247",
+    "industry": "Software",
+    "headcount": 110
+  },
+  {
+    "id": "co-0248",
+    "name": "Brightline Systems 248",
+    "industry": "Professional Services",
+    "headcount": 143
+  },
+  {
+    "id": "co-0249",
+    "name": "Brightline Technologies 249",
+    "industry": "Manufacturing",
+    "headcount": 119
+  },
+  {
+    "id": "co-0250",
+    "name": "Redwood Labs 250",
+    "industry": "Healthcare",
+    "headcount": 108
+  },
+  {
+    "id": "co-0251",
+    "name": "Summit Technologies 251",
+    "industry": "Telecommunications",
+    "headcount": 111
+  },
+  {
+    "id": "co-0252",
+    "name": "Northstar Works 252",
+    "industry": "Telecommunications",
+    "headcount": 141
+  },
+  {
+    "id": "co-0253",
+    "name": "Brightline Collective 253",
+    "industry": "Software",
+    "headcount": 115
+  },
+  {
+    "id": "co-0254",
+    "name": "Juniper Labs 254",
+    "industry": "Manufacturing",
+    "headcount": 124
+  },
+  {
+    "id": "co-0255",
+    "name": "Juniper Labs 255",
+    "industry": "Software",
+    "headcount": 159
+  },
+  {
+    "id": "co-0256",
+    "name": "Orbit Systems 256",
+    "industry": "Software",
+    "headcount": 130
+  },
+  {
+    "id": "co-0257",
+    "name": "Pioneer Technologies 257",
+    "industry": "Financial Services",
+    "headcount": 142
+  },
+  {
+    "id": "co-0258",
+    "name": "Orbit Labs 258",
+    "industry": "Manufacturing",
+    "headcount": 143
+  },
+  {
+    "id": "co-0259",
+    "name": "Pioneer Labs 259",
+    "industry": "Energy",
+    "headcount": 129
+  },
+  {
+    "id": "co-0260",
+    "name": "Northstar Labs 260",
+    "industry": "Telecommunications",
+    "headcount": 142
+  },
+  {
+    "id": "co-0261",
+    "name": "Northstar Labs 261",
+    "industry": "Retail",
+    "headcount": 143
+  },
+  {
+    "id": "co-0262",
+    "name": "Lattice Group 262",
+    "industry": "Financial Services",
+    "headcount": 130
+  },
+  {
+    "id": "co-0263",
+    "name": "Harbor Systems 263",
+    "industry": "Energy",
+    "headcount": 139
+  },
+  {
+    "id": "co-0264",
+    "name": "Harbor Group 264",
+    "industry": "Retail",
+    "headcount": 154
+  },
+  {
+    "id": "co-0265",
+    "name": "Lattice Works 265",
+    "industry": "Manufacturing",
+    "headcount": 132
+  },
+  {
+    "id": "co-0266",
+    "name": "Juniper Group 266",
+    "industry": "Software",
+    "headcount": 109
+  },
+  {
+    "id": "co-0267",
+    "name": "Summit Collective 267",
+    "industry": "Energy",
+    "headcount": 115
+  },
+  {
+    "id": "co-0268",
+    "name": "Juniper Labs 268",
+    "industry": "Financial Services",
+    "headcount": 109
+  },
+  {
+    "id": "co-0269",
+    "name": "Brightline Group 269",
+    "industry": "Telecommunications",
+    "headcount": 106
+  },
+  {
+    "id": "co-0270",
+    "name": "Northstar Group 270",
+    "industry": "Logistics",
+    "headcount": 147
+  },
+  {
+    "id": "co-0271",
+    "name": "Lattice Labs 271",
+    "industry": "Manufacturing",
+    "headcount": 137
+  },
+  {
+    "id": "co-0272",
+    "name": "Juniper Labs 272",
+    "industry": "Media",
+    "headcount": 119
+  },
+  {
+    "id": "co-0273",
+    "name": "Northstar Labs 273",
+    "industry": "Media",
+    "headcount": 109
+  },
+  {
+    "id": "co-0274",
+    "name": "Pioneer Labs 274",
+    "industry": "Software",
+    "headcount": 126
+  },
+  {
+    "id": "co-0275",
+    "name": "Orbit Works 275",
+    "industry": "Financial Services",
+    "headcount": 136
+  },
+  {
+    "id": "co-0276",
+    "name": "Brightline Works 276",
+    "industry": "Energy",
+    "headcount": 127
+  },
+  {
+    "id": "co-0277",
+    "name": "Summit Works 277",
+    "industry": "Manufacturing",
+    "headcount": 135
+  },
+  {
+    "id": "co-0278",
+    "name": "Juniper Works 278",
+    "industry": "Healthcare",
+    "headcount": 143
+  },
+  {
+    "id": "co-0279",
+    "name": "Cobalt Collective 279",
+    "industry": "Retail",
+    "headcount": 105
+  },
+  {
+    "id": "co-0280",
+    "name": "Lattice Collective 280",
+    "industry": "Media",
+    "headcount": 120
+  },
+  {
+    "id": "co-0281",
+    "name": "Brightline Technologies 281",
+    "industry": "Manufacturing",
+    "headcount": 107
+  },
+  {
+    "id": "co-0282",
+    "name": "Lattice Group 282",
+    "industry": "Logistics",
+    "headcount": 147
+  },
+  {
+    "id": "co-0283",
+    "name": "Pioneer Technologies 283",
+    "industry": "Professional Services",
+    "headcount": 134
+  },
+  {
+    "id": "co-0284",
+    "name": "Harbor Labs 284",
+    "industry": "Energy",
+    "headcount": 133
+  },
+  {
+    "id": "co-0285",
+    "name": "Lattice Technologies 285",
+    "industry": "Manufacturing",
+    "headcount": 125
+  },
+  {
+    "id": "co-0286",
+    "name": "Summit Collective 286",
+    "industry": "Energy",
+    "headcount": 106
+  },
+  {
+    "id": "co-0287",
+    "name": "Redwood Works 287",
+    "industry": "Manufacturing",
+    "headcount": 143
+  },
+  {
+    "id": "co-0288",
+    "name": "Summit Systems 288",
+    "industry": "Telecommunications",
+    "headcount": 139
+  },
+  {
+    "id": "co-0289",
+    "name": "Orbit Technologies 289",
+    "industry": "Software",
+    "headcount": 142
+  },
+  {
+    "id": "co-0290",
+    "name": "Harbor Works 290",
+    "industry": "Telecommunications",
+    "headcount": 149
+  },
+  {
+    "id": "co-0291",
+    "name": "Northstar Labs 291",
+    "industry": "Media",
+    "headcount": 106
+  },
+  {
+    "id": "co-0292",
+    "name": "Cobalt Collective 292",
+    "industry": "Healthcare",
+    "headcount": 126
+  },
+  {
+    "id": "co-0293",
+    "name": "Pioneer Systems 293",
+    "industry": "Logistics",
+    "headcount": 154
+  },
+  {
+    "id": "co-0294",
+    "name": "Harbor Group 294",
+    "industry": "Energy",
+    "headcount": 141
+  },
+  {
+    "id": "co-0295",
+    "name": "Northstar Technologies 295",
+    "industry": "Telecommunications",
+    "headcount": 126
+  },
+  {
+    "id": "co-0296",
+    "name": "Lattice Systems 296",
+    "industry": "Professional Services",
+    "headcount": 108
+  },
+  {
+    "id": "co-0297",
+    "name": "Orbit Works 297",
+    "industry": "Media",
+    "headcount": 120
+  },
+  {
+    "id": "co-0298",
+    "name": "Cobalt Systems 298",
+    "industry": "Media",
+    "headcount": 125
+  },
+  {
+    "id": "co-0299",
+    "name": "Redwood Labs 299",
+    "industry": "Retail",
+    "headcount": 157
+  },
+  {
+    "id": "co-0300",
+    "name": "Redwood Systems 300",
+    "industry": "Logistics",
+    "headcount": 149
+  },
+  {
+    "id": "co-0301",
+    "name": "Juniper Labs 301",
+    "industry": "Manufacturing",
+    "headcount": 118
+  },
+  {
+    "id": "co-0302",
+    "name": "Lattice Works 302",
+    "industry": "Financial Services",
+    "headcount": 116
+  },
+  {
+    "id": "co-0303",
+    "name": "Orbit Collective 303",
+    "industry": "Media",
+    "headcount": 128
+  },
+  {
+    "id": "co-0304",
+    "name": "Cobalt Systems 304",
+    "industry": "Financial Services",
+    "headcount": 143
+  },
+  {
+    "id": "co-0305",
+    "name": "Northstar Collective 305",
+    "industry": "Telecommunications",
+    "headcount": 136
+  },
+  {
+    "id": "co-0306",
+    "name": "Redwood Group 306",
+    "industry": "Media",
+    "headcount": 153
+  },
+  {
+    "id": "co-0307",
+    "name": "Pioneer Technologies 307",
+    "industry": "Professional Services",
+    "headcount": 150
+  },
+  {
+    "id": "co-0308",
+    "name": "Redwood Works 308",
+    "industry": "Energy",
+    "headcount": 147
+  },
+  {
+    "id": "co-0309",
+    "name": "Lattice Collective 309",
+    "industry": "Software",
+    "headcount": 149
+  },
+  {
+    "id": "co-0310",
+    "name": "Redwood Works 310",
+    "industry": "Manufacturing",
+    "headcount": 159
+  },
+  {
+    "id": "co-0311",
+    "name": "Northstar Labs 311",
+    "industry": "Software",
+    "headcount": 134
+  },
+  {
+    "id": "co-0312",
+    "name": "Harbor Technologies 312",
+    "industry": "Financial Services",
+    "headcount": 107
+  },
+  {
+    "id": "co-0313",
+    "name": "Harbor Group 313",
+    "industry": "Healthcare",
+    "headcount": 127
+  },
+  {
+    "id": "co-0314",
+    "name": "Brightline Systems 314",
+    "industry": "Professional Services",
+    "headcount": 152
+  },
+  {
+    "id": "co-0315",
+    "name": "Orbit Technologies 315",
+    "industry": "Professional Services",
+    "headcount": 122
+  },
+  {
+    "id": "co-0316",
+    "name": "Cobalt Group 316",
+    "industry": "Financial Services",
+    "headcount": 130
+  },
+  {
+    "id": "co-0317",
+    "name": "Lattice Systems 317",
+    "industry": "Healthcare",
+    "headcount": 132
+  },
+  {
+    "id": "co-0318",
+    "name": "Brightline Works 318",
+    "industry": "Financial Services",
+    "headcount": 150
+  },
+  {
+    "id": "co-0319",
+    "name": "Harbor Works 319",
+    "industry": "Media",
+    "headcount": 104
+  },
+  {
+    "id": "co-0320",
+    "name": "Summit Technologies 320",
+    "industry": "Healthcare",
+    "headcount": 108
+  },
+  {
+    "id": "co-0321",
+    "name": "Brightline Group 321",
+    "industry": "Logistics",
+    "headcount": 121
+  },
+  {
+    "id": "co-0322",
+    "name": "Summit Group 322",
+    "industry": "Logistics",
+    "headcount": 122
+  },
+  {
+    "id": "co-0323",
+    "name": "Juniper Works 323",
+    "industry": "Professional Services",
+    "headcount": 149
+  },
+  {
+    "id": "co-0324",
+    "name": "Orbit Works 324",
+    "industry": "Manufacturing",
+    "headcount": 159
+  },
+  {
+    "id": "co-0325",
+    "name": "Brightline Group 325",
+    "industry": "Logistics",
+    "headcount": 160
+  },
+  {
+    "id": "co-0326",
+    "name": "Juniper Group 326",
+    "industry": "Telecommunications",
+    "headcount": 156
+  },
+  {
+    "id": "co-0327",
+    "name": "Pioneer Technologies 327",
+    "industry": "Software",
+    "headcount": 130
+  },
+  {
+    "id": "co-0328",
+    "name": "Lattice Collective 328",
+    "industry": "Manufacturing",
+    "headcount": 137
+  },
+  {
+    "id": "co-0329",
+    "name": "Cobalt Works 329",
+    "industry": "Healthcare",
+    "headcount": 106
+  },
+  {
+    "id": "co-0330",
+    "name": "Juniper Systems 330",
+    "industry": "Manufacturing",
+    "headcount": 119
+  },
+  {
+    "id": "co-0331",
+    "name": "Orbit Group 331",
+    "industry": "Financial Services",
+    "headcount": 111
+  },
+  {
+    "id": "co-0332",
+    "name": "Redwood Group 332",
+    "industry": "Media",
+    "headcount": 138
+  },
+  {
+    "id": "co-0333",
+    "name": "Northstar Collective 333",
+    "industry": "Logistics",
+    "headcount": 143
+  },
+  {
+    "id": "co-0334",
+    "name": "Northstar Works 334",
+    "industry": "Logistics",
+    "headcount": 132
+  },
+  {
+    "id": "co-0335",
+    "name": "Juniper Systems 335",
+    "industry": "Manufacturing",
+    "headcount": 142
+  },
+  {
+    "id": "co-0336",
+    "name": "Cobalt Collective 336",
+    "industry": "Logistics",
+    "headcount": 151
+  },
+  {
+    "id": "co-0337",
+    "name": "Cobalt Labs 337",
+    "industry": "Logistics",
+    "headcount": 142
+  },
+  {
+    "id": "co-0338",
+    "name": "Redwood Labs 338",
+    "industry": "Software",
+    "headcount": 152
+  },
+  {
+    "id": "co-0339",
+    "name": "Cobalt Collective 339",
+    "industry": "Telecommunications",
+    "headcount": 124
+  },
+  {
+    "id": "co-0340",
+    "name": "Summit Systems 340",
+    "industry": "Professional Services",
+    "headcount": 154
+  },
+  {
+    "id": "co-0341",
+    "name": "Lattice Technologies 341",
+    "industry": "Financial Services",
+    "headcount": 157
+  },
+  {
+    "id": "co-0342",
+    "name": "Summit Systems 342",
+    "industry": "Software",
+    "headcount": 131
+  },
+  {
+    "id": "co-0343",
+    "name": "Lattice Labs 343",
+    "industry": "Professional Services",
+    "headcount": 160
+  },
+  {
+    "id": "co-0344",
+    "name": "Orbit Group 344",
+    "industry": "Telecommunications",
+    "headcount": 145
+  },
+  {
+    "id": "co-0345",
+    "name": "Harbor Labs 345",
+    "industry": "Healthcare",
+    "headcount": 116
+  },
+  {
+    "id": "co-0346",
+    "name": "Orbit Systems 346",
+    "industry": "Media",
+    "headcount": 121
+  },
+  {
+    "id": "co-0347",
+    "name": "Juniper Technologies 347",
+    "industry": "Telecommunications",
+    "headcount": 156
+  },
+  {
+    "id": "co-0348",
+    "name": "Lattice Technologies 348",
+    "industry": "Software",
+    "headcount": 110
+  },
+  {
+    "id": "co-0349",
+    "name": "Cobalt Technologies 349",
+    "industry": "Telecommunications",
+    "headcount": 153
+  },
+  {
+    "id": "co-0350",
+    "name": "Lattice Group 350",
+    "industry": "Manufacturing",
+    "headcount": 149
+  },
+  {
+    "id": "co-0351",
+    "name": "Juniper Systems 351",
+    "industry": "Healthcare",
+    "headcount": 114
+  },
+  {
+    "id": "co-0352",
+    "name": "Harbor Labs 352",
+    "industry": "Retail",
+    "headcount": 148
+  },
+  {
+    "id": "co-0353",
+    "name": "Orbit Collective 353",
+    "industry": "Software",
+    "headcount": 115
+  },
+  {
+    "id": "co-0354",
+    "name": "Orbit Group 354",
+    "industry": "Software",
+    "headcount": 124
+  },
+  {
+    "id": "co-0355",
+    "name": "Juniper Technologies 355",
+    "industry": "Energy",
+    "headcount": 159
+  },
+  {
+    "id": "co-0356",
+    "name": "Cobalt Labs 356",
+    "industry": "Professional Services",
+    "headcount": 121
+  },
+  {
+    "id": "co-0357",
+    "name": "Redwood Works 357",
+    "industry": "Telecommunications",
+    "headcount": 110
+  },
+  {
+    "id": "co-0358",
+    "name": "Redwood Works 358",
+    "industry": "Manufacturing",
+    "headcount": 158
+  },
+  {
+    "id": "co-0359",
+    "name": "Orbit Technologies 359",
+    "industry": "Software",
+    "headcount": 110
+  },
+  {
+    "id": "co-0360",
+    "name": "Pioneer Systems 360",
+    "industry": "Manufacturing",
+    "headcount": 103
+  },
+  {
+    "id": "co-0361",
+    "name": "Orbit Group 361",
+    "industry": "Telecommunications",
+    "headcount": 156
+  },
+  {
+    "id": "co-0362",
+    "name": "Lattice Collective 362",
+    "industry": "Telecommunications",
+    "headcount": 144
+  },
+  {
+    "id": "co-0363",
+    "name": "Northstar Technologies 363",
+    "industry": "Software",
+    "headcount": 145
+  },
+  {
+    "id": "co-0364",
+    "name": "Pioneer Systems 364",
+    "industry": "Professional Services",
+    "headcount": 128
+  },
+  {
+    "id": "co-0365",
+    "name": "Northstar Systems 365",
+    "industry": "Manufacturing",
+    "headcount": 122
+  },
+  {
+    "id": "co-0366",
+    "name": "Brightline Works 366",
+    "industry": "Telecommunications",
+    "headcount": 150
+  },
+  {
+    "id": "co-0367",
+    "name": "Pioneer Technologies 367",
+    "industry": "Professional Services",
+    "headcount": 126
+  },
+  {
+    "id": "co-0368",
+    "name": "Redwood Technologies 368",
+    "industry": "Media",
+    "headcount": 115
+  },
+  {
+    "id": "co-0369",
+    "name": "Pioneer Labs 369",
+    "industry": "Software",
+    "headcount": 156
+  },
+  {
+    "id": "co-0370",
+    "name": "Orbit Technologies 370",
+    "industry": "Software",
+    "headcount": 107
+  },
+  {
+    "id": "co-0371",
+    "name": "Cobalt Technologies 371",
+    "industry": "Media",
+    "headcount": 125
+  },
+  {
+    "id": "co-0372",
+    "name": "Lattice Systems 372",
+    "industry": "Professional Services",
+    "headcount": 118
+  },
+  {
+    "id": "co-0373",
+    "name": "Orbit Labs 373",
+    "industry": "Retail",
+    "headcount": 136
+  },
+  {
+    "id": "co-0374",
+    "name": "Pioneer Labs 374",
+    "industry": "Logistics",
+    "headcount": 106
+  },
+  {
+    "id": "co-0375",
+    "name": "Lattice Systems 375",
+    "industry": "Telecommunications",
+    "headcount": 147
+  },
+  {
+    "id": "co-0376",
+    "name": "Orbit Technologies 376",
+    "industry": "Financial Services",
+    "headcount": 116
+  },
+  {
+    "id": "co-0377",
+    "name": "Pioneer Systems 377",
+    "industry": "Manufacturing",
+    "headcount": 134
+  },
+  {
+    "id": "co-0378",
+    "name": "Juniper Labs 378",
+    "industry": "Financial Services",
+    "headcount": 160
+  },
+  {
+    "id": "co-0379",
+    "name": "Lattice Works 379",
+    "industry": "Telecommunications",
+    "headcount": 116
+  },
+  {
+    "id": "co-0380",
+    "name": "Orbit Technologies 380",
+    "industry": "Software",
+    "headcount": 129
+  },
+  {
+    "id": "co-0381",
+    "name": "Summit Technologies 381",
+    "industry": "Financial Services",
+    "headcount": 117
+  },
+  {
+    "id": "co-0382",
+    "name": "Pioneer Technologies 382",
+    "industry": "Professional Services",
+    "headcount": 159
+  },
+  {
+    "id": "co-0383",
+    "name": "Northstar Group 383",
+    "industry": "Retail",
+    "headcount": 148
+  },
+  {
+    "id": "co-0384",
+    "name": "Northstar Collective 384",
+    "industry": "Professional Services",
+    "headcount": 135
+  },
+  {
+    "id": "co-0385",
+    "name": "Lattice Labs 385",
+    "industry": "Professional Services",
+    "headcount": 141
+  },
+  {
+    "id": "co-0386",
+    "name": "Redwood Collective 386",
+    "industry": "Software",
+    "headcount": 106
+  },
+  {
+    "id": "co-0387",
+    "name": "Lattice Works 387",
+    "industry": "Energy",
+    "headcount": 120
+  },
+  {
+    "id": "co-0388",
+    "name": "Redwood Collective 388",
+    "industry": "Telecommunications",
+    "headcount": 109
+  },
+  {
+    "id": "co-0389",
+    "name": "Harbor Works 389",
+    "industry": "Retail",
+    "headcount": 127
+  },
+  {
+    "id": "co-0390",
+    "name": "Summit Collective 390",
+    "industry": "Retail",
+    "headcount": 144
+  },
+  {
+    "id": "co-0391",
+    "name": "Summit Collective 391",
+    "industry": "Healthcare",
+    "headcount": 138
+  },
+  {
+    "id": "co-0392",
+    "name": "Harbor Group 392",
+    "industry": "Media",
+    "headcount": 123
+  },
+  {
+    "id": "co-0393",
+    "name": "Harbor Works 393",
+    "industry": "Logistics",
+    "headcount": 140
+  },
+  {
+    "id": "co-0394",
+    "name": "Northstar Labs 394",
+    "industry": "Energy",
+    "headcount": 156
+  },
+  {
+    "id": "co-0395",
+    "name": "Juniper Collective 395",
+    "industry": "Media",
+    "headcount": 160
+  },
+  {
+    "id": "co-0396",
+    "name": "Orbit Group 396",
+    "industry": "Media",
+    "headcount": 131
+  },
+  {
+    "id": "co-0397",
+    "name": "Northstar Labs 397",
+    "industry": "Telecommunications",
+    "headcount": 100
+  },
+  {
+    "id": "co-0398",
+    "name": "Harbor Collective 398",
+    "industry": "Financial Services",
+    "headcount": 150
+  },
+  {
+    "id": "co-0399",
+    "name": "Pioneer Technologies 399",
+    "industry": "Software",
+    "headcount": 133
+  },
+  {
+    "id": "co-0400",
+    "name": "Cobalt Works 400",
+    "industry": "Software",
+    "headcount": 159
+  },
+  {
+    "id": "co-0401",
+    "name": "Orbit Systems 401",
+    "industry": "Professional Services",
+    "headcount": 100
+  },
+  {
+    "id": "co-0402",
+    "name": "Northstar Group 402",
+    "industry": "Manufacturing",
+    "headcount": 137
+  },
+  {
+    "id": "co-0403",
+    "name": "Brightline Group 403",
+    "industry": "Media",
+    "headcount": 117
+  },
+  {
+    "id": "co-0404",
+    "name": "Orbit Group 404",
+    "industry": "Telecommunications",
+    "headcount": 159
+  },
+  {
+    "id": "co-0405",
+    "name": "Lattice Systems 405",
+    "industry": "Telecommunications",
+    "headcount": 156
+  },
+  {
+    "id": "co-0406",
+    "name": "Juniper Group 406",
+    "industry": "Media",
+    "headcount": 135
+  },
+  {
+    "id": "co-0407",
+    "name": "Juniper Labs 407",
+    "industry": "Energy",
+    "headcount": 119
+  },
+  {
+    "id": "co-0408",
+    "name": "Orbit Technologies 408",
+    "industry": "Telecommunications",
+    "headcount": 121
+  },
+  {
+    "id": "co-0409",
+    "name": "Northstar Collective 409",
+    "industry": "Telecommunications",
+    "headcount": 147
+  },
+  {
+    "id": "co-0410",
+    "name": "Brightline Technologies 410",
+    "industry": "Energy",
+    "headcount": 114
+  },
+  {
+    "id": "co-0411",
+    "name": "Cobalt Group 411",
+    "industry": "Retail",
+    "headcount": 107
+  },
+  {
+    "id": "co-0412",
+    "name": "Harbor Works 412",
+    "industry": "Retail",
+    "headcount": 107
+  },
+  {
+    "id": "co-0413",
+    "name": "Cobalt Works 413",
+    "industry": "Energy",
+    "headcount": 122
+  },
+  {
+    "id": "co-0414",
+    "name": "Lattice Works 414",
+    "industry": "Healthcare",
+    "headcount": 126
+  },
+  {
+    "id": "co-0415",
+    "name": "Brightline Group 415",
+    "industry": "Energy",
+    "headcount": 145
+  },
+  {
+    "id": "co-0416",
+    "name": "Juniper Systems 416",
+    "industry": "Professional Services",
+    "headcount": 114
+  },
+  {
+    "id": "co-0417",
+    "name": "Summit Collective 417",
+    "industry": "Telecommunications",
+    "headcount": 110
+  },
+  {
+    "id": "co-0418",
+    "name": "Juniper Works 418",
+    "industry": "Financial Services",
+    "headcount": 154
+  },
+  {
+    "id": "co-0419",
+    "name": "Pioneer Technologies 419",
+    "industry": "Healthcare",
+    "headcount": 123
+  },
+  {
+    "id": "co-0420",
+    "name": "Redwood Collective 420",
+    "industry": "Software",
+    "headcount": 145
+  },
+  {
+    "id": "co-0421",
+    "name": "Redwood Collective 421",
+    "industry": "Financial Services",
+    "headcount": 114
+  },
+  {
+    "id": "co-0422",
+    "name": "Lattice Technologies 422",
+    "industry": "Telecommunications",
+    "headcount": 119
+  },
+  {
+    "id": "co-0423",
+    "name": "Orbit Works 423",
+    "industry": "Media",
+    "headcount": 104
+  },
+  {
+    "id": "co-0424",
+    "name": "Juniper Works 424",
+    "industry": "Software",
+    "headcount": 115
+  },
+  {
+    "id": "co-0425",
+    "name": "Pioneer Group 425",
+    "industry": "Healthcare",
+    "headcount": 131
+  },
+  {
+    "id": "co-0426",
+    "name": "Harbor Group 426",
+    "industry": "Telecommunications",
+    "headcount": 101
+  },
+  {
+    "id": "co-0427",
+    "name": "Brightline Technologies 427",
+    "industry": "Logistics",
+    "headcount": 123
+  },
+  {
+    "id": "co-0428",
+    "name": "Northstar Systems 428",
+    "industry": "Manufacturing",
+    "headcount": 104
+  },
+  {
+    "id": "co-0429",
+    "name": "Lattice Technologies 429",
+    "industry": "Energy",
+    "headcount": 115
+  },
+  {
+    "id": "co-0430",
+    "name": "Brightline Works 430",
+    "industry": "Logistics",
+    "headcount": 141
+  },
+  {
+    "id": "co-0431",
+    "name": "Summit Collective 431",
+    "industry": "Retail",
+    "headcount": 139
+  },
+  {
+    "id": "co-0432",
+    "name": "Orbit Technologies 432",
+    "industry": "Professional Services",
+    "headcount": 153
+  },
+  {
+    "id": "co-0433",
+    "name": "Redwood Labs 433",
+    "industry": "Media",
+    "headcount": 151
+  },
+  {
+    "id": "co-0434",
+    "name": "Northstar Works 434",
+    "industry": "Energy",
+    "headcount": 117
+  },
+  {
+    "id": "co-0435",
+    "name": "Pioneer Collective 435",
+    "industry": "Energy",
+    "headcount": 158
+  },
+  {
+    "id": "co-0436",
+    "name": "Redwood Works 436",
+    "industry": "Financial Services",
+    "headcount": 133
+  },
+  {
+    "id": "co-0437",
+    "name": "Lattice Labs 437",
+    "industry": "Professional Services",
+    "headcount": 110
+  },
+  {
+    "id": "co-0438",
+    "name": "Northstar Labs 438",
+    "industry": "Financial Services",
+    "headcount": 156
+  },
+  {
+    "id": "co-0439",
+    "name": "Redwood Group 439",
+    "industry": "Financial Services",
+    "headcount": 103
+  },
+  {
+    "id": "co-0440",
+    "name": "Summit Group 440",
+    "industry": "Retail",
+    "headcount": 133
+  },
+  {
+    "id": "co-0441",
+    "name": "Northstar Systems 441",
+    "industry": "Retail",
+    "headcount": 148
+  },
+  {
+    "id": "co-0442",
+    "name": "Pioneer Works 442",
+    "industry": "Financial Services",
+    "headcount": 102
+  },
+  {
+    "id": "co-0443",
+    "name": "Juniper Collective 443",
+    "industry": "Logistics",
+    "headcount": 117
+  },
+  {
+    "id": "co-0444",
+    "name": "Redwood Collective 444",
+    "industry": "Manufacturing",
+    "headcount": 138
+  },
+  {
+    "id": "co-0445",
+    "name": "Brightline Technologies 445",
+    "industry": "Professional Services",
+    "headcount": 149
+  },
+  {
+    "id": "co-0446",
+    "name": "Juniper Works 446",
+    "industry": "Software",
+    "headcount": 113
+  },
+  {
+    "id": "co-0447",
+    "name": "Redwood Systems 447",
+    "industry": "Logistics",
+    "headcount": 128
+  },
+  {
+    "id": "co-0448",
+    "name": "Orbit Labs 448",
+    "industry": "Healthcare",
+    "headcount": 160
+  },
+  {
+    "id": "co-0449",
+    "name": "Harbor Works 449",
+    "industry": "Software",
+    "headcount": 111
+  },
+  {
+    "id": "co-0450",
+    "name": "Brightline Group 450",
+    "industry": "Healthcare",
+    "headcount": 118
+  },
+  {
+    "id": "co-0451",
+    "name": "Pioneer Technologies 451",
+    "industry": "Professional Services",
+    "headcount": 119
+  },
+  {
+    "id": "co-0452",
+    "name": "Cobalt Collective 452",
+    "industry": "Telecommunications",
+    "headcount": 160
+  },
+  {
+    "id": "co-0453",
+    "name": "Pioneer Labs 453",
+    "industry": "Healthcare",
+    "headcount": 103
+  },
+  {
+    "id": "co-0454",
+    "name": "Lattice Group 454",
+    "industry": "Software",
+    "headcount": 152
+  },
+  {
+    "id": "co-0455",
+    "name": "Cobalt Technologies 455",
+    "industry": "Energy",
+    "headcount": 132
+  },
+  {
+    "id": "co-0456",
+    "name": "Northstar Collective 456",
+    "industry": "Energy",
+    "headcount": 147
+  },
+  {
+    "id": "co-0457",
+    "name": "Orbit Works 457",
+    "industry": "Software",
+    "headcount": 138
+  },
+  {
+    "id": "co-0458",
+    "name": "Harbor Labs 458",
+    "industry": "Software",
+    "headcount": 106
+  },
+  {
+    "id": "co-0459",
+    "name": "Pioneer Technologies 459",
+    "industry": "Professional Services",
+    "headcount": 138
+  },
+  {
+    "id": "co-0460",
+    "name": "Pioneer Works 460",
+    "industry": "Professional Services",
+    "headcount": 142
+  },
+  {
+    "id": "co-0461",
+    "name": "Harbor Systems 461",
+    "industry": "Retail",
+    "headcount": 128
+  },
+  {
+    "id": "co-0462",
+    "name": "Brightline Group 462",
+    "industry": "Logistics",
+    "headcount": 150
+  },
+  {
+    "id": "co-0463",
+    "name": "Cobalt Labs 463",
+    "industry": "Manufacturing",
+    "headcount": 109
+  },
+  {
+    "id": "co-0464",
+    "name": "Harbor Technologies 464",
+    "industry": "Media",
+    "headcount": 115
+  },
+  {
+    "id": "co-0465",
+    "name": "Lattice Systems 465",
+    "industry": "Financial Services",
+    "headcount": 153
+  },
+  {
+    "id": "co-0466",
+    "name": "Cobalt Group 466",
+    "industry": "Financial Services",
+    "headcount": 108
+  },
+  {
+    "id": "co-0467",
+    "name": "Juniper Systems 467",
+    "industry": "Software",
+    "headcount": 112
+  },
+  {
+    "id": "co-0468",
+    "name": "Cobalt Technologies 468",
+    "industry": "Healthcare",
+    "headcount": 133
+  },
+  {
+    "id": "co-0469",
+    "name": "Redwood Collective 469",
+    "industry": "Telecommunications",
+    "headcount": 133
+  },
+  {
+    "id": "co-0470",
+    "name": "Redwood Systems 470",
+    "industry": "Energy",
+    "headcount": 101
+  },
+  {
+    "id": "co-0471",
+    "name": "Brightline Labs 471",
+    "industry": "Professional Services",
+    "headcount": 151
+  },
+  {
+    "id": "co-0472",
+    "name": "Lattice Works 472",
+    "industry": "Telecommunications",
+    "headcount": 124
+  },
+  {
+    "id": "co-0473",
+    "name": "Orbit Works 473",
+    "industry": "Telecommunications",
+    "headcount": 108
+  },
+  {
+    "id": "co-0474",
+    "name": "Lattice Group 474",
+    "industry": "Healthcare",
+    "headcount": 123
+  },
+  {
+    "id": "co-0475",
+    "name": "Cobalt Collective 475",
+    "industry": "Media",
+    "headcount": 119
+  },
+  {
+    "id": "co-0476",
+    "name": "Harbor Systems 476",
+    "industry": "Retail",
+    "headcount": 152
+  },
+  {
+    "id": "co-0477",
+    "name": "Harbor Works 477",
+    "industry": "Energy",
+    "headcount": 117
+  },
+  {
+    "id": "co-0478",
+    "name": "Harbor Collective 478",
+    "industry": "Professional Services",
+    "headcount": 116
+  },
+  {
+    "id": "co-0479",
+    "name": "Summit Collective 479",
+    "industry": "Energy",
+    "headcount": 132
+  },
+  {
+    "id": "co-0480",
+    "name": "Northstar Technologies 480",
+    "industry": "Logistics",
+    "headcount": 110
+  },
+  {
+    "id": "co-0481",
+    "name": "Pioneer Labs 481",
+    "industry": "Retail",
+    "headcount": 138
+  },
+  {
+    "id": "co-0482",
+    "name": "Redwood Technologies 482",
+    "industry": "Healthcare",
+    "headcount": 143
+  },
+  {
+    "id": "co-0483",
+    "name": "Redwood Systems 483",
+    "industry": "Logistics",
+    "headcount": 158
+  },
+  {
+    "id": "co-0484",
+    "name": "Orbit Systems 484",
+    "industry": "Logistics",
+    "headcount": 153
+  },
+  {
+    "id": "co-0485",
+    "name": "Northstar Works 485",
+    "industry": "Energy",
+    "headcount": 142
+  },
+  {
+    "id": "co-0486",
+    "name": "Lattice Collective 486",
+    "industry": "Telecommunications",
+    "headcount": 134
+  },
+  {
+    "id": "co-0487",
+    "name": "Cobalt Works 487",
+    "industry": "Healthcare",
+    "headcount": 148
+  },
+  {
+    "id": "co-0488",
+    "name": "Brightline Group 488",
+    "industry": "Retail",
+    "headcount": 158
+  },
+  {
+    "id": "co-0489",
+    "name": "Summit Labs 489",
+    "industry": "Professional Services",
+    "headcount": 110
+  },
+  {
+    "id": "co-0490",
+    "name": "Northstar Technologies 490",
+    "industry": "Telecommunications",
+    "headcount": 127
+  },
+  {
+    "id": "co-0491",
+    "name": "Harbor Technologies 491",
+    "industry": "Telecommunications",
+    "headcount": 147
+  },
+  {
+    "id": "co-0492",
+    "name": "Cobalt Technologies 492",
+    "industry": "Professional Services",
+    "headcount": 137
+  },
+  {
+    "id": "co-0493",
+    "name": "Pioneer Technologies 493",
+    "industry": "Telecommunications",
+    "headcount": 117
+  },
+  {
+    "id": "co-0494",
+    "name": "Pioneer Works 494",
+    "industry": "Telecommunications",
+    "headcount": 146
+  },
+  {
+    "id": "co-0495",
+    "name": "Brightline Collective 495",
+    "industry": "Telecommunications",
+    "headcount": 140
+  },
+  {
+    "id": "co-0496",
+    "name": "Lattice Technologies 496",
+    "industry": "Media",
+    "headcount": 135
+  },
+  {
+    "id": "co-0497",
+    "name": "Summit Technologies 497",
+    "industry": "Retail",
+    "headcount": 129
+  },
+  {
+    "id": "co-0498",
+    "name": "Juniper Works 498",
+    "industry": "Healthcare",
+    "headcount": 127
+  },
+  {
+    "id": "co-0499",
+    "name": "Redwood Systems 499",
+    "industry": "Energy",
+    "headcount": 148
+  },
+  {
+    "id": "co-0500",
+    "name": "Redwood Collective 500",
+    "industry": "Healthcare",
+    "headcount": 130
+  }
+]

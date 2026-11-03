@@ -1,4 +1,4 @@
-const $ = selector => document.querySelector(selector);
+const $ = (selector) => document.querySelector(selector);
 const companySelect = $("#companySelect");
 const peopleSearch = $("#peopleSearch");
 const chartViewport = $("#chartViewport");
@@ -33,63 +33,176 @@ let directoryDept = "All";
 let tracePath = new Set();
 let tracedPersonId = null;
 
-const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, char => ({
-  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-}[char]));
-const normalize = value => String(value ?? "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
-  .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-const slugify = value => normalize(value).replace(/\s+/g, "-");
+const escapeHTML = (value) =>
+  String(value ?? "").replace(
+    /[&<>"']/g,
+    (char) =>
+      ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[char],
+  );
+const normalize = (value) =>
+  String(value ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+const slugify = (value) => normalize(value).replace(/\s+/g, "-");
 
 const departmentAliases = {
-  engineering: "Engineering", eng: "Engineering", technology: "Engineering", tech: "Engineering",
-  data: "Data", analytics: "Data", "data analytics": "Data",
-  product: "Product", prod: "Product", sales: "Sales", commercial: "Sales",
-  marketing: "Marketing", mktg: "Marketing", finance: "Finance", fin: "Finance",
-  accounting: "Finance", people: "People", hr: "People", "human resources": "People",
-  "customer success": "Customer Success", cs: "Customer Success", "client services": "Customer Success",
-  operations: "Operations", ops: "Operations", security: "Security", infosec: "Security",
-  "information security": "Security", legal: "Legal", compliance: "Legal",
+  engineering: "Engineering",
+  eng: "Engineering",
+  technology: "Engineering",
+  tech: "Engineering",
+  data: "Data",
+  analytics: "Data",
+  "data analytics": "Data",
+  product: "Product",
+  prod: "Product",
+  sales: "Sales",
+  commercial: "Sales",
+  marketing: "Marketing",
+  mktg: "Marketing",
+  finance: "Finance",
+  fin: "Finance",
+  accounting: "Finance",
+  people: "People",
+  hr: "People",
+  "human resources": "People",
+  "customer success": "Customer Success",
+  cs: "Customer Success",
+  "client services": "Customer Success",
+  operations: "Operations",
+  ops: "Operations",
+  security: "Security",
+  infosec: "Security",
+  "information security": "Security",
+  legal: "Legal",
+  compliance: "Legal",
 };
 const departmentTerms = {
-  Engineering: ["engineering", "engineer", "technology", "tech", "devops", "software", "platform", "quality assurance", "qa"],
-  Data: ["data", "analytics", "analyst", "scientist", "business intelligence", "bi"],
+  Engineering: [
+    "engineering",
+    "engineer",
+    "technology",
+    "tech",
+    "devops",
+    "software",
+    "platform",
+    "quality assurance",
+    "qa",
+  ],
+  Data: [
+    "data",
+    "analytics",
+    "analyst",
+    "scientist",
+    "business intelligence",
+    "bi",
+  ],
   Product: ["product", "design", "ux", "user experience", "research"],
-  Sales: ["sales", "revenue", "account executive", "commercial", "business development"],
+  Sales: [
+    "sales",
+    "revenue",
+    "account executive",
+    "commercial",
+    "business development",
+  ],
   Marketing: ["marketing", "growth", "content", "brand", "demand generation"],
-  Finance: ["finance", "financial", "accounting", "accountant", "fp&a", "payroll"],
+  Finance: [
+    "finance",
+    "financial",
+    "accounting",
+    "accountant",
+    "fp&a",
+    "payroll",
+  ],
   People: ["people", "human resources", "hr ", "recruit", "talent acquisition"],
-  "Customer Success": ["customer success", "customer support", "customer service", "client services", "implementation"],
+  "Customer Success": [
+    "customer success",
+    "customer support",
+    "customer service",
+    "client services",
+    "implementation",
+  ],
   Operations: ["operations", "operational", "supply chain", "workplace"],
-  Security: ["security", "infosec", "information security", "incident response", "grc"],
-  Legal: ["legal", "counsel", "paralegal", "compliance", "contracts", "privacy"],
+  Security: [
+    "security",
+    "infosec",
+    "information security",
+    "incident response",
+    "grc",
+  ],
+  Legal: [
+    "legal",
+    "counsel",
+    "paralegal",
+    "compliance",
+    "contracts",
+    "privacy",
+  ],
 };
 const departmentColors = {
-  Engineering: "#2f6f57", Data: "#3b6ea8", Product: "#8a5cb0", Sales: "#c0683a",
-  Marketing: "#c2427a", Finance: "#7d7a2c", People: "#b08a2e", "Customer Success": "#2e8a8a",
-  Operations: "#5d6b7a", Security: "#a33b3b", Legal: "#4b5563", Unclassified: "#9aa39c",
+  Engineering: "#2f6f57",
+  Data: "#3b6ea8",
+  Product: "#8a5cb0",
+  Sales: "#c0683a",
+  Marketing: "#c2427a",
+  Finance: "#7d7a2c",
+  People: "#b08a2e",
+  "Customer Success": "#2e8a8a",
+  Operations: "#5d6b7a",
+  Security: "#a33b3b",
+  Legal: "#4b5563",
+  Unclassified: "#9aa39c",
 };
 
-const deptColor = department => departmentColors[department] || departmentColors.Unclassified;
+const deptColor = (department) =>
+  departmentColors[department] || departmentColors.Unclassified;
 
 function classifyDepartment(employee) {
   const explicit = normalize(employee.department);
-  if (departmentAliases[explicit]) return { department: departmentAliases[explicit], explicit: true };
+  if (departmentAliases[explicit])
+    return { department: departmentAliases[explicit], explicit: true };
   const title = ` ${normalize(employee.title)} `;
-  const matches = Object.entries(departmentTerms).filter(([, terms]) =>
-    terms.some(term => title.includes(` ${normalize(term)} `)),
-  ).map(([department]) => department);
-  return { department: matches.length === 1 ? matches[0] : null, explicit: false };
+  const matches = Object.entries(departmentTerms)
+    .filter(([, terms]) =>
+      terms.some((term) => title.includes(` ${normalize(term)} `)),
+    )
+    .map(([department]) => department);
+  return {
+    department: matches.length === 1 ? matches[0] : null,
+    explicit: false,
+  };
 }
 
-const departmentOf = employee => classifyDepartment(employee).department || "Unclassified";
+const departmentOf = (employee) =>
+  classifyDepartment(employee).department || "Unclassified";
 
 function seniority(title) {
   const value = normalize(title);
   if (!value) return null;
-  if (/\b(ceo|chief executive officer|founder ceo|founder and ceo|co founder and ceo)\b/.test(value)) return 0;
-  if (/\b(chief|president|svp|evp|vp|vice president|head)\b/.test(value)) return 1;
+  if (
+    /\b(ceo|chief executive officer|founder ceo|founder and ceo|co founder and ceo)\b/.test(
+      value,
+    )
+  )
+    return 0;
+  if (/\b(chief|president|svp|evp|vp|vice president|head)\b/.test(value))
+    return 1;
   if (/\bdirector\b/.test(value)) return 2;
-  if (/\bmanager\b/.test(value) && !/\b(product manager|project manager|account manager|customer success manager)\b/.test(value)) return 3;
+  if (
+    /\bmanager\b/.test(value) &&
+    !/\b(product manager|project manager|account manager|customer success manager)\b/.test(
+      value,
+    )
+  )
+    return 3;
   if (/\b(team lead|lead)\b/.test(value)) return 4;
   if (/\b(staff|principal|senior)\b/.test(value)) return 6;
   return 6;
@@ -98,61 +211,105 @@ function seniority(title) {
 const EXECUTIVE_FALLBACK_CONFIDENCE = 0.6;
 
 function inferOrg(company) {
-  const profiles = new Map(company.employees.map(employee => {
-    const classification = classifyDepartment(employee);
-    return [employee.id, {
-      department: classification.department,
-      explicitDepartment: classification.explicit,
-      team: normalize(employee.team),
-      rank: seniority(employee.title),
-    }];
-  }));
-  const ceos = company.employees.filter(employee => profiles.get(employee.id).rank === 0);
+  const profiles = new Map(
+    company.employees.map((employee) => {
+      const classification = classifyDepartment(employee);
+      return [
+        employee.id,
+        {
+          department: classification.department,
+          explicitDepartment: classification.explicit,
+          team: normalize(employee.team),
+          rank: seniority(employee.title),
+        },
+      ];
+    }),
+  );
+  const ceos = company.employees.filter(
+    (employee) => profiles.get(employee.id).rank === 0,
+  );
   const edges = new Map();
   for (const employee of company.employees) {
     const person = profiles.get(employee.id);
     if (person.rank === null || person.rank === 0) continue;
     if (!person.department) {
-      if (person.rank === 1 && ceos.length === 1) edges.set(employee.id, { managerId: ceos[0].id, confidence: EXECUTIVE_FALLBACK_CONFIDENCE });
+      if (person.rank === 1 && ceos.length === 1)
+        edges.set(employee.id, {
+          managerId: ceos[0].id,
+          confidence: EXECUTIVE_FALLBACK_CONFIDENCE,
+        });
       continue;
     }
     const candidates = [];
     for (const candidate of company.employees) {
       if (candidate.id === employee.id) continue;
       const manager = profiles.get(candidate.id);
-      if (manager.rank === null || manager.rank >= person.rank || manager.department !== person.department) continue;
+      if (
+        manager.rank === null ||
+        manager.rank >= person.rank ||
+        manager.department !== person.department
+      )
+        continue;
       if (person.team && manager.team && person.team !== manager.team) continue;
       candidates.push({ candidate, manager });
     }
     let usableCandidates = candidates;
     if (person.rank >= 5) {
-      usableCandidates = candidates.filter(item => [2, 3, 4].includes(item.manager.rank));
+      usableCandidates = candidates.filter((item) =>
+        [2, 3, 4].includes(item.manager.rank),
+      );
       if (person.team) {
-        usableCandidates = usableCandidates.filter(item => item.manager.team === person.team);
+        usableCandidates = usableCandidates.filter(
+          (item) => item.manager.team === person.team,
+        );
         if (!usableCandidates.length) continue;
       } else if (usableCandidates.length !== 1) {
         continue;
       }
     }
     if (!usableCandidates.length) {
-      if (person.rank === 1 && ceos.length === 1) edges.set(employee.id, { managerId: ceos[0].id, confidence: EXECUTIVE_FALLBACK_CONFIDENCE });
+      if (person.rank === 1 && ceos.length === 1)
+        edges.set(employee.id, {
+          managerId: ceos[0].id,
+          confidence: EXECUTIVE_FALLBACK_CONFIDENCE,
+        });
       continue;
     }
-    const closestRank = Math.max(...usableCandidates.map(item => item.manager.rank));
-    const closest = usableCandidates.filter(item => item.manager.rank === closestRank);
+    const closestRank = Math.max(
+      ...usableCandidates.map((item) => item.manager.rank),
+    );
+    const closest = usableCandidates.filter(
+      (item) => item.manager.rank === closestRank,
+    );
     if (closest.length !== 1) continue;
     const { candidate: manager, manager: managerProfile } = closest[0];
-    const teamMatch = Boolean(person.team && managerProfile.team && person.team === managerProfile.team);
-    const explicitMatch = person.explicitDepartment && managerProfile.explicitDepartment;
-    const uniqueCandidate = usableCandidates.filter(item => item.manager.rank === closestRank).length === 1;
-    const confidence = Math.min(0.95, 0.57 + (teamMatch ? 0.18 : 0) + (explicitMatch ? 0.1 : 0) + (uniqueCandidate ? 0.1 : 0));
-    edges.set(employee.id, { managerId: manager.id, confidence: Math.round(confidence * 100) });
+    const teamMatch = Boolean(
+      person.team && managerProfile.team && person.team === managerProfile.team,
+    );
+    const explicitMatch =
+      person.explicitDepartment && managerProfile.explicitDepartment;
+    const uniqueCandidate =
+      usableCandidates.filter((item) => item.manager.rank === closestRank)
+        .length === 1;
+    const confidence = Math.min(
+      0.95,
+      0.57 +
+        (teamMatch ? 0.18 : 0) +
+        (explicitMatch ? 0.1 : 0) +
+        (uniqueCandidate ? 0.1 : 0),
+    );
+    edges.set(employee.id, {
+      managerId: manager.id,
+      confidence: Math.round(confidence * 100),
+    });
   }
   return { ceoId: ceos.length === 1 ? ceos[0].id : null, edges };
 }
 
 function buildModel() {
-  const peopleById = new Map(currentCompany.employees.map(person => [person.id, person]));
+  const peopleById = new Map(
+    currentCompany.employees.map((person) => [person.id, person]),
+  );
   const children = new Map();
   const unresolved = [];
   for (const person of currentCompany.employees) {
@@ -164,21 +321,46 @@ function buildModel() {
       unresolved.push(person);
     }
   }
-  for (const reports of children.values()) reports.sort((a, b) => a.name.localeCompare(b.name));
-  const root = currentCompany.employees.find(person => person.id === currentInference.ceoId) || null;
+  for (const reports of children.values())
+    reports.sort((a, b) => a.name.localeCompare(b.name));
+  const root =
+    currentCompany.employees.find(
+      (person) => person.id === currentInference.ceoId,
+    ) || null;
   const edgeValues = [...currentInference.edges.values()];
   const average = edgeValues.length
-    ? Math.round(edgeValues.reduce((sum, edge) => sum + edge.confidence, 0) / edgeValues.length)
+    ? Math.round(
+        edgeValues.reduce((sum, edge) => sum + edge.confidence, 0) /
+          edgeValues.length,
+      )
     : 0;
-  const departmentCount = new Set(currentCompany.employees.map(departmentOf).filter(d => d !== "Unclassified")).size;
+  const departmentCount = new Set(
+    currentCompany.employees
+      .map(departmentOf)
+      .filter((d) => d !== "Unclassified"),
+  ).size;
   return {
-    peopleById, children, unresolved, root,
-    stats: { edgeCount: edgeValues.length, unresolvedCount: unresolved.length, average, departmentCount },
+    peopleById,
+    children,
+    unresolved,
+    root,
+    stats: {
+      edgeCount: edgeValues.length,
+      unresolvedCount: unresolved.length,
+      average,
+      departmentCount,
+    },
   };
 }
 
 function initials(name) {
-  return String(name).split(/\s+/).filter(Boolean).slice(0, 2).map(part => part[0]).join("").toUpperCase();
+  return String(name)
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
 }
 
 function companyHue(name) {
@@ -187,15 +369,19 @@ function companyHue(name) {
   return hash;
 }
 
-const avatar = person => `<span class="avatar" style="--dept:${deptColor(departmentOf(person))}" aria-hidden="true">${escapeHTML(initials(person.name))}</span>`;
+const avatar = (person) =>
+  `<span class="avatar" style="--dept:${deptColor(departmentOf(person))}" aria-hidden="true">${escapeHTML(initials(person.name))}</span>`;
 
 function personCard(person, root = false) {
   const edge = currentInference.edges.get(person.id);
   const department = departmentOf(person);
-  const active = searchValue && normalize(person.name).includes(normalize(searchValue));
+  const active =
+    searchValue && normalize(person.name).includes(normalize(searchValue));
   const traced = tracePath.has(person.id) ? " on-path" : "";
   const dimmed = tracePath.size && !tracePath.has(person.id) ? " dimmed" : "";
-  const confidence = edge ? `<span class="confidence">${edge.confidence}%</span>` : "";
+  const confidence = edge
+    ? `<span class="confidence">${edge.confidence}%</span>`
+    : "";
   return `<div class="person-card${root ? " is-root" : ""}${active ? " is-active" : ""}${traced}${dimmed}" data-person="${escapeHTML(person.id)}" style="--dept:${deptColor(department)}">
     <span class="person-head">${avatar(person)}<span class="person-id"><span class="person-name">${escapeHTML(person.name)}</span><span class="person-title">${escapeHTML(person.title || "Title not provided")}</span></span></span>
     <span class="person-dept"><span>${escapeHTML(department)}</span>${confidence}</span>
@@ -206,17 +392,22 @@ function hasSearchMatch(person, children, visited) {
   if (normalize(person.name).includes(normalize(searchValue))) return true;
   if (visited.has(person.id)) return false;
   visited.add(person.id);
-  return (model.children.get(person.id) || []).some(child => hasSearchMatch(child, children, visited));
+  return (model.children.get(person.id) || []).some((child) =>
+    hasSearchMatch(child, children, visited),
+  );
 }
 
 function renderBranch(person, root = false, depth = 0) {
   const reports = model.children.get(person.id) || [];
   const visible = searchValue
-    ? reports.filter(report => hasSearchMatch(report, model.children, new Set()))
+    ? reports.filter((report) =>
+        hasSearchMatch(report, model.children, new Set()),
+      )
     : reports;
-  const descendantHTML = visible.length && depth < 5
-    ? `<ul>${visible.map(report => `<li>${personCard(report)}${renderBranch(report, false, depth + 1)}</li>`).join("")}</ul>`
-    : "";
+  const descendantHTML =
+    visible.length && depth < 5
+      ? `<ul>${visible.map((report) => `<li>${personCard(report)}${renderBranch(report, false, depth + 1)}</li>`).join("")}</ul>`
+      : "";
   return `<div class="tree-root"><ul class="tree"><li>${personCard(person, root)}${descendantHTML}</li></ul></div>`;
 }
 
@@ -246,7 +437,12 @@ function renderProfile() {
     ["Inferred lines", stats.edgeCount],
     ["Unresolved", stats.unresolvedCount],
     ["Avg confidence", `${stats.average}%`],
-  ].map(([label, value]) => `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join("");
+  ]
+    .map(
+      ([label, value]) =>
+        `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`,
+    )
+    .join("");
 }
 
 function renderChart() {
@@ -255,7 +451,9 @@ function renderChart() {
     return;
   }
   if (searchValue) {
-    const matched = currentCompany.employees.filter(person => normalize(person.name).includes(normalize(searchValue)));
+    const matched = currentCompany.employees.filter((person) =>
+      normalize(person.name).includes(normalize(searchValue)),
+    );
     if (!matched.length) {
       chartViewport.innerHTML = `<div class="empty-state">No people found for “${escapeHTML(searchValue)}”.</div>`;
       return;
@@ -265,41 +463,55 @@ function renderChart() {
       chartViewport.innerHTML = `<div class="empty-state">Found ${matched.length} match${matched.length === 1 ? "" : "es"}, but no complete inferred path to the CEO.</div>`;
       return;
     }
-    chartViewport.innerHTML = `<div class="tree-root"><ul class="tree">${path.map((id, index) => {
-      const person = model.peopleById.get(id);
-      return `<li>${personCard(person, index === 0)}</li>`;
-    }).join("")}</ul></div><div class="unresolved-row"><span class="unresolved-person">Showing reporting path for <b>${escapeHTML(matched[0].name)}</b></span></div>`;
+    chartViewport.innerHTML = `<div class="tree-root"><ul class="tree">${path
+      .map((id, index) => {
+        const person = model.peopleById.get(id);
+        return `<li>${personCard(person, index === 0)}</li>`;
+      })
+      .join(
+        "",
+      )}</ul></div><div class="unresolved-row"><span class="unresolved-person">Showing reporting path for <b>${escapeHTML(matched[0].name)}</b></span></div>`;
     return;
   }
   const unresolved = model.unresolved;
-  const unresolvedPeople = unresolved.slice(0, 12).map(person =>
-    `<span class="unresolved-person"><b>${escapeHTML(person.name)}</b> · ${escapeHTML(person.title || "Title missing")}</span>`,
-  ).join("");
+  const unresolvedPeople = unresolved
+    .slice(0, 12)
+    .map(
+      (person) =>
+        `<span class="unresolved-person"><b>${escapeHTML(person.name)}</b> · ${escapeHTML(person.title || "Title missing")}</span>`,
+    )
+    .join("");
   chartViewport.innerHTML = `${renderBranch(model.root, true)}${unresolved.length ? `<div class="unresolved-row"><div class="unresolved-box"><strong>${unresolved.length} unresolved</strong><span>Not placed in the tree. The inference abstained where evidence was missing or ambiguous.</span></div>${unresolvedPeople}</div>` : ""}`;
 }
 
 function renderLeadership() {
   const leaders = currentCompany.employees
-    .map(person => ({ person, rank: seniority(person.title) }))
-    .filter(item => item.rank !== null && item.rank <= 2)
-    .sort((a, b) => a.rank - b.rank || a.person.name.localeCompare(b.person.name));
+    .map((person) => ({ person, rank: seniority(person.title) }))
+    .filter((item) => item.rank !== null && item.rank <= 2)
+    .sort(
+      (a, b) => a.rank - b.rank || a.person.name.localeCompare(b.person.name),
+    );
   if (!leaders.length) {
     leadershipGrid.innerHTML = `<div class="empty-state">No senior leadership titles were found.</div>`;
     return;
   }
-  leadershipGrid.innerHTML = leaders.map(({ person }) => {
-    const edge = currentInference.edges.get(person.id);
-    const manager = edge ? model.peopleById.get(edge.managerId) : null;
-    const reports = (model.children.get(person.id) || []).length;
-    const reportsLine = manager
-      ? `Reports to <b>${escapeHTML(manager.name)}</b> · ${edge.confidence}%`
-      : person.id === currentInference.ceoId ? "Top of the inferred chart" : "Reporting line unresolved";
-    return `<article class="leader-card" style="--dept:${deptColor(departmentOf(person))}">
+  leadershipGrid.innerHTML = leaders
+    .map(({ person }) => {
+      const edge = currentInference.edges.get(person.id);
+      const manager = edge ? model.peopleById.get(edge.managerId) : null;
+      const reports = (model.children.get(person.id) || []).length;
+      const reportsLine = manager
+        ? `Reports to <b>${escapeHTML(manager.name)}</b> · ${edge.confidence}%`
+        : person.id === currentInference.ceoId
+          ? "Top of the inferred chart"
+          : "Reporting line unresolved";
+      return `<article class="leader-card" style="--dept:${deptColor(departmentOf(person))}">
       <div class="leader-top">${avatar(person)}<div><strong>${escapeHTML(person.name)}</strong><span>${escapeHTML(person.title)}</span></div></div>
       <div class="leader-meta"><span>${escapeHTML(departmentOf(person))}</span><span>${reports} direct report${reports === 1 ? "" : "s"}</span></div>
       <div class="leader-reports">${reportsLine}</div>
     </article>`;
-  }).join("");
+    })
+    .join("");
 }
 
 function departmentGroups() {
@@ -318,45 +530,68 @@ function departmentGroups() {
 
 function renderDepartments() {
   const total = currentCompany.employees.length;
-  departmentGrid.innerHTML = departmentGroups().map(([department, members]) => {
-    const lead = [...members].sort((a, b) => (seniority(a.title) ?? 9) - (seniority(b.title) ?? 9) || a.name.localeCompare(b.name))[0];
-    const teams = new Set(members.map(person => normalize(person.team)).filter(Boolean)).size;
-    const share = Math.round((members.length / total) * 100);
-    return `<button class="dept-card" type="button" data-dept="${escapeHTML(department)}" style="--dept:${deptColor(department)}">
+  departmentGrid.innerHTML = departmentGroups()
+    .map(([department, members]) => {
+      const lead = [...members].sort(
+        (a, b) =>
+          (seniority(a.title) ?? 9) - (seniority(b.title) ?? 9) ||
+          a.name.localeCompare(b.name),
+      )[0];
+      const teams = new Set(
+        members.map((person) => normalize(person.team)).filter(Boolean),
+      ).size;
+      const share = Math.round((members.length / total) * 100);
+      return `<button class="dept-card" type="button" data-dept="${escapeHTML(department)}" style="--dept:${deptColor(department)}">
       <div class="dept-top"><span class="dept-dot"></span><strong>${escapeHTML(department)}</strong><span>${members.length}</span></div>
       <div class="dept-bar"><i style="width:${share}%"></i></div>
       <div class="dept-lead">${lead ? `<b>${escapeHTML(lead.name)}</b> · ${escapeHTML(lead.title)}` : "No clear lead"}</div>
       <div class="dept-foot">${teams} team${teams === 1 ? "" : "s"} · ${share}% of company</div>
     </button>`;
-  }).join("");
+    })
+    .join("");
 }
 
 function renderDirectory() {
   const groups = departmentGroups();
-  deptChips.innerHTML = [["All", currentCompany.employees.length], ...groups.map(([d, m]) => [d, m.length])]
-    .map(([label, count]) => `<button class="chip${directoryDept === label ? " is-active" : ""}" type="button" data-dept="${escapeHTML(label)}">${escapeHTML(label)}<small>${count}</small></button>`)
+  deptChips.innerHTML = [
+    ["All", currentCompany.employees.length],
+    ...groups.map(([d, m]) => [d, m.length]),
+  ]
+    .map(
+      ([label, count]) =>
+        `<button class="chip${directoryDept === label ? " is-active" : ""}" type="button" data-dept="${escapeHTML(label)}">${escapeHTML(label)}<small>${count}</small></button>`,
+    )
     .join("");
   const query = normalize(directoryQuery);
-  const matches = currentCompany.employees.filter(person => {
-    if (directoryDept !== "All" && departmentOf(person) !== directoryDept) return false;
-    if (!query) return true;
-    return normalize([person.name, person.title, person.team, person.location].join(" ")).includes(query);
-  }).sort((a, b) => a.name.localeCompare(b.name));
+  const matches = currentCompany.employees
+    .filter((person) => {
+      if (directoryDept !== "All" && departmentOf(person) !== directoryDept)
+        return false;
+      if (!query) return true;
+      return normalize(
+        [person.name, person.title, person.team, person.location].join(" "),
+      ).includes(query);
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
   const shown = matches.slice(0, 200);
-  const rows = shown.map(person => {
-    const edge = currentInference.edges.get(person.id);
-    const manager = edge ? model.peopleById.get(edge.managerId) : null;
-    const managerCell = manager
-      ? `${escapeHTML(manager.name)} <span class="confidence">${edge.confidence}%</span>`
-      : person.id === currentInference.ceoId ? `<span class="muted">Top of chart</span>` : `<span class="muted">Unresolved</span>`;
-    return `<tr>
+  const rows = shown
+    .map((person) => {
+      const edge = currentInference.edges.get(person.id);
+      const manager = edge ? model.peopleById.get(edge.managerId) : null;
+      const managerCell = manager
+        ? `${escapeHTML(manager.name)} <span class="confidence">${edge.confidence}%</span>`
+        : person.id === currentInference.ceoId
+          ? `<span class="muted">Top of chart</span>`
+          : `<span class="muted">Unresolved</span>`;
+      return `<tr>
       <td><div class="cell-person">${avatar(person)}<span><b>${escapeHTML(person.name)}</b><small>${escapeHTML(person.location || "Location unknown")}</small></span></div></td>
       <td>${escapeHTML(person.title || "—")}</td>
       <td><span class="dept-tag" style="--dept:${deptColor(departmentOf(person))}">${escapeHTML(departmentOf(person))}</span></td>
       <td>${escapeHTML(person.team || "—")}</td>
       <td>${managerCell}</td>
     </tr>`;
-  }).join("");
+    })
+    .join("");
   directoryList.innerHTML = matches.length
     ? `<table class="directory"><thead><tr><th>Person</th><th>Title</th><th>Function</th><th>Team</th><th>Reports to</th></tr></thead><tbody>${rows}</tbody></table>${matches.length > shown.length ? `<div class="directory-note">Showing ${shown.length} of ${matches.length}. Refine the filter to see more.</div>` : ""}`
     : `<div class="empty-state">No people match these filters.</div>`;
@@ -373,38 +608,90 @@ function renderAll() {
 function answerQuestion(question) {
   const raw = normalize(question);
   if (!raw) return "";
-  const stop = new Set(["who", "does", "do", "the", "a", "an", "of", "is", "in", "at", "report", "reports", "to", "runs", "run", "leads", "lead", "heads", "head", "owns", "own", "manages", "manage", "for", "and", "what", "where", "which"]);
-  const words = raw.split(" ").filter(word => word && !stop.has(word));
-  const asksManager = /\b(report|reports|reporting|manager|boss|above)\b/.test(raw);
-  const asksLeader = /\b(runs|run|leads|lead|owns|own|in charge|heads|head)\b/.test(raw) && !asksManager;
+  const stop = new Set([
+    "who",
+    "does",
+    "do",
+    "the",
+    "a",
+    "an",
+    "of",
+    "is",
+    "in",
+    "at",
+    "report",
+    "reports",
+    "to",
+    "runs",
+    "run",
+    "leads",
+    "lead",
+    "heads",
+    "head",
+    "owns",
+    "own",
+    "manages",
+    "manage",
+    "for",
+    "and",
+    "what",
+    "where",
+    "which",
+  ]);
+  const words = raw.split(" ").filter((word) => word && !stop.has(word));
+  const asksManager = /\b(report|reports|reporting|manager|boss|above)\b/.test(
+    raw,
+  );
+  const asksLeader =
+    /\b(runs|run|leads|lead|owns|own|in charge|heads|head)\b/.test(raw) &&
+    !asksManager;
 
   if (asksLeader) {
-    const department = Object.keys(departmentTerms).find(name => raw.includes(normalize(name)))
-      || Object.keys(departmentTerms).find(name => departmentTerms[name].some(term => raw.includes(normalize(term))));
-    if (!department) return "I couldn't tell which function you mean. Try “who runs data?” or “who leads security?”.";
-    const members = currentCompany.employees.filter(person => departmentOf(person) === department);
+    const department =
+      Object.keys(departmentTerms).find((name) =>
+        raw.includes(normalize(name)),
+      ) ||
+      Object.keys(departmentTerms).find((name) =>
+        departmentTerms[name].some((term) => raw.includes(normalize(term))),
+      );
+    if (!department)
+      return "I couldn't tell which function you mean. Try “who runs data?” or “who leads security?”.";
+    const members = currentCompany.employees.filter(
+      (person) => departmentOf(person) === department,
+    );
     if (!members.length) return `No one in ${department} at this company.`;
-    const ranked = members.map(person => ({ person, rank: seniority(person.title) ?? 9 }))
-      .sort((a, b) => a.rank - b.rank || a.person.name.localeCompare(b.person.name));
-    const top = ranked.filter(item => item.rank === ranked[0].rank);
+    const ranked = members
+      .map((person) => ({ person, rank: seniority(person.title) ?? 9 }))
+      .sort(
+        (a, b) => a.rank - b.rank || a.person.name.localeCompare(b.person.name),
+      );
+    const top = ranked.filter((item) => item.rank === ranked[0].rank);
     if (top.length > 1 || top[0].rank > 4) {
-      return `${department} has no single clear leader. Candidates: ${top.slice(0, 4).map(item => `${item.person.name} (${item.person.title})`).join(", ")}.`;
+      return `${department} has no single clear leader. Candidates: ${top
+        .slice(0, 4)
+        .map((item) => `${item.person.name} (${item.person.title})`)
+        .join(", ")}.`;
     }
     const leader = top[0].person;
     return `${leader.name} leads ${department} — ${leader.title}. Based on title seniority within the function.`;
   }
 
   if (asksManager) {
-    const target = words.filter(word => !["head", "chief", "of"].includes(word));
-    const people = currentCompany.employees.filter(person => {
+    const target = words.filter(
+      (word) => !["head", "chief", "of"].includes(word),
+    );
+    const people = currentCompany.employees.filter((person) => {
       const haystack = normalize(`${person.title} ${person.name}`);
-      return target.length && target.every(word => haystack.includes(word));
+      return target.length && target.every((word) => haystack.includes(word));
     });
-    if (!people.length) return "No one matches that title or name at this company.";
+    if (!people.length)
+      return "No one matches that title or name at this company.";
     const person = people[0];
     const edge = currentInference.edges.get(person.id);
-    if (person.id === currentInference.ceoId) return `${person.name} is the top of the inferred chart.`;
-    if (!edge) return `${person.name} (${person.title}) — the reporting line is unresolved. The inference abstained rather than guess.`;
+    if (person.id === currentInference.ceoId)
+      return `${person.name} is the top of the inferred chart.`;
+    if (!edge)
+      return `${person.name} (${person.title}) — the reporting line is unresolved. The inference abstained rather than guess.`;
     const manager = model.peopleById.get(edge.managerId);
     return `${person.name} (${person.title}) reports to ${manager.name} (${manager.title}) — ${edge.confidence}% confidence.`;
   }
@@ -415,12 +702,15 @@ function answerQuestion(question) {
 function selectCompanyFromHash() {
   const match = location.hash.match(/^#\/org\/([^/?#]+)/);
   if (!match) return null;
-  return companies.find(company => slugify(company.name) === match[1]) || null;
+  return (
+    companies.find((company) => slugify(company.name) === match[1]) || null
+  );
 }
 
 async function loadCompany(companyId) {
-  const company = companyData.find(item => item.id === companyId);
-  if (!company) throw new Error(`Company ${companyId} was not found in the dataset.`);
+  const company = companyData.find((item) => item.id === companyId);
+  if (!company)
+    throw new Error(`Company ${companyId} was not found in the dataset.`);
   currentCompany = company;
   currentInference = inferOrg(company);
   model = buildModel();
@@ -439,50 +729,63 @@ async function loadCompany(companyId) {
 }
 
 async function selectCompany(companyId, { scroll = false } = {}) {
-  const company = companies.find(item => item.id === companyId);
+  const company = companies.find((item) => item.id === companyId);
   if (!company) return;
   const hash = `#/org/${slugify(company.name)}`;
   if (location.hash !== hash) history.pushState(null, "", hash);
   if (currentCompany?.id !== companyId) await loadCompany(companyId);
-  if (scroll) $("#workspace").scrollIntoView({ behavior: "smooth", block: "start" });
+  if (scroll)
+    $("#workspace").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function showTab(tab) {
-  document.querySelectorAll(".tab").forEach(button => {
+  document.querySelectorAll(".tab").forEach((button) => {
     const selected = button.dataset.tab === tab;
     button.classList.toggle("is-active", selected);
     button.setAttribute("aria-selected", String(selected));
   });
-  document.querySelectorAll(".tab-panel").forEach(panel => {
+  document.querySelectorAll(".tab-panel").forEach((panel) => {
     panel.hidden = panel.dataset.panel !== tab;
   });
 }
 
 function populateDiscovery() {
-  companySuggestions.innerHTML = companies.map(company =>
-    `<option value="${escapeHTML(company.name)}">${escapeHTML(company.industry)} · ${company.headcount} people</option>`,
-  ).join("");
+  companySuggestions.innerHTML = companies
+    .map(
+      (company) =>
+        `<option value="${escapeHTML(company.name)}">${escapeHTML(company.industry)} · ${company.headcount} people</option>`,
+    )
+    .join("");
   const picksByIndustry = new Map();
   for (const company of companies) {
-    if (!picksByIndustry.has(company.industry)) picksByIndustry.set(company.industry, company);
+    if (!picksByIndustry.has(company.industry))
+      picksByIndustry.set(company.industry, company);
     if (picksByIndustry.size === 4) break;
   }
-  quickStartCompanies.innerHTML = [...picksByIndustry.values()].map(company =>
-    `<button class="quick-pick" type="button" data-company="${escapeHTML(company.id)}"><span>${escapeHTML(company.industry)}</span><strong>${escapeHTML(company.name)}</strong></button>`,
-  ).join("");
+  quickStartCompanies.innerHTML = [...picksByIndustry.values()]
+    .map(
+      (company) =>
+        `<button class="quick-pick" type="button" data-company="${escapeHTML(company.id)}"><span>${escapeHTML(company.industry)}</span><strong>${escapeHTML(company.name)}</strong></button>`,
+    )
+    .join("");
 }
 
 async function start() {
   try {
     const response = await fetch("data/index.json");
-    if (!response.ok) throw new Error(`Could not load company directory (${response.status}).`);
+    if (!response.ok)
+      throw new Error(`Could not load company directory (${response.status}).`);
     companies = await response.json();
     const dataResponse = await fetch("data/companies.json");
-    if (!dataResponse.ok) throw new Error(`Could not load company data (${dataResponse.status}).`);
+    if (!dataResponse.ok)
+      throw new Error(`Could not load company data (${dataResponse.status}).`);
     companyData = await dataResponse.json();
-    companySelect.innerHTML = companies.map(company =>
-      `<option value="${escapeHTML(company.id)}">${escapeHTML(company.name)} · ${company.headcount}</option>`,
-    ).join("");
+    companySelect.innerHTML = companies
+      .map(
+        (company) =>
+          `<option value="${escapeHTML(company.id)}">${escapeHTML(company.name)} · ${company.headcount}</option>`,
+      )
+      .join("");
     companySelect.disabled = false;
     populateDiscovery();
     const initial = selectCompanyFromHash() || companies[0];
@@ -495,15 +798,19 @@ async function start() {
   }
 }
 
-companyFinderForm.addEventListener("submit", async event => {
+companyFinderForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const query = normalize(companyFinder.value);
   if (!query) {
     finderStatus.textContent = "Enter a company name to explore.";
     return;
   }
-  const matches = companies.filter(company => normalize(company.name).includes(query));
-  const exactMatch = matches.find(company => normalize(company.name) === query);
+  const matches = companies.filter((company) =>
+    normalize(company.name).includes(query),
+  );
+  const exactMatch = matches.find(
+    (company) => normalize(company.name) === query,
+  );
   const company = exactMatch || (matches.length === 1 ? matches[0] : null);
   if (!company) {
     finderStatus.textContent = matches.length
@@ -514,20 +821,23 @@ companyFinderForm.addEventListener("submit", async event => {
   await selectCompany(company.id, { scroll: true });
 });
 
-quickStartCompanies.addEventListener("click", async event => {
+quickStartCompanies.addEventListener("click", async (event) => {
   const button = event.target.closest("[data-company]");
   if (!button) return;
   await selectCompany(button.dataset.company, { scroll: true });
 });
 
-companySelect.addEventListener("change", () => selectCompany(companySelect.value));
+companySelect.addEventListener("change", () =>
+  selectCompany(companySelect.value),
+);
 
 window.addEventListener("popstate", async () => {
   const company = selectCompanyFromHash();
-  if (company && company.id !== currentCompany?.id) await loadCompany(company.id);
+  if (company && company.id !== currentCompany?.id)
+    await loadCompany(company.id);
 });
 
-document.querySelector(".tabs").addEventListener("click", event => {
+document.querySelector(".tabs").addEventListener("click", (event) => {
   const button = event.target.closest(".tab");
   if (button) showTab(button.dataset.tab);
 });
@@ -545,7 +855,7 @@ resetView.addEventListener("click", () => {
   renderChart();
 });
 
-chartViewport.addEventListener("click", event => {
+chartViewport.addEventListener("click", (event) => {
   const card = event.target.closest("[data-person]");
   if (!card || !model) return;
   const id = card.dataset.person;
@@ -557,13 +867,13 @@ chartViewport.addEventListener("click", event => {
     askAnswer.textContent = "";
   } else {
     tracePath = new Set(path);
-    const names = path.map(pid => model.peopleById.get(pid).name);
+    const names = path.map((pid) => model.peopleById.get(pid).name);
     askAnswer.textContent = `Reporting path: ${names.join(" → ")}`;
   }
   renderChart();
 });
 
-askForm.addEventListener("submit", event => {
+askForm.addEventListener("submit", (event) => {
   event.preventDefault();
   askAnswer.textContent = answerQuestion(askInput.value);
 });
@@ -573,14 +883,14 @@ directorySearch.addEventListener("input", () => {
   renderDirectory();
 });
 
-deptChips.addEventListener("click", event => {
+deptChips.addEventListener("click", (event) => {
   const chip = event.target.closest(".chip");
   if (!chip) return;
   directoryDept = chip.dataset.dept;
   renderDirectory();
 });
 
-departmentGrid.addEventListener("click", event => {
+departmentGrid.addEventListener("click", (event) => {
   const card = event.target.closest(".dept-card");
   if (!card) return;
   directoryDept = card.dataset.dept;

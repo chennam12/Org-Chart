@@ -10,18 +10,47 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
 INDUSTRIES = [
-    "Software", "Financial Services", "Healthcare", "Retail", "Manufacturing",
-    "Telecommunications", "Logistics", "Media", "Energy", "Professional Services",
+    "Software",
+    "Financial Services",
+    "Healthcare",
+    "Retail",
+    "Manufacturing",
+    "Telecommunications",
+    "Logistics",
+    "Media",
+    "Energy",
+    "Professional Services",
 ]
 LOCATIONS = [
-    "New York, US", "London, UK", "Toronto, CA", "Sydney, AU", "Berlin, DE",
-    "Singapore, SG", "Austin, US", "Dublin, IE", "Bengaluru, IN", "Amsterdam, NL",
+    "New York, US",
+    "London, UK",
+    "Toronto, CA",
+    "Sydney, AU",
+    "Berlin, DE",
+    "Singapore, SG",
+    "Austin, US",
+    "Dublin, IE",
+    "Bengaluru, IN",
+    "Amsterdam, NL",
 ]
 DEPARTMENTS = {
     "Engineering": {
-        "heads": ["VP of Engineering", "Chief Technology Officer", "Head of Engineering"],
-        "manager": ["Engineering Manager", "Software Engineering Manager", "Platform Team Lead"],
-        "ic": ["Software Engineer", "Platform Engineer", "QA Engineer", "DevOps Engineer"],
+        "heads": [
+            "VP of Engineering",
+            "Chief Technology Officer",
+            "Head of Engineering",
+        ],
+        "manager": [
+            "Engineering Manager",
+            "Software Engineering Manager",
+            "Platform Team Lead",
+        ],
+        "ic": [
+            "Software Engineer",
+            "Platform Engineer",
+            "QA Engineer",
+            "DevOps Engineer",
+        ],
     },
     "Data": {
         "heads": ["VP of Data", "Chief Data Officer", "Head of Data & Analytics"],
@@ -30,18 +59,40 @@ DEPARTMENTS = {
     },
     "Product": {
         "heads": ["VP of Product", "Chief Product Officer", "Head of Product"],
-        "manager": ["Product Operations Manager", "Product Design Manager", "Product Team Lead"],
-        "ic": ["Product Designer", "Product Analyst", "Product Specialist", "UX Researcher"],
+        "manager": [
+            "Product Operations Manager",
+            "Product Design Manager",
+            "Product Team Lead",
+        ],
+        "ic": [
+            "Product Designer",
+            "Product Analyst",
+            "Product Specialist",
+            "UX Researcher",
+        ],
     },
     "Sales": {
         "heads": ["VP of Sales", "Chief Revenue Officer", "Head of Sales"],
         "manager": ["Sales Manager", "Enterprise Sales Manager", "Sales Team Lead"],
-        "ic": ["Account Executive", "Sales Development Representative", "Enterprise Account Executive"],
+        "ic": [
+            "Account Executive",
+            "Sales Development Representative",
+            "Enterprise Account Executive",
+        ],
     },
     "Marketing": {
         "heads": ["VP of Marketing", "Chief Marketing Officer", "Head of Marketing"],
-        "manager": ["Growth Marketing Manager", "Marketing Operations Manager", "Marketing Team Lead"],
-        "ic": ["Growth Marketer", "Content Strategist", "Marketing Specialist", "Brand Designer"],
+        "manager": [
+            "Growth Marketing Manager",
+            "Marketing Operations Manager",
+            "Marketing Team Lead",
+        ],
+        "ic": [
+            "Growth Marketer",
+            "Content Strategist",
+            "Marketing Specialist",
+            "Brand Designer",
+        ],
     },
     "Finance": {
         "heads": ["Chief Financial Officer", "VP of Finance", "Head of Finance"],
@@ -50,28 +101,79 @@ DEPARTMENTS = {
     },
     "People": {
         "heads": ["Chief Human Resources Officer", "VP of People", "Head of People"],
-        "manager": ["People Operations Manager", "Talent Acquisition Manager", "People Team Lead"],
-        "ic": ["Recruiter", "HR Generalist", "People Operations Specialist", "Talent Partner"],
+        "manager": [
+            "People Operations Manager",
+            "Talent Acquisition Manager",
+            "People Team Lead",
+        ],
+        "ic": [
+            "Recruiter",
+            "HR Generalist",
+            "People Operations Specialist",
+            "Talent Partner",
+        ],
     },
     "Customer Success": {
-        "heads": ["VP of Customer Success", "Chief Customer Officer", "Head of Customer Success"],
-        "manager": ["Customer Success Team Manager", "Support Manager", "Customer Success Team Lead"],
-        "ic": ["Customer Success Associate", "Customer Support Specialist", "Implementation Specialist"],
+        "heads": [
+            "VP of Customer Success",
+            "Chief Customer Officer",
+            "Head of Customer Success",
+        ],
+        "manager": [
+            "Customer Success Team Manager",
+            "Support Manager",
+            "Customer Success Team Lead",
+        ],
+        "ic": [
+            "Customer Success Associate",
+            "Customer Support Specialist",
+            "Implementation Specialist",
+        ],
     },
     "Operations": {
         "heads": ["Chief Operating Officer", "VP of Operations", "Head of Operations"],
-        "manager": ["Business Operations Manager", "Operations Manager", "Operations Team Lead"],
-        "ic": ["Operations Analyst", "Operations Specialist", "Business Operations Associate"],
+        "manager": [
+            "Business Operations Manager",
+            "Operations Manager",
+            "Operations Team Lead",
+        ],
+        "ic": [
+            "Operations Analyst",
+            "Operations Specialist",
+            "Business Operations Associate",
+        ],
     },
     "Security": {
-        "heads": ["Chief Information Security Officer", "VP of Security", "Head of Security"],
-        "manager": ["Security Engineering Manager", "Security Operations Manager", "Security Team Lead"],
-        "ic": ["Security Analyst", "Security Engineer", "GRC Analyst", "Incident Response Analyst"],
+        "heads": [
+            "Chief Information Security Officer",
+            "VP of Security",
+            "Head of Security",
+        ],
+        "manager": [
+            "Security Engineering Manager",
+            "Security Operations Manager",
+            "Security Team Lead",
+        ],
+        "ic": [
+            "Security Analyst",
+            "Security Engineer",
+            "GRC Analyst",
+            "Incident Response Analyst",
+        ],
     },
     "Legal": {
         "heads": ["General Counsel", "VP of Legal", "Head of Legal"],
-        "manager": ["Legal Operations Manager", "Compliance Manager", "Legal Team Lead"],
-        "ic": ["Legal Counsel", "Paralegal", "Compliance Analyst", "Contracts Specialist"],
+        "manager": [
+            "Legal Operations Manager",
+            "Compliance Manager",
+            "Legal Team Lead",
+        ],
+        "ic": [
+            "Legal Counsel",
+            "Paralegal",
+            "Compliance Analyst",
+            "Contracts Specialist",
+        ],
     },
 }
 DEPARTMENT_ALIASES = {
@@ -96,26 +198,88 @@ TEAMS = {
     "Finance": ["Accounting", "FP&A", "Payroll", "Revenue Operations"],
     "People": ["Talent", "People Operations", "Learning", "HR Business Partners"],
     "Customer Success": ["Enterprise", "Onboarding", "Support", "Customer Education"],
-    "Operations": ["Business Operations", "Supply Chain", "Workplace", "Service Delivery"],
-    "Security": ["Security Operations", "Application Security", "Governance", "Infrastructure Security"],
+    "Operations": [
+        "Business Operations",
+        "Supply Chain",
+        "Workplace",
+        "Service Delivery",
+    ],
+    "Security": [
+        "Security Operations",
+        "Application Security",
+        "Governance",
+        "Infrastructure Security",
+    ],
     "Legal": ["Commercial", "Compliance", "Privacy", "Contracts"],
 }
 FIRST_NAMES = [
-    "Avery", "Jordan", "Morgan", "Taylor", "Riley", "Casey", "Jamie", "Quinn",
-    "Alex", "Cameron", "Drew", "Elliot", "Harper", "Kai", "Logan", "Parker",
-    "Reese", "Robin", "Sam", "Skyler", "Devon", "Rowan", "Sage", "Emerson",
-    "Noah", "Maya", "Priya", "Mateo", "Amara", "Luca", "Zara", "Theo",
+    "Avery",
+    "Jordan",
+    "Morgan",
+    "Taylor",
+    "Riley",
+    "Casey",
+    "Jamie",
+    "Quinn",
+    "Alex",
+    "Cameron",
+    "Drew",
+    "Elliot",
+    "Harper",
+    "Kai",
+    "Logan",
+    "Parker",
+    "Reese",
+    "Robin",
+    "Sam",
+    "Skyler",
+    "Devon",
+    "Rowan",
+    "Sage",
+    "Emerson",
+    "Noah",
+    "Maya",
+    "Priya",
+    "Mateo",
+    "Amara",
+    "Luca",
+    "Zara",
+    "Theo",
 ]
 LAST_NAMES = [
-    "Chen", "Patel", "Morgan", "Kim", "Garcia", "Nguyen", "Singh", "Brown",
-    "Taylor", "Wilson", "Khan", "Lopez", "Martin", "Shah", "Andersson", "Rossi",
-    "Johnson", "Müller", "Ali", "Davis", "Okafor", "Silva", "Cohen", "Wong",
+    "Chen",
+    "Patel",
+    "Morgan",
+    "Kim",
+    "Garcia",
+    "Nguyen",
+    "Singh",
+    "Brown",
+    "Taylor",
+    "Wilson",
+    "Khan",
+    "Lopez",
+    "Martin",
+    "Shah",
+    "Andersson",
+    "Rossi",
+    "Johnson",
+    "Müller",
+    "Ali",
+    "Davis",
+    "Okafor",
+    "Silva",
+    "Cohen",
+    "Wong",
 ]
 
 
 def compact_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
 
 
 def distribute(total, count, rng, minimum=5):
@@ -172,7 +336,9 @@ def build_dataset(company_count, seed):
             company_truth[employee_id] = manager_id
 
         ceo_id = f"{company_id}-p000"
-        ceo_title = rng.choice(["Chief Executive Officer", "CEO", "Founder & CEO", "Co-Founder and CEO"])
+        ceo_title = rng.choice(
+            ["Chief Executive Officer", "CEO", "Founder & CEO", "Co-Founder and CEO"]
+        )
         add_employee(ceo_id, ceo_title, "Executive", "Executive", None)
         next_person = 1
 
@@ -180,7 +346,9 @@ def build_dataset(company_count, seed):
             head_id = f"{company_id}-p{next_person:03d}"
             next_person += 1
             head_title = rng.choice(DEPARTMENTS[department]["heads"])
-            add_employee(head_id, head_title, department, "Department Leadership", ceo_id)
+            add_employee(
+                head_id, head_title, department, "Department Leadership", ceo_id
+            )
 
             staff_count = total_in_department - 1
             team_count = max(1, (staff_count + 9) // 10)
@@ -205,13 +373,15 @@ def build_dataset(company_count, seed):
                     add_employee(employee_id, title, department, team, manager_id)
 
         rng.shuffle(company_employees)
-        companies.append({
-            "id": company_id,
-            "name": name,
-            "industry": rng.choice(INDUSTRIES),
-            "headcount": len(company_employees),
-            "employees": company_employees,
-        })
+        companies.append(
+            {
+                "id": company_id,
+                "name": name,
+                "industry": rng.choice(INDUSTRIES),
+                "headcount": len(company_employees),
+                "employees": company_employees,
+            }
+        )
         truth[company_id] = company_truth
 
     return companies, truth
@@ -219,7 +389,12 @@ def build_dataset(company_count, seed):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--companies", type=int, default=500, help="number of companies to generate (minimum 500)")
+    parser.add_argument(
+        "--companies",
+        type=int,
+        default=500,
+        help="number of companies to generate (minimum 500)",
+    )
     parser.add_argument("--seed", type=int, default=20261102)
     parser.add_argument("--output", type=Path, default=PROJECT_ROOT / "public" / "data")
     args = parser.parse_args()
@@ -228,12 +403,17 @@ def main():
 
     companies, truth = build_dataset(args.companies, args.seed)
     compact_json(args.output / "companies.json", companies)
-    compact_json(args.output / "index.json", [
-        {key: company[key] for key in ("id", "name", "industry", "headcount")}
-        for company in companies
-    ])
+    compact_json(
+        args.output / "index.json",
+        [
+            {key: company[key] for key in ("id", "name", "industry", "headcount")}
+            for company in companies
+        ],
+    )
     compact_json(PROJECT_ROOT / "data" / "ground_truth.json", truth)
-    print(f"Generated {len(companies)} companies and {sum(c['headcount'] for c in companies):,} employees in {args.output}")
+    print(
+        f"Generated {len(companies)} companies and {sum(c['headcount'] for c in companies):,} employees in {args.output}"
+    )
 
 
 if __name__ == "__main__":
