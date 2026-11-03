@@ -712,6 +712,7 @@ async function loadCompany(companyId) {
   if (!company)
     throw new Error(`Company ${companyId} was not found in the dataset.`);
   currentCompany = company;
+  $("#workspace").hidden = false;
   currentInference = inferOrg(company);
   model = buildModel();
   searchValue = "";
@@ -726,6 +727,15 @@ async function loadCompany(companyId) {
   companyFinder.value = company.name;
   finderStatus.textContent = `${company.industry} · ${company.employees.length} people`;
   renderAll();
+}
+
+function showCompanyDirectory() {
+  currentCompany = null;
+  $("#workspace").hidden = true;
+  companyFinder.value = "";
+  companySelect.selectedIndex = -1;
+  finderStatus.textContent = `${companies.length} companies · search or pick one to explore`;
+  history.replaceState(null, "", "#/org");
 }
 
 async function selectCompany(companyId, { scroll = false } = {}) {
@@ -788,9 +798,9 @@ async function start() {
       .join("");
     companySelect.disabled = false;
     populateDiscovery();
-    const initial = selectCompanyFromHash() || companies[0];
-    history.replaceState(null, "", `#/org/${slugify(initial.name)}`);
-    await loadCompany(initial.id);
+    const initial = selectCompanyFromHash();
+    if (initial) await loadCompany(initial.id);
+    else showCompanyDirectory();
   } catch (error) {
     companyName.textContent = "Could not load companies";
     companyDescription.textContent = `${error.message} Start a local server from the project directory (for example, python3 -m http.server).`;
@@ -833,8 +843,11 @@ companySelect.addEventListener("change", () =>
 
 window.addEventListener("popstate", async () => {
   const company = selectCompanyFromHash();
-  if (company && company.id !== currentCompany?.id)
-    await loadCompany(company.id);
+  if (company) {
+    if (company.id !== currentCompany?.id) await loadCompany(company.id);
+  } else if (currentCompany) {
+    showCompanyDirectory();
+  }
 });
 
 document.querySelector(".tabs").addEventListener("click", (event) => {

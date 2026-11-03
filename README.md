@@ -4,7 +4,7 @@ A static org-chart explorer and evaluation project. The browser app infers repor
 
 The explorer includes a searchable company directory, sector-based quick picks, and an org-atlas landing illustration to make discovery feel more like browsing a map than filling out a form.
 
-Each company has a shareable profile at `#/org/<company-slug>`, with a header, stats, and four views:
+The app opens at `#/org`, a company directory with search and quick picks. Choosing a company opens its shareable profile at `#/org/<company-slug>`, with a header, stats, and four views:
 
 - **Org chart**: the inferred tree. Click any person to trace their reporting path to the CEO. Includes an "Ask the org" bar (for example, "who runs data?" or "who does the Head of Security report to?").
 - **Leadership**: C-suite, VP, and head-level people with their inferred manager and direct-report counts.
