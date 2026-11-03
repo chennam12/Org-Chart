@@ -366,7 +366,7 @@ input:focus {
   position: absolute;
   top: 0;
   left: 50%;
-  height: 25px;
+  height: 26px;
   border-left: 1px solid #b9c9b9;
 }
 .tree li {
@@ -412,7 +412,10 @@ input:focus {
   border-radius: 5px 0 0 0;
 }
 .tree ul ul::before {
-  height: 25px;
+  height: 26px;
+}
+.tree li > .person-card {
+  margin: 0 auto;
 }
 .person-card {
   position: relative;

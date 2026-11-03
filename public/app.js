@@ -397,18 +397,19 @@ function hasSearchMatch(person, children, visited) {
   );
 }
 
-function renderBranch(person, root = false, depth = 0) {
+function renderDescendants(person, depth = 0) {
   const reports = model.children.get(person.id) || [];
   const visible = searchValue
     ? reports.filter((report) =>
         hasSearchMatch(report, model.children, new Set()),
       )
     : reports;
-  const descendantHTML =
-    visible.length && depth < 5
-      ? `<ul>${visible.map((report) => `<li>${personCard(report)}${renderBranch(report, false, depth + 1)}</li>`).join("")}</ul>`
-      : "";
-  return `<div class="tree-root"><ul class="tree"><li>${personCard(person, root)}${descendantHTML}</li></ul></div>`;
+  if (!visible.length || depth >= 5) return "";
+  return `<ul>${visible.map((report) => `<li>${personCard(report)}${renderDescendants(report, depth + 1)}</li>`).join("")}</ul>`;
+}
+
+function renderBranch(person, root = false) {
+  return `<div class="tree-root"><ul class="tree"><li>${personCard(person, root)}${renderDescendants(person)}</li></ul></div>`;
 }
 
 function pathToCeo(personId) {
